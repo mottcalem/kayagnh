@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rooms & Suites | Kaya Great Northern Hotel</title>
+    <meta name="description" content="Explore our beautifully designed rooms and suites at Kaya Great Northern Hotel. Victorian, Edwardian, Heritage and Couchette rooms — Victorian charm, modern comfort." />
+    <meta name="keywords" content="Kaya Great Northern Hotel rooms, boutique hotel rooms Kings Cross, Victorian Room, Edwardian Room, Heritage Room, Couchette Room, hotel near St Pancras" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Rooms & Suites | Kaya Great Northern Hotel" />
+    <meta property="og:description" content="Beautifully designed rooms blending Victorian heritage with contemporary luxury. Book direct for the best rates." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.kayagnhlondon.com/our-rooms/" />
+    <meta property="og:image" content="./img/basic/gnh-hero-exterior-1600_3.webp" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='28' font-size='28' fill='%23C4A35A' font-family='serif'%3EK%3C/text%3E%3Csvg%3E" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=Cinzel:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- Preload critical assets -->
+    <link rel="preload" as="image" href="./img/basic/logo.webp" />
+    <link rel="preload" as="image" href="./img/basic/Victorian-Room-1.webp" />
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- ============================================ -->
+    <!-- PRELOADER                                     -->
+    <!-- ============================================ -->
+    <div id="preloader" class="preloader">
+        <div class="preloader-content">
+            <img src="./img/basic/logo.webp" alt="Kaya GNH" class="preloader-logo-img" width="400" height="125" />
+            <div class="preloader-line"></div>
+            <p class="preloader-text">Since 1854</p>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- FULL-SCREEN OVERLAY MENU                      -->
+    <!-- ============================================ -->
+    <div class="menu-overlay" id="menuOverlay" aria-hidden="true">
+        <div class="menu-overlay-bg"></div>
+        <div class="menu-overlay-content">
+            <div class="menu-header">
+                <button class="menu-close-btn" id="menuCloseBtn" aria-label="Close menu">
+                    <span class="close-line"></span>
+                    <span class="close-line"></span>
+                </button>
+            </div>
+            <nav class="menu-nav" aria-label="Full screen navigation">
+                <ul class="menu-list">
+                    <li class="menu-item"><a href="/" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="./our-rooms.html" class="menu-link active">Rooms & Suites</a></li>
+                    <li class="menu-item"><a href="/#dining" class="menu-link">GNH Bar & Terrace</a></li>
+                    <li class="menu-item"><a href="/#dining" class="menu-link">RAILS Restaurant</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Meetings & Events</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Weddings</a></li>
+                    <li class="menu-item"><a href="/#kaya-club" class="menu-link">KAYA CLUB</a></li>
+                    <li class="menu-item"><a href="/#offers" class="menu-link">Special Offers</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">What's On</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Blogs & Local Guide</a></li>
+                    <li class="menu-item"><a href="#contact" class="menu-link">Contact</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">FAQs</a></li>
+                </ul>
+            </nav>
+            <div class="menu-lang">
+                <span class="menu-lang-label">Language:</span>
+                <div class="menu-lang-options">
+                    <button class="menu-lang-btn active" data-lang="en" aria-label="English">
+                        <span class="lang-flag">🇬🇧</span>
+                        <span class="lang-name">English</span>
+                    </button>
+                    <button class="menu-lang-btn" data-lang="tr" aria-label="Türkçe">
+                        <span class="lang-flag">🇹🇷</span>
+                        <span class="lang-name">Türkçe</span>
+                    </button>
+                </div>
+            </div>
+            <div class="menu-footer">
+                <div class="menu-social">
+                    <a href="#" class="menu-social-link" aria-label="Instagram"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+                    <a href="#" class="menu-social-link" aria-label="Facebook"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+                    <a href="#" class="menu-social-link" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                </div>
+                <div class="menu-contact">
+                    <a href="tel:+442033880800">020 3388 0800</a>
+                    <span class="menu-contact-sep">|</span>
+                    <a href="mailto:reservations@kayagnhlondon.com">reservations@kayagnhlondon.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- NAVIGATION                                    -->
+    <!-- ============================================ -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-logo" aria-label="Kaya GNH Home">
+                <img src="./img/basic/logo.webp" alt="Kaya Great Northern Hotel" class="nav-logo-img" width="140" height="44" />
+                <img src="./img/basic/logo-sticky.webp" alt="Kaya Great Northern Hotel" class="nav-logo-sticky" />
+            </a>
+            <div class="nav-right">
+                <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+                    <span class="hamburger-text">Menu</span>
+                    <span class="hamburger-icon">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============================================ -->
+    <!-- ROOMS PAGE HERO                               -->
+    <!-- ============================================ -->
+    <section class="rooms-page-hero" aria-label="Rooms & Suites">
+        <div class="rooms-page-hero-bg" style="background-image: url('./img/basic/Victorian-Room-1.webp');"></div>
+        <div class="rooms-page-hero-overlay"></div>
+        <div class="rooms-page-hero-content">
+            <span class="rooms-page-hero-tag">Accommodation</span>
+            <h1 class="rooms-page-hero-title">Rooms & Suites</h1>
+            <p class="rooms-page-hero-desc">
+                Beautifully designed to emphasise space, comfort, and the character of our Victorian heritage.
+                Each room tells a story of London's golden age of railways, reimagined for the modern traveller.
+            </p>
+            <div class="rooms-page-hero-actions">
+                <a href="#" class="btn btn-primary" id="heroBookBtn">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- ROOMS LIST SECTION                            -->
+    <!-- ============================================ -->
+    <section class="section rooms-list-section" id="rooms-list" aria-label="Our Rooms">
+        <div class="container">
+            <div class="rooms-list-intro reveal" id="ourRoomsHeading" tabindex="-1">
+                <span class="section-tag">Our Collection</span>
+                <h2 class="section-title">Our Rooms</h2>
+                <div class="title-ornament"></div>
+                <p class="rooms-list-intro-text">
+                    Individual and bespoke, our boutique hotel rooms are just a minute's walk from King's Cross and
+                    St Pancras. Choose from four distinct styles, each with its own personality.
+                </p>
+            </div>
+
+            <div class="rooms-carousel reveal" id="roomsCarousel">
+                <div class="rooms-carousel-viewport">
+                    <div class="rooms-carousel-track" id="roomsCarouselTrack">
+            <!-- Room 1: Victorian Room -->
+            <div class="rooms-list-item" id="victorian-room">
+                <div class="rooms-list-image">
+                    <div class="rooms-list-slider">
+                        <div class="rooms-list-slide"><img src="./img/basic/Victorian-Room-1.webp" alt="Victorian Room" loading="lazy" /></div>
+                        <div class="rooms-list-slide"><img src="./img/basic/Victorian-Room-1.webp" alt="Victorian Room" loading="lazy" /></div>
+                        <div class="rooms-list-slide"><img src="./img/basic/Victorian-Room-1.webp" alt="Victorian Room" loading="lazy" /></div>
+                    </div>
+                    <button class="rooms-list-slider-btn rooms-list-slider-prev" aria-label="Previous image"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+                    <button class="rooms-list-slider-btn rooms-list-slider-next" aria-label="Next image"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+                </div>
+                <div class="rooms-list-content">
+                    <div class="rooms-list-badge">Most Spacious</div>
+                    <span class="rooms-list-category">Spaciously Bright</span>
+                    <h3 class="rooms-list-title">Victorian</h3>
+                    <p class="rooms-list-desc">
+                        These light-filled rooms celebrate beautiful design with bespoke crafted interiors, a
+                        European king-size Hypnos bed and a generous bathroom featuring either a standalone bath
+                        or an inviting double dual shower.
+                    </p>
+                    <div class="rooms-list-meta">
+                        <div class="rooms-list-meta-item"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/></svg><span>Bath or Double Shower</span></div>
+                        <div class="rooms-list-meta-item"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg><span>2 Guests</span></div>
+                        <div class="rooms-list-meta-item"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span>Hypnos Bed · 200 × 200 cm</span></div>
+                    </div>
+                    <div class="rooms-list-actions">
+                        <a href="./victorian-room.html" class="btn btn-primary">Explore Room</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Room 2: Edwardian Room -->
+            <div class="rooms-list-item rooms-list-item--reverse" id="edwardian-room">
+                <div class="rooms-list-image">
+                    <div class="rooms-list-slider">
+                        <div class="rooms-list-slide"><img src="./img/basic/Edwardian-King-Room-1-1.webp" alt="Edwardian Room" loading="lazy" /></div>
+                        <div class="rooms-list-slide"><img src="./img/basic/Edwardian-King-Room-1-1.webp" alt="Edwardian Room" loading="lazy" /></div>
+                        <div class="rooms-list-slide"><img src="./img/basic/Edwardian-King-Room-1-1.webp" alt="Edwardian Room" loading="lazy" /></div>
+                    </div>
+                    <button class="rooms-list-slider-btn rooms-list-slider-prev" aria-label="Previous image"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+                    <button class="rooms-list-slider-btn rooms-list-slider-next" aria-label="Next image"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+                </div>
+                <div class="rooms-list-content">
+                    <span class="rooms-list-category">Room at the Top</span>
+                    <h3 class="rooms-list-title">Edwardian</h3>
+                    <p class="rooms-list-desc">
+                        Tucked into the eaves on the top floor, rich walnut panelling and shades of plum recall the
+                        most luxurious railway carriages. Bespoke furniture, ingenious storage and a comfortable
+                        Hypnos bed create a calm sanctuary.
+                    </p>
+                    <div class="rooms-list-meta">
+                        <div class="rooms-list-meta-item"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/></svg><span>Walk-in Shower</span></div>
+                        <div class="rooms-list-meta-item"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg><span>2 Guests</span></div>
+                        <div class="rooms-list-meta-item"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span>Hypnos Bed · 160 × 200 cm</span></div>
+                    </div>
+                    <div class="rooms-list-actions">
+                        <a href="./edwardian-room.html" class="btn btn-primary">Explore Room</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Room 3: Heritage Room -->
+            <div class="rooms-list-item" id="heritage-room">
+                <div class="rooms-list-image">
+                    <div class="rooms-list-slider">
+                        <div class="rooms-list-slide"><img src="./img/basic/Heritage-Room-3.webp" alt="Heritage Room" loading="lazy" /></div>
+                        <div class="rooms-list-slide"><img src="./img/basic/Heritage-Room-3.webp" alt="Heritage Room" loading="lazy" /></div>
+                        <div class="rooms-list-slide"><img src="./img/basic/Heritage-Room-3.webp" alt="Heritage Room" loading="lazy" /></div>
+                    </div>
+                    <button class="rooms-list-slider-btn rooms-list-slider-prev" aria-label="Previous image"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+                    <button class="rooms-list-slider-btn rooms-list-slider-next" aria-label="Next image"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+                </div>
+                <div class="rooms-list-content">
+                    <div class="rooms-list-badge rooms-list-badge--gold">Signature</div>
+                    <span class="rooms-list-category">The Art of Design</span>
+                    <h3 class="rooms-list-title">Heritage</h3>
+                    <p class="rooms-list-desc">
+                        Bespoke walnut and leather furniture, a European queen-size Hypnos bed and vintage-style
+                        bathroom complement high ceilings and tall sash windows, with views towards Lewis Cubitt's
+                        King's Cross station.
+                    </p>
+                    <div class="rooms-list-meta">
+                        <div class="rooms-list-meta-item"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/></svg><span>Walk-in Shower</span></div>
+                        <div class="rooms-list-meta-item"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg><span>2 Guests</span></div>
+                        <div class="rooms-list-meta-item"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span>Hypnos Bed · 160 × 200 cm</span></div>
+                    </div>
+                    <div class="rooms-list-actions">
+                        <a href="./heritage-room.html" class="btn btn-primary">Explore Room</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Room 4: Couchette Room -->
+            <div class="rooms-list-item rooms-list-item--reverse" id="couchette-room">
+                <div class="rooms-list-image">
+                    <div class="rooms-list-slider">
+                        <div class="rooms-list-slide"><img src="./img/basic/ZDA_6276.webp" alt="Couchette Room" loading="lazy" /></div>
+                        <div class="rooms-list-slide"><img src="./img/basic/ZDA_6276.webp" alt="Couchette Room" loading="lazy" /></div>
+                        <div class="rooms-list-slide"><img src="./img/basic/ZDA_6276.webp" alt="Couchette Room" loading="lazy" /></div>
+                    </div>
+                    <button class="rooms-list-slider-btn rooms-list-slider-prev" aria-label="Previous image"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+                    <button class="rooms-list-slider-btn rooms-list-slider-next" aria-label="Next image"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+                </div>
+                <div class="rooms-list-content">
+                    <span class="rooms-list-category">The Perfect Sleeper</span>
+                    <h3 class="rooms-list-title">Couchette</h3>
+                    <p class="rooms-list-desc">
+                        Ideal for a short stay and inspired by the classic Continental railway sleeper. A Hypnos
+                        double bed sits beside a bespoke leather banquette, while high ceilings and a walk-in
+                        shower make this compact room feel effortlessly comfortable.
+                    </p>
+                    <div class="rooms-list-meta">
+                        <div class="rooms-list-meta-item"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/></svg><span>Walk-in Shower</span></div>
+                        <div class="rooms-list-meta-item"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg><span>1–2 Guests</span></div>
+                        <div class="rooms-list-meta-item"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span>Hypnos Bed · 140 × 200 cm</span></div>
+                    </div>
+                    <div class="rooms-list-actions">
+                        <a href="./couchette-room.html" class="btn btn-primary">Explore Room</a>
+                    </div>
+                </div>
+            </div>
+                    </div>
+                </div>
+                <div class="rooms-carousel-controls">
+                    <button class="rooms-carousel-btn" id="roomsCarouselPrev" type="button" aria-label="Previous room"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+                    <div class="rooms-carousel-dots" id="roomsCarouselDots" role="group" aria-label="Choose a room"></div>
+                    <button class="rooms-carousel-btn" id="roomsCarouselNext" type="button" aria-label="Next room"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- AMENITIES SECTION (Inside Our Rooms)         -->
+    <!-- ============================================ -->
+    <section class="section amenities-section" aria-label="Inside Our Rooms">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">In-Room Amenities</span>
+                <h2 class="section-title">Inside Your Room</h2>
+                <div class="title-ornament"></div>
+                <p class="rooms-list-intro-text" style="max-width:640px;margin:0 auto;">
+                    Our rooms are carefully designed to make every visit a comfortable, relaxing and rewarding one. 
+                    Welcoming and cosy, but stylish and contemporary, they are equipped with everything the modern traveller needs.
+                    With wonderful options for in-room dining, you may not want to leave.
+                </p>
+            </div>
+
+            <div class="amenities-grid reveal">
+                <div class="amenity-card" style="--amenity-image: url('./img/basic/Edwardian-King-Room-1-1.webp');">
+                    <div class="amenity-icon">
+                        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+                    </div>
+                    <h4 class="amenity-title">Hypnos Beds</h4>
+                    <p class="amenity-text">Egyptian cotton linen for a restful night's sleep.</p>
+                </div>
+                <div class="amenity-card" style="--amenity-image: url('./img/basic/GNH-AerialView-1.webp');">
+                    <div class="amenity-icon">
+                        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                    </div>
+                    <h4 class="amenity-title">Free WiFi</h4>
+                    <p class="amenity-text">Stay connected throughout your stay.</p>
+                </div>
+                <div class="amenity-card" style="--amenity-image: url('./img/basic/Heritage-Room-3.webp');">
+                    <div class="amenity-icon">
+                        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    </div>
+                    <h4 class="amenity-title">Walk-in Shower</h4>
+                    <p class="amenity-text">Spacious walk-in rain shower in every room.</p>
+                </div>
+                <div class="amenity-card" style="--amenity-image: url('./img/basic/full-dinner-table.webp');">
+                    <div class="amenity-icon">
+                        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+                    </div>
+                    <h4 class="amenity-title">In-Room Dining</h4>
+                    <p class="amenity-text">An extensive menu from RAILS Restaurant.</p>
+                </div>
+                <div class="amenity-card" style="--amenity-image: url('./img/basic/ZDA_6282.webp');">
+                    <div class="amenity-icon">
+                        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M10 2v2M14 2v2M4 8h16M6 4h12a2 2 0 012 2v12a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2z"/></svg>
+                    </div>
+                    <h4 class="amenity-title">Nespresso Coffee</h4>
+                    <p class="amenity-text">Complimentary Nespresso machine with pods.</p>
+                </div>
+                <div class="amenity-card" style="--amenity-image: url('./img/basic/Victorian-Room-1.webp');">
+                    <div class="amenity-icon">
+                        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <h4 class="amenity-title">Smart HDTV</h4>
+                    <p class="amenity-text">Flat-screen television with streaming.</p>
+                </div>
+                <div class="amenity-card" style="--amenity-image: url('./img/basic/Victorian-Room-1.webp');">
+                    <div class="amenity-icon">
+                        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+                    </div>
+                    <h4 class="amenity-title">Bath (Selected Rooms)</h4>
+                    <p class="amenity-text">Stunning standalone bath in selected Victorian rooms.</p>
+                </div>
+                <div class="amenity-card" style="--amenity-image: url('./img/basic/ZDA_6276.webp');">
+                    <div class="amenity-icon">
+                        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h4 class="amenity-title">Complimentary Safe</h4>
+                    <p class="amenity-text">In-room safe for your valuables.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- BOOK DIRECT SECTION                           -->
+    <!-- ============================================ -->
+    <section class="section book-direct-section" aria-label="Book Direct Benefits">
+        <div class="container">
+            <div class="book-direct-inner reveal">
+                <div class="book-direct-content">
+                    <span class="section-tag">Best Rate Guarantee</span>
+                    <h2 class="section-title">Book Direct & Save</h2>
+                    <div class="title-ornament"></div>
+                    <p class="book-direct-text">
+                        When you book directly with us, you'll always receive the best available rate. 
+                        Join KAYA CLUB for member-only rates and earn MoneyPoints on every direct stay, alongside
+                        exclusive privileges across participating Kaya Hotels & Resorts.
+                    </p>
+                    <ul class="book-direct-benefits">
+                        <li class="book-direct-benefit"><span class="book-direct-benefit-icon">◆</span><span>Best rate guaranteed — always lowest price</span></li>
+                        <li class="book-direct-benefit"><span class="book-direct-benefit-icon">◆</span><span>Flexible cancellation on most rates</span></li>
+                        <li class="book-direct-benefit"><span class="book-direct-benefit-icon">◆</span><span>Free Wi-Fi included in all bookings</span></li>
+                        <li class="book-direct-benefit"><span class="book-direct-benefit-icon">◆</span><span>Priority room upgrades when available</span></li>
+                        <li class="book-direct-benefit"><span class="book-direct-benefit-icon">◆</span><span>Earn KAYA CLUB MoneyPoints with every stay</span></li>
+                    </ul>
+                    <a href="#" class="btn btn-primary book-direct-cta" id="bookDirectCta">Book Your Stay</a>
+                    <a href="/#kaya-club" class="book-direct-club-link">Discover KAYA CLUB &rarr;</a>
+                </div>
+                <div class="book-direct-image">
+                    <img src="./img/basic/Heritage-Room-3.webp" alt="Heritage Room Interior" loading="lazy" />
+                    <div class="book-direct-image-badge">
+                        <span class="book-direct-badge-text">Best Rate<br />Guarantee</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- FAQ SECTION                                   -->
+    <!-- ============================================ -->
+    <section class="section faq-section" id="faq" aria-label="Frequently Asked Questions">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">FAQs</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="title-ornament"></div>
+            </div>
+
+            <div class="faq-list reveal">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What time is check-in and check-out?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Check-in is from 15:00 (3 PM) and check-out is until 11:00 (11 AM). Early check-in and late check-out may be available upon request — please contact our reception team.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What amenities are included in the rooms?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Each room features Hypnos beds with Egyptian cotton linen, walk-in rain shower, Nespresso coffee machine, flat-screen HDTV, complimentary WiFi, in-room safe, hairdryer, tea and coffee making facilities, and an in-room dining menu from RAILS Restaurant. Selected Victorian rooms also feature a stunning standalone bath.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Is breakfast available at Kaya Great Northern Hotel?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, breakfast is served daily in RAILS Restaurant. Choose from a full English breakfast, continental options, or lighter bites. Breakfast can also be enjoyed in the comfort of your room through our in-room dining service.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Can I store luggage before check-in or after check-out?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely. Our reception team will happily store your luggage free of charge before check-in and after check-out. King's Cross Station also offers luggage storage facilities just steps from our entrance.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Do you provide cots for children?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, travel cots are available upon request at no extra charge. Please let us know at the time of booking so we can prepare your room accordingly.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Do rooms include free Wi-Fi and air conditioning?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes. Complimentary high-speed Wi-Fi is available throughout the hotel, and every room includes fully controllable air conditioning for year-round comfort.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Is Kaya GNH one of the best hotels near King's Cross Station?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We like to think so. As the original railway hotel, built in 1854, we are directly connected to King's Cross St Pancras. Our Victorian charm, boutique service, and on-site restaurant and bar make us a top choice for travellers visiting London.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Do you offer a wedding venue or events space?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! We host weddings, private dining, and business events in our beautifully restored Victorian spaces. Our dedicated events team will work with you to create a memorable occasion. Please contact us to arrange a viewing.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Do you have a hotel bar near King's Cross?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our GNH Bar & Terrace is a celebrated King's Cross destination. Enjoy signature cocktails, an extensive wine list, and our Bloom Garden Afternoon Tea. The terrace is a popular spot in warmer months.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- GALLERY STRIP — FULL WIDTH BEFORE FOOTER      -->
+    <!-- ============================================ -->
+    <div class="gallery-strip" id="galleryStrip" aria-label="Gallery">
+        <button class="gallery-strip-arrow gallery-strip-arrow--prev" id="galleryStripPrev" aria-label="Previous images"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+        <button class="gallery-strip-arrow gallery-strip-arrow--next" id="galleryStripNext" aria-label="Next images"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+        <div class="gallery-strip-track" id="galleryStripTrack">
+            <div class="gallery-strip-item" data-title="GNH Bar & Terrace" data-src="./img/basic/ZDA_6276.webp"><img src="./img/basic/ZDA_6276.webp" alt="GNH Bar & Terrace" loading="lazy" /><div class="gallery-strip-overlay"><span>GNH Bar & Terrace</span></div></div>
+            <div class="gallery-strip-item" data-title="RAILS Restaurant" data-src="./img/basic/ZDA_6282.webp"><img src="./img/basic/ZDA_6282.webp" alt="RAILS Restaurant" loading="lazy" /><div class="gallery-strip-overlay"><span>RAILS Restaurant</span></div></div>
+            <div class="gallery-strip-item" data-title="Fine Dining" data-src="./img/basic/full-dinner-table.webp"><img src="./img/basic/full-dinner-table.webp" alt="Fine Dining" loading="lazy" /><div class="gallery-strip-overlay"><span>Fine Dining</span></div></div>
+            <div class="gallery-strip-item" data-title="Victorian Room" data-src="./img/basic/Victorian-Room-1.webp"><img src="./img/basic/Victorian-Room-1.webp" alt="Victorian Room" loading="lazy" /><div class="gallery-strip-overlay"><span>Victorian Room</span></div></div>
+            <div class="gallery-strip-item" data-title="Heritage Room" data-src="./img/basic/Heritage-Room-3.webp"><img src="./img/basic/Heritage-Room-3.webp" alt="Heritage Room" loading="lazy" /><div class="gallery-strip-overlay"><span>Heritage Room</span></div></div>
+            <div class="gallery-strip-item" data-title="Spring Afternoon Tea" data-src="./img/basic/Main-picture-480x320.webp"><img src="./img/basic/Main-picture-480x320.webp" alt="Spring Afternoon Tea" loading="lazy" /><div class="gallery-strip-overlay"><span>Spring Afternoon Tea</span></div></div>
+            <div class="gallery-strip-item" data-title="Easter Celebrations" data-src="./img/basic/easter-480x321.webp"><img src="./img/basic/easter-480x321.webp" alt="Easter Celebrations" loading="lazy" /><div class="gallery-strip-overlay"><span>Easter Celebrations</span></div></div>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- LIGHTBOX                                      -->
+    <!-- ============================================ -->
+    <div class="gallery-lightbox" id="galleryLightbox" role="dialog" aria-modal="true" aria-label="Image gallery lightbox">
+        <div class="gallery-lightbox-overlay" id="galleryLightboxOverlay"></div>
+        <div class="gallery-lightbox-content">
+            <button class="gallery-lightbox-close" id="galleryLightboxClose" aria-label="Close gallery"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+            <button class="gallery-lightbox-nav gallery-lightbox-prev" id="galleryLightboxPrev" aria-label="Previous image"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+            <button class="gallery-lightbox-nav gallery-lightbox-next" id="galleryLightboxNext" aria-label="Next image"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+            <div class="gallery-lightbox-image-wrap"><img src="" alt="" class="gallery-lightbox-image" id="galleryLightboxImage" /></div>
+            <div class="gallery-lightbox-caption" id="galleryLightboxCaption"></div>
+            <div class="gallery-lightbox-counter" id="galleryLightboxCounter"></div>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- FOOTER                                        -->
+    <!-- ============================================ -->
+    <footer class="footer" id="contact" aria-label="Footer">
+        <div class="footer-bg-pattern"></div>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand reveal">
+                    <div class="footer-logo"><img src="./img/basic/logo.webp" alt="Kaya Great Northern Hotel" class="footer-logo-img" width="380" height="120" /></div>
+                    <p class="footer-desc">Since 1854, the original railway hotel. Beautifully connected at the heart of King's Cross St Pancras.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Instagram"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+                        <a href="#" class="social-link" aria-label="Facebook"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+                        <a href="#" class="social-link" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                    </div>
+                </div>
+                <div class="footer-links reveal">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul>
+                        <li><a href="./our-rooms.html">Rooms & Suites</a></li>
+                        <li><a href="/#dining">RAILS Restaurant</a></li>
+                        <li><a href="/#dining">GNH Bar & Terrace</a></li>
+                        <li><a href="#">Meetings & Events</a></li>
+                        <li><a href="#">Weddings</a></li>
+                        <li><a href="/#kaya-club">KAYA CLUB</a></li>
+                        <li><a href="/#offers">Special Offers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links reveal">
+                    <h4 class="footer-heading">More</h4>
+                    <ul>
+                        <li><a href="#">What's On</a></li>
+                        <li><a href="#">Local Guide</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#faq">FAQs</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter reveal">
+                    <p class="newsletter-text">Be the first to hear about exclusive offers, events, and happenings.</p>
+                    <form class="newsletter-form" action="#" method="post">
+                        <input type="email" class="newsletter-input" placeholder="Your email address" required aria-label="Email address" />
+                        <button type="submit" class="newsletter-btn">Subscribe</button>
+                    </form>
+                    <div class="footer-partners">
+                        <div class="footer-partner-item"><img src="./img/basic/rails.webp" alt="RAILS Restaurant" width="120" height="50" loading="lazy" /></div>
+                        <div class="footer-partner-item"><img src="./img/basic/gnhbar.webp" alt="GNH Bar" width="120" height="50" loading="lazy" /></div>
+                        <div class="footer-partner-item"><img src="./img/basic/squaremeal.webp" alt="Square Meal" width="120" height="50" loading="lazy" /></div>
+                        <div class="footer-partner-item"><img src="./img/basic/greenkey.webp" alt="Green Key Certified" width="120" height="50" loading="lazy" /></div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-address">Kaya Great Northern Hotel, King's Cross St Pancras Station, Pancras Road, London, N1C 4TB</div>
+                <div class="footer-contact"><a href="tel:+442033880080">T: 020 3388 0800</a><a href="mailto:reservations@kayagnhlondon.com">E: reservations@kayagnhlondon.com</a></div>
+            </div>
+            <div class="footer-legal"><p>&copy; 2026 Kaya Great Northern Hotel. Part of <strong>Kaya Hotels & Resorts</strong>. All rights reserved.</p></div>
+        </div>
+    </footer>
+
+    <!-- ============================================ -->
+    <!-- BOOK NOW - FLOATING BUTTON                    -->
+    <!-- ============================================ -->
+    <button class="book-now-btn" id="bookNowBtn" aria-label="Book Now">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        <span>Book Now</span>
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </button>
+
+    <!-- ============================================ -->
+    <!-- BOOKING POPUP MODAL                           -->
+    <!-- ============================================ -->
+    <div class="booking-popup" id="bookingPopup">
+        <div class="booking-popup-overlay" id="bookingPopupOverlay"></div>
+        <div class="booking-popup-content">
+            <button class="booking-popup-close" id="bookingPopupClose" aria-label="Close booking form"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+            <div class="booking-popup-inner">
+                <div class="booking-popup-image"></div>
+                <div class="booking-popup-form-wrap">
+                    <div class="booking-popup-form-header">
+                        <h3 class="booking-popup-form-title">Book Your Stay</h3>
+                        <p class="booking-popup-form-subtitle">Experience the original railway hotel</p>
+                    </div>
+                    <form class="booking-form" id="bookingForm" novalidate>
+                        <div class="booking-form-row">
+                            <div class="booking-form-group booking-date-field" data-field="checkin">
+                                <label class="booking-form-label">Check-In</label>
+                                <div class="booking-date-trigger" id="checkinTrigger">
+                                    <span class="booking-date-value" id="checkinDisplay">Select date</span>
+                                    <svg class="booking-date-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                                </div>
+                                <div class="booking-calendar" id="checkinCalendar"></div>
+                            </div>
+                            <div class="booking-form-group booking-date-field" data-field="checkout">
+                                <label class="booking-form-label">Check-Out</label>
+                                <div class="booking-date-trigger" id="checkoutTrigger">
+                                    <span class="booking-date-value" id="checkoutDisplay">Select date</span>
+                                    <svg class="booking-date-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                                </div>
+                                <div class="booking-calendar" id="checkoutCalendar"></div>
+                            </div>
+                        </div>
+                        <div class="booking-form-row">
+                            <div class="booking-form-group">
+                                <label class="booking-form-label">Adults</label>
+                                <div class="booking-stepper"><button type="button" class="booking-stepper-btn" data-stepper="adults" data-dir="minus">−</button><span class="booking-stepper-value" id="adultCount">2</span><button type="button" class="booking-stepper-btn" data-stepper="adults" data-dir="plus">+</button></div>
+                            </div>
+                            <div class="booking-form-group">
+                                <label class="booking-form-label">Children</label>
+                                <div class="booking-stepper"><button type="button" class="booking-stepper-btn" data-stepper="children" data-dir="minus">−</button><span class="booking-stepper-value" id="childCount">0</span><button type="button" class="booking-stepper-btn" data-stepper="children" data-dir="plus">+</button></div>
+                            </div>
+                        </div>
+                        <div class="booking-child-ages" id="bookingChildAges"></div>
+                        <div class="booking-kaya-club">
+                            <div class="booking-kaya-club-icon"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+                            <span class="booking-kaya-club-text">Enjoy <strong>5% discount</strong>, <strong>3% MoneyPoints</strong> and many more privileges by becoming a <strong>KAYA CLUB</strong> member during booking!</span>
+                        </div>
+                        <button type="submit" class="booking-form-submit"><span>Book Now</span><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
