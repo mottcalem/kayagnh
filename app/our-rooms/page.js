@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import PageHero from '@/components/PageHero';
+import EditorialCarousel from '@/components/EditorialCarousel';
+import { BookDirectSave, SplitFaq } from '@/components/Editorial';
 import { rooms, ROOM_AMENITIES } from '@/lib/rooms';
 
 export const metadata = {
@@ -7,6 +9,15 @@ export const metadata = {
   description:
     'Explore our beautifully designed rooms and suites at Kaya Great Northern Hotel. Victorian, Edwardian, Heritage and Couchette rooms — Victorian charm, modern comfort.',
 };
+
+const roomFaqs = [
+  { q: 'What time are check-in and check-out?', a: <p>Check-in is from 3pm and check-out is by 11am. Early arrival and late departure are subject to availability.</p> },
+  { q: 'Which room is the most spacious?', a: <p>Our Victorian rooms are the largest category, with a generous seating area and a bath or double dual shower in selected rooms.</p> },
+  { q: 'Do all rooms include Wi-Fi?', a: <p>Yes. Complimentary Wi-Fi, air-conditioning, a flat-screen HDTV and an in-room safe are included in every room.</p> },
+  { q: 'Can I request a bath?', a: <p>Baths are available in selected Victorian rooms. Please contact reservations before arrival and we will do our best to accommodate your preference.</p> },
+  { q: 'What do I receive when booking direct?', a: <p>Direct bookings receive our best available rate, flexible booking options and access to Kaya Club member benefits.</p> },
+  { q: 'Are accessible rooms available?', a: <p>Yes. Please contact the hotel before booking so our team can recommend the room that best suits your requirements.</p> },
+];
 
 export default function OurRoomsPage() {
   return (
@@ -32,43 +43,33 @@ export default function OurRoomsPage() {
             </p>
           </div>
 
-          <div className="reveal">
-            {rooms.map((room, index) => (
-              <div
-                className={`rooms-list-item${index % 2 === 1 ? ' rooms-list-item--reverse' : ''}`}
-                id={`${room.slug}-room`}
-                key={room.slug}
-              >
-                <div className="rooms-list-image">
+          <EditorialCarousel label="room collection" className="reveal">
+            {rooms.map((room) => (
+              <article className="editorial-carousel-card" id={`${room.slug}-room`} key={room.slug}>
+                <div>
                   <img src={room.cardImage} alt={room.title} loading="lazy" />
                 </div>
-                <div className="rooms-list-content">
+                <div className="editorial-carousel-card-copy">
                   {room.listBadge ? (
                     <div className={`rooms-list-badge${room.listBadgeGold ? ' rooms-list-badge--gold' : ''}`}>
                       {room.listBadge}
                     </div>
                   ) : null}
                   <span className="rooms-list-category">{room.listCategory}</span>
-                  <h3 className="rooms-list-title">{room.shortTitle}</h3>
-                  <p className="rooms-list-desc">{room.listDescription}</p>
-                  <div className="rooms-list-meta">
-                    {room.listMeta.map((item) => (
-                      <div className="rooms-list-meta-item" key={item.label}>
-                        <span>{item.label}</span>
-                      </div>
-                    ))}
+                  <h3>{room.shortTitle}</h3>
+                  <p>{room.cardDesc}</p>
+                  <div className="editorial-meta">
+                    {room.listMeta.slice(0, 2).map((item) => <span key={item.label}>{item.label}</span>)}
                   </div>
-                  <div className="rooms-list-actions">
-                    <Link href={`/rooms/${room.slug}`} className="btn btn-primary">
-                      Explore Room
-                    </Link>
-                  </div>
+                  <Link href={`/rooms/${room.slug}`} className="editorial-link">Explore Room <span aria-hidden="true">↗</span></Link>
                 </div>
-              </div>
+              </article>
             ))}
-          </div>
+          </EditorialCarousel>
         </div>
       </section>
+
+      <BookDirectSave />
 
       <section className="section amenities-section" aria-label="Inside Our Rooms">
         <div className="container">
@@ -93,6 +94,12 @@ export default function OurRoomsPage() {
           </div>
         </div>
       </section>
+
+      <SplitFaq
+        title="Rooms, answered."
+        description="Everything you need to choose the room that feels right for your London stay."
+        items={roomFaqs}
+      />
     </>
   );
 }

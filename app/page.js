@@ -2,6 +2,7 @@ import Link from 'next/link';
 import HomeHero from '@/components/HomeHero';
 import HomeRoomsGrid from '@/components/HomeRoomsGrid';
 import HomeTestimonials from '@/components/HomeTestimonials';
+import KayaClubRibbon from '@/components/KayaClubRibbon';
 
 export const metadata = {
   title: "Kaya Great Northern Hotel | Since 1854 — King's Cross, London",
@@ -83,6 +84,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <KayaClubRibbon />
 
       {/* Rooms */}
       <section className="section rooms" id="rooms" aria-label="Rooms & Suites">
@@ -311,80 +314,6 @@ export default function HomePage() {
             </div>
           </div>
 
-        </div>
-      </section>
-
-      {/* KAYA CLUB */}
-      <section className="kaya-club-section" id="kaya-club" aria-label="KAYA CLUB Loyalty">
-        <div className="kaya-club-bg-pattern" />
-        <div className="container">
-          <div className="kaya-club-inner reveal">
-            <div className="kaya-club-image-wrap">
-              <img
-                src="/img/basic/IC-SAYFA-BEYAZ-SAYFA.webp"
-                alt="KAYA CLUB"
-                className="kaya-club-image"
-                loading="lazy"
-              />
-            </div>
-            <div className="kaya-club-content">
-              <div className="kaya-club-benefits">
-                <div className="kaya-club-benefit">
-                  <div className="kaya-club-benefit-icon">
-                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                    </svg>
-                  </div>
-                  <div className="kaya-club-benefit-text">
-                    <h4 className="kaya-club-benefit-title">Welcome Bonus</h4>
-                    <p className="kaya-club-benefit-desc">Instant reward points on your first stay</p>
-                  </div>
-                </div>
-                <div className="kaya-club-benefit">
-                  <div className="kaya-club-benefit-icon">
-                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                      <path d="M20 12H4m16 0a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2v-6a2 2 0 012-2m16 0V6a2 2 0 00-2-2H6a2 2 0 00-2 2v6" />
-                    </svg>
-                  </div>
-                  <div className="kaya-club-benefit-text">
-                    <h4 className="kaya-club-benefit-title">5% Member Discount</h4>
-                    <p className="kaya-club-benefit-desc">Best available rate on all bookings</p>
-                  </div>
-                </div>
-                <div className="kaya-club-benefit">
-                  <div className="kaya-club-benefit-icon">
-                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                      <circle cx="12" cy="12" r="10" />
-                      <path d="M12 6v6l4 2" />
-                    </svg>
-                  </div>
-                  <div className="kaya-club-benefit-text">
-                    <h4 className="kaya-club-benefit-title">3% MoneyPoints</h4>
-                    <p className="kaya-club-benefit-desc">Earn points with every pound spent</p>
-                  </div>
-                </div>
-                <div className="kaya-club-benefit">
-                  <div className="kaya-club-benefit-icon">
-                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                      <path d="M12 15V3m0 12a2 2 0 100 4 2 2 0 000-4zm-8 6h16" />
-                    </svg>
-                  </div>
-                  <div className="kaya-club-benefit-text">
-                    <h4 className="kaya-club-benefit-title">Priority Access</h4>
-                    <p className="kaya-club-benefit-desc">Early check-in, late check-out</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="kaya-club-actions">
-            <a href="https://kayahotels.com/en/kaya-club" className="btn-kaya-club-outline" target="_blank" rel="noopener noreferrer">
-              Learn More
-            </a>
-            <a href="https://kayahotels.com/en/kaya-club" className="btn-kaya-club" target="_blank" rel="noopener noreferrer">
-              Join Free Today
-            </a>
-          </div>
         </div>
       </section>
 

@@ -7,14 +7,19 @@ export const metadata = {
     "Contact Kaya Great Northern Hotel — reservations, events, RAILS Restaurant, GNH Bar and general enquiries. King's Cross St Pancras, London.",
 };
 
+const contactGroups = [
+  { title: 'Stay & Reservations', items: CONTACT_DETAILS.slice(0, 3) },
+  { title: 'Dining & Events', items: CONTACT_DETAILS.slice(3) },
+];
+
 export default function ContactPage() {
   return (
     <>
       <PageHero
         image="/img/basic/GNH-AerialView-1.webp"
-        tag="Get In Touch"
-        title="Contact Us"
-        description="We're here to help with reservations, events, dining and anything else you need."
+        tag="Get in Touch"
+        title="Contact Kaya GNH"
+        description="The right team, without the runaround."
         primaryHref={SITE.phoneHref}
         primaryLabel="Call Us"
         secondaryHref={`mailto:${CONTACT_DETAILS[0].email}`}
@@ -23,16 +28,13 @@ export default function ContactPage() {
 
       <section className="section contact-section" aria-label="Contact details">
         <div className="container">
-          <div className="section-header reveal">
-            <span className="section-tag">Reach Us</span>
-            <h2 className="section-title">Contact Details</h2>
-            <div className="title-ornament" />
-          </div>
-
-          <div className="contact-layout reveal">
-            <div className="contact-details">
+          <div className="contact-groups reveal">
+            {contactGroups.map((group) => (
+              <div className="contact-group" key={group.title}>
+                <span className="editorial-eyebrow">Contact</span>
+                <h2>{group.title}</h2>
               <ul className="contact-list">
-                {CONTACT_DETAILS.map((item) => (
+                  {group.items.map((item) => (
                   <li className="contact-item" key={item.title}>
                     <h3 className="contact-item-title">{item.title}</h3>
                     <p className="contact-item-meta">
@@ -45,21 +47,17 @@ export default function ContactPage() {
                   </li>
                 ))}
               </ul>
-
-              <div className="contact-address">
-                <h3 className="contact-item-title">Address</h3>
-                <p>{SITE.address}</p>
-                <a
-                  href={SITE.mapLink}
-                  className="contact-map-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Open in Google Maps →
-                </a>
               </div>
-            </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
+      <section className="section contact-find-us">
+        <div className="container">
+          <span className="editorial-eyebrow">King&apos;s Cross, London</span>
+          <h2 className="editorial-section-title">Find us in King&apos;s Cross.</h2>
+          <div className="contact-find-grid reveal">
             <div className="contact-map">
               <iframe
                 title="Kaya Great Northern Hotel location map"
@@ -69,9 +67,17 @@ export default function ContactPage() {
                 allowFullScreen
               />
             </div>
+            <div className="contact-find-copy">
+              <h3>Between King&apos;s Cross and St Pancras.</h3>
+              <p>{SITE.address}</p>
+              <p>Step from train to hotel in minutes, with Underground, national rail and Eurostar connections at the door.</p>
+              <a href={SITE.mapLink} className="editorial-link" target="_blank" rel="noopener noreferrer">Open in Google Maps ↗</a>
+            </div>
           </div>
         </div>
       </section>
+
+      <section className="contact-small-cta"><div className="container"><p>Need something else?</p><a href={`mailto:${SITE.email}`} className="editorial-link">Contact us ↗</a></div></section>
     </>
   );
 }

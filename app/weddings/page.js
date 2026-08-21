@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import PageHero from '@/components/PageHero';
-import FaqAccordion from '@/components/FaqAccordion';
+import { EditorialFeature, EditorialIntro, ImageCta, SplitFaq } from '@/components/Editorial';
 
 export const metadata = {
   title: 'Weddings',
@@ -9,10 +9,10 @@ export const metadata = {
 };
 
 const features = [
-  { title: 'Ceremonies', text: 'Fully licensed by Camden Council to host civil wedding ceremonies.' },
-  { title: 'Event Spaces', text: 'Three beautifully designed event spaces to celebrate your special day.' },
-  { title: 'Wedding Menus', text: 'Thoughtfully designed menus with exceptional flavours and seasonal ingredients.' },
-  { title: 'A Final Flourish', text: 'From stunning bouquets to curated cakes — finishing touches for an unforgettable day.' },
+  { title: 'Ceremonies', text: 'Fully licensed by Camden Council to host civil wedding ceremonies.', image: 'https://kayagnhlondon.com/wp-content/uploads/2026/03/ME__0003_Layer-2.jpg' },
+  { title: 'Event Spaces', text: 'Three beautifully designed event spaces to celebrate your special day.', image: '/img/basic/ZDA_6282.webp' },
+  { title: 'Wedding Menus', text: 'Thoughtfully designed menus with exceptional flavours and seasonal ingredients.', image: '/img/basic/full-dinner-table.webp' },
+  { title: 'A Final Flourish', text: 'From stunning bouquets to curated cakes — finishing touches for an unforgettable day.', image: '/img/basic/Main-picture-480x320.webp' },
 ];
 
 const faqs = [
@@ -75,59 +75,39 @@ export default function WeddingsPage() {
   return (
     <>
       <PageHero
-        image="/img/basic/full-dinner-table.webp"
-        tag="Celebrate"
+        image="https://kayagnhlondon.com/wp-content/uploads/2026/03/ME__0003_Layer-2.jpg"
+        tag="Weddings"
         title="Weddings at Kaya GNH"
-        description="Historic elegance with modern luxury for ceremonies and receptions beside King's Cross & St Pancras."
+        description="Historic character, modern London and a celebration shaped entirely around your story."
         primaryHref="mailto:weddings@kayagnhlondon.com"
         primaryLabel="Enquire Now"
       />
 
-      <section className="venue-intro">
-        <div className="container">
-          <div className="venue-intro-card reveal">
-            <h2 className="venue-intro-title">A London Hotel Wedding Venue in King&apos;s Cross</h2>
-            <div className="title-ornament" />
-            <p className="venue-intro-text">
-              Nestled beside King&apos;s Cross and St Pancras, the hotel blends historic elegance with modern luxury for wedding ceremonies and receptions.
-              Whether you&apos;re planning an intimate gathering or a larger celebration, our beautifully restored spaces, exceptional cuisine and bespoke
-              service create a day that feels personal from start to finish.
-            </p>
-            <p className="venue-intro-text">
-              Please contact <a href="mailto:weddings@kayagnhlondon.com">weddings@kayagnhlondon.com</a> to book your King&apos;s Cross wedding venue.
-            </p>
-          </div>
-        </div>
-      </section>
+      <EditorialIntro
+        tag="A London Hotel Wedding"
+        title="A landmark setting. A day that feels like yours."
+        text="Beside King's Cross and St Pancras, our restored Victorian spaces bring historic elegance and warm, personal service to intimate ceremonies and larger celebrations."
+        image="/img/basic/GNH-AerialView-1.webp"
+        href="mailto:weddings@kayagnhlondon.com"
+        cta="Begin Planning"
+      />
 
-      <section className="section venue-whatson" aria-label="Wedding Features">
-        <div className="container">
-          <div className="section-header reveal">
-            <span className="section-tag" style={{ color: 'var(--color-gold)' }}>Your Day</span>
-            <h2 className="section-title" style={{ color: 'var(--color-white)' }}>Everything You Need</h2>
-            <div className="title-ornament" />
-          </div>
-          <div className="venue-whatson-grid reveal" style={{ maxWidth: 1100, gridTemplateColumns: 'repeat(2, 1fr)' }}>
-            {features.map((f) => (
-              <article className="venue-whatson-card" key={f.title}>
-                <h3 className="venue-whatson-title">{f.title}</h3>
-                <p className="venue-whatson-text">{f.text}</p>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
+      {features.map((feature, index) => (
+        <EditorialFeature
+          key={feature.title}
+          reverse={index % 2 === 1}
+          tag={`0${index + 1}`}
+          title={feature.title}
+          text={feature.text}
+          image={feature.image}
+          href="mailto:weddings@kayagnhlondon.com"
+          cta="Talk to Our Wedding Team"
+          className={feature.title === 'A Final Flourish' ? 'asset-placeholder' : ''}
+        />
+      ))}
 
-      <section className="section faq-section">
-        <div className="container">
-          <div className="section-header reveal">
-            <span className="section-tag">Good To Know</span>
-            <h2 className="section-title">Wedding FAQs</h2>
-            <div className="title-ornament" />
-          </div>
-          <FaqAccordion items={faqs} />
-        </div>
-      </section>
+      <SplitFaq compact title="Your wedding, answered." items={faqs} />
+      <ImageCta image="https://kayagnhlondon.com/wp-content/uploads/2026/03/ME__0003_Layer-2.jpg" tag="Weddings at Kaya GNH" title="Your day. Your story." href="mailto:weddings@kayagnhlondon.com" cta="Make an Enquiry" />
     </>
   );
 }

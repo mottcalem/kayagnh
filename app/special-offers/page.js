@@ -1,62 +1,39 @@
-import Link from 'next/link';
 import PageHero from '@/components/PageHero';
+import { EditorialFeature, EditorialIntro } from '@/components/Editorial';
 
 export const metadata = {
   title: 'Special Offers',
   description: 'Discover special packages and deals at Kaya Great Northern Hotel — Kaya Club Rewards and website exclusive offers.',
 };
 
-const offers = [
-  {
-    tag: 'Rewards',
-    title: 'Kaya Club Rewards',
-    desc: 'Designed to enhance every stay, Kaya Club Rewards offers privileged access to exclusive events and seasonal campaigns across Kaya Hotels & Resorts and Kaya Palazzo Hotels & Resorts.',
-    href: 'https://kayahotels.com/en/kaya-club/',
-    image: '/img/basic/KAYA-CLUB-SAYFASI-LOGO-DEGISIMI.webp',
-  },
-  {
-    tag: 'Website Special',
-    title: 'Website Special | 5% Off',
-    desc: 'Enjoy 5% Off on Flexible Stays when booking directly through our official website.',
-    href: '/#',
-    image: '/img/basic/gnh-hero-exterior-1600_3.webp',
-  },
-];
-
 export default function SpecialOffersPage() {
   return (
     <>
       <PageHero
-        image="/img/basic/Main-picture-480x320.webp"
-        tag="Plan Your Stay"
+        image="/img/basic/gnh-hero-exterior-1600_3.webp"
+        tag="Offers"
         title="Special Offers"
-        description="Discover special packages and deals at Kaya Great Northern Hotel."
+        description="More from your London stay — thoughtful rewards, direct booking benefits and seasonal reasons to return."
       />
 
-      <section className="section offers" aria-label="Offers">
-        <div className="container">
-          <div className="section-header reveal">
-            <span className="section-tag">Offers</span>
-            <h2 className="section-title">Packages &amp; Deals</h2>
-            <div className="title-ornament" />
-          </div>
-          <div className="offers-grid-simple reveal">
-            {offers.map((o) => (
-              <article className="offer-card" key={o.title}>
-                <div className="offer-image">
-                  <img src={o.image} alt={o.title} loading="lazy" />
-                </div>
-                <div className="offer-content">
-                  <span className="offer-category">{o.tag}</span>
-                  <h3 className="offer-title">{o.title}</h3>
-                  <p className="offer-desc">{o.desc}</p>
-                  <Link href={o.href} className="offer-link">Read more →</Link>
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
+      <EditorialIntro
+        tag="Featured Reward"
+        title="Kaya Club Rewards"
+        text="A warmer welcome, member-only savings and rewards that grow with every stay — bringing Kaya's generous hospitality to the heart of London."
+        image="/img/basic/IC-SAYFA-BEYAZ-SAYFA.webp"
+        href="https://kayahotels.com/en/kaya-club/"
+        cta="Discover Kaya Club Rewards"
+      />
+      <EditorialFeature
+        reverse
+        tag="Book Direct"
+        title="5% off flexible stays."
+        text="Book through our official website to enjoy 5% off flexible stays, our best available rate and direct access to the hotel team."
+        image="/img/basic/Heritage-Room-3.webp"
+        href="/#hero"
+        cta="Book Direct"
+        meta={<><span>5% saving</span><span>Flexible rate</span><span>Direct support</span></>}
+      />
     </>
   );
 }

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import PageHero from '@/components/PageHero';
-import FaqAccordion from '@/components/FaqAccordion';
-import { SpaceCard } from '@/components/ContentCard';
+import { EditorialFeature, EditorialIntro, ImageCta, SplitFaq } from '@/components/Editorial';
+import EditorialCarousel from '@/components/EditorialCarousel';
 
 export const metadata = {
   title: 'RAILS Restaurant & Little Bar',
@@ -86,101 +86,67 @@ export default function RailsPage() {
         primaryHref="https://www.opentable.co.uk/"
         primaryLabel="Book a Table"
         secondaryHref="#menus"
-        secondaryLabel="Menus & More"
+        secondaryLabel="View Menus"
       />
 
-      <section className="venue-intro" aria-label="About RAILS">
+      <EditorialIntro
+        tag="About RAILS"
+        title="A dining room shaped by the romance of travel."
+        text="One floor above the bustle of King's Cross, RAILS brings modern British classics and French accents together in a warm, art-filled room. Come for a business lunch, pre-theatre dinner or an evening that takes its time."
+        image="/img/basic/ZDA_6282.webp"
+        href="#menus"
+        cta="View Menus"
+      />
+
+      <div id="menus">
+        <EditorialFeature
+          tag="RAILS"
+          title="British at heart. French in spirit."
+          text="Familiar flavours, seasonal produce and a carefully chosen global wine list — served with an easy sense of occasion from lunch through dinner."
+          image="/img/basic/full-dinner-table.webp"
+          href="https://kayagnhlondon.com/restaurants-and-bars/kings-cross-restaurant/"
+          cta="View RAILS Menus"
+        />
+        <EditorialFeature
+          reverse
+          tag="Afternoon Tea"
+          title="A pause worth travelling for."
+          text="Fresh pastries, delicate sandwiches and tea poured at your pace. Our afternoon tea brings a little theatre to the heart of King's Cross."
+          image="/img/basic/Main-picture-480x320.webp"
+          href="/whats-on"
+          cta="Discover Afternoon Tea"
+        />
+      </div>
+
+      <section className="section editorial-discover">
         <div className="container">
-          <div className="venue-intro-card reveal">
-            <span className="venue-intro-tag">About Rails</span>
-            <h2 className="venue-intro-title">An Intimate Restaurant Near King&apos;s Cross</h2>
-            <div className="title-ornament" />
-            <p className="venue-intro-text">
-              RAILS is an intimate restaurant near King&apos;s Cross Station and St Pancras, serving modern British classics with a French accent.
-              Ideal for pre-theatre dinners, business lunches or relaxed evenings – a calm dining space just moments from the station.
-            </p>
-            <p className="venue-intro-text">
-              One floor above the bustle of King&apos;s Cross Station, RAILS offers a calm setting where warm lighting, art-filled interiors and
-              attentive service set the tone – a nod to travel, Paris and the romance of the railway.
-            </p>
-            <div className="rooms-page-hero-actions" style={{ marginTop: 28 }}>
-              <a href="https://www.opentable.co.uk/" className="btn btn-secondary" target="_blank" rel="noopener">Book a Table</a>
-              <a href="#menus" className="btn btn-primary">Menus &amp; More</a>
-            </div>
-          </div>
+          <span className="editorial-eyebrow">More to Discover</span>
+          <h2 className="editorial-section-title">From dinner to drinks.</h2>
+          <EditorialCarousel label="other dining spaces">
+            <Link href="/gnh-bar" className="editorial-carousel-card">
+              <img src="/img/GNH-Bar-Banner.webp" alt="GNH Bar and Terrace" />
+              <div className="editorial-carousel-card-copy">
+                <span className="editorial-eyebrow">GNH Bar &amp; Terrace</span>
+                <h3>The day flows differently here.</h3>
+                <p>Morning coffee, cocktails after dark and a terrace overlooking King&apos;s Cross Square.</p>
+                <span className="editorial-link">Discover GNH Bar <span aria-hidden="true">↗</span></span>
+              </div>
+            </Link>
+            <Link href="/gnh-bar#venue-whatson" className="editorial-carousel-card">
+              <img src="/img/basic/ZDA_6276.webp" alt="Live music at GNH Bar" />
+              <div className="editorial-carousel-card-copy">
+                <span className="editorial-eyebrow">Live at GNH</span>
+                <h3>Music for the journey.</h3>
+                <p>Jazz Wednesdays and Saturday DJ sessions in our lively railway bar.</p>
+                <span className="editorial-link">See What&apos;s On <span aria-hidden="true">↗</span></span>
+              </div>
+            </Link>
+          </EditorialCarousel>
         </div>
       </section>
 
-      <section className="section venue-menus" id="menus" aria-label="Menus">
-        <div className="container">
-          <div className="section-header reveal">
-            <span className="section-tag">Food &amp; Drink</span>
-            <h2 className="section-title">Menus &amp; More</h2>
-            <div className="title-ornament" />
-          </div>
-          <div className="venue-menu-grid reveal">
-            <article className="venue-menu-card">
-              <div className="venue-menu-card-image">
-                <img src="/img/basic/full-dinner-table.webp" alt="RAILS dining" loading="lazy" />
-              </div>
-              <div className="venue-menu-card-body">
-                <span className="venue-menu-card-badge">Restaurant</span>
-                <p className="venue-menu-card-text">British inspired menu with a French accent, full of familiarities.</p>
-              </div>
-              <a href="https://kayagnhlondon.com/restaurants-and-bars/kings-cross-restaurant/" className="btn btn-primary venue-menu-card-btn" target="_blank" rel="noopener">
-                View Menus
-              </a>
-            </article>
-            <article className="venue-menu-card">
-              <div className="venue-menu-card-image">
-                <img src="/img/basic/Main-picture-480x320.webp" alt="Afternoon Tea" loading="lazy" />
-              </div>
-              <div className="venue-menu-card-body">
-                <span className="venue-menu-card-badge">Afternoon Tea</span>
-                <p className="venue-menu-card-text">Bloom Garden Afternoon Tea — fresh pastries on pretty plates.</p>
-              </div>
-              <Link href="/whats-on" className="btn btn-primary venue-menu-card-btn">Discover Afternoon Tea</Link>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section className="section other-rooms venue-spaces" aria-label="Other Spaces">
-        <div className="container">
-          <div className="section-header reveal">
-            <span className="section-tag">Explore More</span>
-            <h2 className="section-title">Other Spaces</h2>
-            <div className="title-ornament" />
-          </div>
-          <div className="venue-spaces-grid reveal">
-            <SpaceCard
-              href="/gnh-bar"
-              image="/img/GNH-Bar-Banner.webp"
-              tag="GNH Bar & Terrace"
-              title="Our Take On The Railway Bar"
-              desc="Bustling, vibrant and welcoming."
-            />
-            <SpaceCard
-              href="/rails-restaurant#menus"
-              image="/img/basic/ZDA_6276.webp"
-              tag="Little Bar"
-              title="RAILS' Little Bar"
-              desc="Inviting and snug — digestifs, cocktails, champagne and wine."
-            />
-          </div>
-        </div>
-      </section>
-
-      <section className="section faq-section" aria-label="FAQs">
-        <div className="container">
-          <div className="section-header reveal">
-            <span className="section-tag">Good To Know</span>
-            <h2 className="section-title">FAQs</h2>
-            <div className="title-ornament" />
-          </div>
-          <FaqAccordion items={faqs} />
-        </div>
-      </section>
+      <SplitFaq compact title="Before your table." items={faqs} />
+      <ImageCta image="/img/basic/ZDA_6282.webp" tag="RAILS Restaurant" title="Your table awaits." href="https://www.opentable.co.uk/" cta="Book a Table" />
     </>
   );
 }

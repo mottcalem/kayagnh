@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import FaqAccordion from '@/components/FaqAccordion';
-import { SpaceCard } from '@/components/ContentCard';
-import { SITE } from '@/lib/site';
+import PageHero from '@/components/PageHero';
+import EditorialCarousel from '@/components/EditorialCarousel';
+import { EditorialFeature, EditorialIntro, ImageCta, SplitFaq } from '@/components/Editorial';
 
 export const metadata = {
   title: 'GNH Bar & Terrace',
@@ -69,174 +69,35 @@ const faqs = [
 export default function GnhBarPage() {
   return (
     <>
-      <section className="venue-banner" aria-label="GNH Bar & Terrace">
-        <div className="venue-banner-image">
-          <img src="/img/GNH-Bar-Banner.webp" alt="GNH Bar & Terrace at King's Cross" width={1600} height={1043} />
+      <PageHero image="/img/GNH-Bar-Banner.webp" tag="Bar & Terrace" title="GNH Bar & Terrace" description="From morning coffee to late-night cocktails, a railway bar reimagined for King's Cross today." primaryHref="#venue-menus" primaryLabel="View Menus" />
+
+      <EditorialIntro tag="GNH Bar & Terrace" title="The day flows differently here." text="A lively meeting point for travellers and locals, moving easily from breakfast and coffee to small plates, champagne and cocktails after dark. Open daily 8am–11pm." image="/img/basic/ZDA_6276.webp" />
+
+      <div id="venue-menus">
+        <EditorialFeature tag="Food" title="All-day, at your pace." text="Breakfast, small plates, cream tea and hearty British classics — made for quick stops, long lunches and everything in between." image="/img/basic/full-dinner-table.webp" href="https://kayagnhlondon.com/wp-content/uploads/2020/06/GNH-Bar-April-2026-Food.pdf" cta="View Food Menu" />
+        <EditorialFeature reverse tag="Drinks" title="Classics, signatures and a little theatre." text="Cocktails mixed with character, alongside champagne, wines, beers and spirits for every kind of arrival." image="/img/GNH-Bar-Banner.webp" href="https://kayagnhlondon.com/wp-content/uploads/2020/06/GNH-Bar-April-2026-Drinks.pdf" cta="View Drinks Menu" />
+      </div>
+
+      <section className="section editorial-discover editorial-discover--dark" id="venue-whatson">
+        <div className="container">
+          <span className="editorial-eyebrow">Live at GNH Bar</span>
+          <h2 className="editorial-section-title">A soundtrack for King&apos;s Cross.</h2>
+          <EditorialCarousel label="live events">
+            <Link href="/whats-on" className="editorial-carousel-card">
+              <img src="/img/basic/ZDA_6276.webp" alt="Jazz Wednesdays" />
+              <div className="editorial-carousel-card-copy"><span className="editorial-eyebrow">Wednesdays · 6–8pm</span><h3>Jazz Wednesdays</h3><p>Live jazz, soul and good vibes from Jodie Shankland.</p><span className="editorial-link">Event Details ↗</span></div>
+            </Link>
+            <Link href="/whats-on" className="editorial-carousel-card">
+              <img src="/img/GNH-Bar-Banner.webp" alt="Saturday DJ Sessions" />
+              <div className="editorial-carousel-card-copy"><span className="editorial-eyebrow">Saturdays · 3–8pm</span><h3>Saturday DJ Sessions</h3><p>Afternoon into evening, from funk and jazz to dance.</p><span className="editorial-link">Event Details ↗</span></div>
+            </Link>
+          </EditorialCarousel>
         </div>
       </section>
 
-      <section className="venue-intro" id="venue-intro" aria-label="About GNH Bar & Terrace">
-        <div className="container">
-          <div className="venue-intro-card reveal">
-            <span className="venue-intro-tag">Bar &amp; Terrace</span>
-            <h1 className="venue-intro-title">Great Northern Hotel Bar in King&apos;s Cross &amp; St Pancras</h1>
-            <div className="title-ornament" />
-            <p className="venue-intro-text">
-              A reinvention of the traditional railway bar — where business is done, journeys pause and friendships are built.
-              Located beside King&apos;s Cross and St Pancras stations, GNH Bar is the hotel&apos;s lively meeting point for travellers and locals alike.
-            </p>
-            <p className="venue-intro-text">
-              Blending British heritage with global influences, it&apos;s as suited to a morning coffee or quick beer as it is to cocktails
-              and champagne, moving seamlessly from relaxed daytime spot to vibrant evening destination.
-            </p>
-            <div className="venue-hours">
-              <div className="venue-hours-item">
-                <span className="venue-hours-label">Open Daily</span>
-                <span className="venue-hours-value">8am – 11pm</span>
-              </div>
-              <span className="venue-hours-divider" aria-hidden="true" />
-              <div className="venue-hours-item">
-                <span className="venue-hours-label">Breakfast</span>
-                <span className="venue-hours-value">8am – 11am</span>
-              </div>
-            </div>
-            <img src="/img/GNH-GNHBar-Logo.webp" alt="GNH Bar King's Cross" className="venue-intro-logo" width={200} height={70} loading="lazy" />
-          </div>
-        </div>
-      </section>
-
-      <section className="section venue-menus" id="venue-menus" aria-label="Food & Drink">
-        <div className="container">
-          <div className="section-header reveal">
-            <span className="section-tag">Food &amp; Drink</span>
-            <h2 className="section-title">Menus At GNH Bar</h2>
-            <div className="title-ornament" />
-          </div>
-          <div className="venue-menu-grid reveal">
-            <article className="venue-menu-card">
-              <div className="venue-menu-card-image">
-                <img src="/img/basic/full-dinner-table.webp" alt="Food at GNH Bar" loading="lazy" width={600} height={400} />
-              </div>
-              <div className="venue-menu-card-body">
-                <span className="venue-menu-card-badge">Food</span>
-                <p className="venue-menu-card-text">Breakfast, small plates, cream tea and hearty British classics.</p>
-                <img src="/img/GNH-GNHBar-Logo.webp" alt="" className="venue-menu-card-logo" width={120} height={42} loading="lazy" />
-              </div>
-              <a
-                href="https://kayagnhlondon.com/wp-content/uploads/2020/06/GNH-Bar-April-2026-Food.pdf"
-                className="btn btn-primary venue-menu-card-btn"
-                target="_blank"
-                rel="noopener"
-              >
-                Food Menu
-              </a>
-            </article>
-            <article className="venue-menu-card">
-              <div className="venue-menu-card-image">
-                <img src="/img/basic/ZDA_6276.webp" alt="Drinks at GNH Bar" loading="lazy" width={600} height={400} />
-              </div>
-              <div className="venue-menu-card-body">
-                <span className="venue-menu-card-badge">Drinks</span>
-                <p className="venue-menu-card-text">Classic &amp; signature cocktails, beers, wines &amp; spirits.</p>
-                <img src="/img/GNH-GNHBar-Logo.webp" alt="" className="venue-menu-card-logo" width={120} height={42} loading="lazy" />
-              </div>
-              <a
-                href="https://kayagnhlondon.com/wp-content/uploads/2020/06/GNH-Bar-April-2026-Drinks.pdf"
-                className="btn btn-primary venue-menu-card-btn"
-                target="_blank"
-                rel="noopener"
-              >
-                Drinks Menu
-              </a>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section className="section venue-whatson" id="venue-whatson" aria-label="What's On">
-        <div className="container">
-          <div className="section-header reveal">
-            <span className="section-tag" style={{ color: 'var(--color-gold)' }}>
-              What&apos;s On
-            </span>
-            <h2 className="section-title" style={{ color: 'var(--color-white)' }}>
-              Live At GNH Bar
-            </h2>
-            <div className="title-ornament" />
-          </div>
-          <div className="venue-whatson-grid reveal">
-            <article className="venue-whatson-card">
-              <span className="venue-whatson-day">Wednesdays</span>
-              <h3 className="venue-whatson-title">Jazz Wednesdays</h3>
-              <span className="venue-whatson-time">6pm – 8pm</span>
-              <p className="venue-whatson-text">
-                Join us every Wednesday for live jazz, soul and good vibes from the wonderful Jodie Shankland.
-              </p>
-            </article>
-            <article className="venue-whatson-card">
-              <span className="venue-whatson-day">Saturdays</span>
-              <h3 className="venue-whatson-title">Saturday Live DJ</h3>
-              <span className="venue-whatson-time">3pm – 8pm</span>
-              <p className="venue-whatson-text">
-                Live DJ sessions every Saturday in GNH Bar — a range of genres from funk to jazz to dance.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section className="section other-rooms venue-spaces" aria-label="Other Spaces">
-        <div className="container">
-          <div className="section-header reveal">
-            <span className="section-tag">Explore More</span>
-            <h2 className="section-title">Other Spaces</h2>
-            <div className="title-ornament" />
-          </div>
-          <div className="venue-spaces-grid reveal">
-            <SpaceCard
-              href="/rails-restaurant"
-              image="/img/basic/Main-picture-480x320.webp"
-              tag="Little Bar"
-              title="A Stylish Escape"
-              desc="A stylish escape from the hustle and bustle of King's Cross."
-            />
-            <SpaceCard
-              href="/rails-restaurant"
-              image="/img/basic/ZDA_6282.webp"
-              tag="RAILS Restaurant"
-              title="British With A French Accent"
-              desc="British inspired menu, with a french accent, full of familiarities."
-            />
-          </div>
-        </div>
-      </section>
-
-      <section className="section faq-section" id="gnh-bar-faqs" aria-label="Frequently Asked Questions">
-        <div className="container">
-          <div className="section-header reveal">
-            <span className="section-tag">Good To Know</span>
-            <h2 className="section-title">FAQs</h2>
-            <div className="title-ornament" />
-          </div>
-          <FaqAccordion items={faqs} />
-        </div>
-      </section>
-
-      <section className="section edwardian-prompt" aria-label="Book a Table">
-        <div className="container">
-          <div className="edwardian-prompt-inner reveal">
-            <div className="edwardian-prompt-content">
-              <h2 className="edwardian-prompt-title">Join Us At GNH Bar &amp; Terrace</h2>
-              <p className="edwardian-prompt-desc">
-                From morning coffee to late-night cocktails, our terrace looks out across King&apos;s Cross Square — just 25 metres from the Eurostar terminal.
-              </p>
-            </div>
-            <a href={SITE.phoneHref} className="btn" style={{ flexShrink: 0, background: 'var(--color-primary)', color: 'var(--color-white)' }}>
-              Call {SITE.phone}
-            </a>
-          </div>
-        </div>
-      </section>
+      <EditorialFeature tag="More to Discover" title="Dinner is one floor away." text="Continue the evening at RAILS, our intimate dining room serving modern British classics with a French accent." image="/img/basic/ZDA_6282.webp" href="/rails-restaurant" cta="Discover RAILS" />
+      <SplitFaq compact title="Good to know." items={faqs} />
+      <ImageCta image="/img/GNH-Bar-Banner.webp" tag="GNH Bar & Terrace" title="From morning coffee to late-night cocktails." href="#venue-menus" cta="Discover GNH Bar" />
     </>
   );
 }

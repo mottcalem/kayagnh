@@ -77,31 +77,34 @@ const faqs = [
   },
 ];
 
+const faqCategories = [
+  { title: 'Before Your Stay', items: [faqs[0], faqs[2], faqs[10], faqs[11]] },
+  { title: 'During Your Stay', items: [faqs[3], faqs[4], faqs[6], faqs[7]] },
+  { title: 'Dining', items: [faqs[5]] },
+  { title: 'Booking & Policies', items: [faqs[1], faqs[8], faqs[9]] },
+];
+
 export default function FaqsPage() {
   return (
     <>
       <PageHero
-        image="/img/basic/IC-SAYFA-BEYAZ-SAYFA.webp"
-        tag="Help"
-        title="Frequently Asked Questions"
-        description="Everything you need to know before your stay. Still unsure? Call 020 3388 0800."
+        image="/img/basic/gnh-hero-exterior-1600_3.webp"
+        tag="FAQ"
+        title="Good to Know"
+        description="Clear answers for a smoother stay."
       />
 
-      <section className="section faq-section">
+      <section className="section faq-categories">
         <div className="container">
-          <div className="section-header reveal">
-            <span className="section-tag">Good To Know</span>
-            <h2 className="section-title">FAQs</h2>
-            <div className="title-ornament" />
-          </div>
-          <FaqAccordion items={faqs} />
-          <p className="section-desc" style={{ marginTop: 40, textAlign: 'center' }}>
-            If you can&apos;t find the answer here, please contact us on{' '}
-            <a href="tel:+442033880800">020 3388 0800</a> or email{' '}
-            <a href="mailto:reservations@kayagnhlondon.com">reservations@kayagnhlondon.com</a>.
-          </p>
+          {faqCategories.map((category) => (
+            <div className="faq-category reveal" key={category.title}>
+              <div><span className="editorial-eyebrow">Category</span><h2>{category.title}</h2></div>
+              <FaqAccordion items={category.items} />
+            </div>
+          ))}
         </div>
       </section>
+      <section className="contact-small-cta"><div className="container"><p>Can&apos;t find what you&apos;re looking for?</p><Link href="/contact" className="editorial-link">Contact Us ↗</Link></div></section>
     </>
   );
 }

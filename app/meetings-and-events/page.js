@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import PageHero from '@/components/PageHero';
-import FaqAccordion from '@/components/FaqAccordion';
+import { EditorialFeature, ImageCta, SplitFaq } from '@/components/Editorial';
 
 export const metadata = {
   title: 'Meetings & Private Events',
@@ -13,21 +13,25 @@ const spaces = [
     title: 'The Carriage',
     desc: "Boardroom-style space for 16 seated guests or up to 30 standing, with views of the King's Cross canopy.",
     image: 'https://kayagnhlondon.com/wp-content/uploads/2026/03/ME__0003_Layer-2.jpg',
+    meta: ['16 seated · 30 standing', 'Boardroom & reception', 'King’s Cross canopy views'],
   },
   {
     title: 'RAILS',
     desc: 'RAILS Restaurant hosts up to 90 banquet guests, with a projector and screen available on request.',
     image: '/img/basic/ZDA_6282.webp',
+    meta: ['Up to 90 banquet', 'Dining & celebration', 'Projector on request'],
   },
   {
     title: 'Mezzanine',
     desc: 'Intimate semi-private space accommodating 8 seated or up to 15 standing, overlooking GNH Bar.',
     image: '/img/basic/ZDA_6276.webp',
+    meta: ['8 seated · 15 standing', 'Semi-private', '42″ TV with HDMI'],
   },
   {
     title: 'The Lounge',
     desc: 'First floor area leading off The Carriage — plush interiors and high ceilings for receptions and breakouts.',
     image: '/img/basic/full-dinner-table.webp',
+    meta: ['Up to 60 combined', 'Reception & breakout', 'Flexible configuration'],
   },
 ];
 
@@ -67,66 +71,46 @@ export default function MeetingsPage() {
   return (
     <>
       <PageHero
-        image="/img/basic/GNH-AerialView-1.webp"
-        tag="Private Events"
-        title="Meeting Rooms & Private Events"
-        description="Elegant Victorian interiors for meetings, dinners and celebrations beside King's Cross and St Pancras."
+        image="https://kayagnhlondon.com/wp-content/uploads/2026/03/ME__0003_Layer-2.jpg"
+        tag="Meetings & Events"
+        title="Meetings & Events"
+        description="Distinctive spaces for meeting, dining and celebrating at the best-connected address in London."
         primaryHref="mailto:reservations@kayagnhlondon.com"
-        primaryLabel="Enquiry Form"
-        secondaryHref="https://kayagnhlondon.com/meetings-and-private-events/"
-        secondaryLabel="Digital Brochure"
+        primaryLabel="Make an Enquiry"
       />
 
-      <section className="venue-intro">
-        <div className="container">
-          <div className="venue-intro-card reveal">
-            <h2 className="venue-intro-title">Meetings &amp; Private Events in King&apos;s Cross</h2>
-            <div className="title-ornament" />
-            <p className="venue-intro-text">
-              Kaya Great Northern Hotel offers meeting rooms beside King&apos;s Cross Station and St Pancras International — ideal for private events and private dining.
-              Set within an original Victorian railway hotel built in 1854, our elegant interiors provide a distinctive backdrop for meetings, dinners and celebrations.
-            </p>
-            <p className="venue-intro-text">
-              Choose from four versatile spaces, adaptable from formal set-ups to private parties and dining rooms.
-            </p>
-          </div>
-        </div>
-      </section>
+      {spaces.map((space, index) => (
+        <EditorialFeature
+          key={space.title}
+          reverse={index % 2 === 1}
+          tag={index === 0 ? 'Our Spaces' : 'Meet · Dine · Celebrate'}
+          title={space.title}
+          text={space.desc}
+          image={space.image}
+          href="mailto:reservations@kayagnhlondon.com"
+          cta="Enquire About This Space"
+          meta={space.meta.map((item) => <span key={item}>{item}</span>)}
+        />
+      ))}
 
-      <section className="section venue-menus" aria-label="Event Spaces">
+      <section className="section experience-trio">
         <div className="container">
-          <div className="section-header reveal">
-            <span className="section-tag">Our Spaces</span>
-            <h2 className="section-title">Meeting &amp; Event Spaces</h2>
-            <div className="title-ornament" />
-          </div>
-          <div className="venue-menu-grid reveal" style={{ maxWidth: 1100 }}>
-            {spaces.map((s) => (
-              <article className="venue-menu-card" key={s.title}>
-                <div className="venue-menu-card-image">
-                  <img src={s.image} alt={s.title} loading="lazy" />
-                </div>
-                <div className="venue-menu-card-body">
-                  <span className="venue-menu-card-badge">{s.title}</span>
-                  <p className="venue-menu-card-text">{s.desc}</p>
-                </div>
-                <a href="mailto:reservations@kayagnhlondon.com" className="btn btn-primary venue-menu-card-btn">Make an Enquiry</a>
-              </article>
+          <span className="editorial-eyebrow">Made for the moment</span>
+          <h2 className="editorial-section-title">Meet. Dine. Celebrate.</h2>
+          <div className="experience-trio-grid reveal">
+            {[
+              ['Meet', '/img/basic/GNH-AerialView-1.webp', 'Focused rooms, connected location.'],
+              ['Dine', '/img/basic/full-dinner-table.webp', 'Menus shaped around your gathering.'],
+              ['Celebrate', '/img/basic/ZDA_6282.webp', 'Service that makes the moment feel effortless.'],
+            ].map(([title, image, text]) => (
+              <article key={title}><img src={image} alt="" /><h3>{title}</h3><p>{text}</p></article>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="section faq-section">
-        <div className="container">
-          <div className="section-header reveal">
-            <span className="section-tag">Good To Know</span>
-            <h2 className="section-title">Meeting Rooms FAQs</h2>
-            <div className="title-ornament" />
-          </div>
-          <FaqAccordion items={faqs} />
-        </div>
-      </section>
+      <SplitFaq compact title="Planning your event." items={faqs} />
+      <ImageCta image="https://kayagnhlondon.com/wp-content/uploads/2026/03/ME__0003_Layer-2.jpg" tag="Meetings & Events" title="Make your next event memorable." href="mailto:reservations@kayagnhlondon.com" cta="Enquire Now" />
     </>
   );
 }

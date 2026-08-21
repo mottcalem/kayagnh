@@ -1,10 +1,12 @@
 import { SpaceCard } from '@/components/ContentCard';
-import BookNowButton from '@/components/BookNowButton';
 import RoomGallery from '@/components/RoomGallery';
+import { BookDirectSave } from '@/components/Editorial';
 import { getOtherRooms } from '@/lib/rooms';
 
 export default function RoomDetail({ room }) {
   const otherRooms = getOtherRooms(room.slug);
+  // Opens on a room view, then runs into the detail shots, skipping the image the hero gallery starts on
+  const detailGallery = room.gallery.length > 1 ? room.gallery.slice(1) : room.gallery;
 
   return (
     <>
@@ -40,43 +42,31 @@ export default function RoomDetail({ room }) {
 
       <section className="section edwardian-essentials" id="edwardian-essentials" aria-label="Room Essentials">
         <div className="container">
-          <div className="section-header reveal">
-            <span className="section-tag" style={{ color: 'var(--color-gold)' }}>
-              In-Room Features
-            </span>
-            <h2 className="section-title" style={{ color: 'var(--color-white)' }}>
-              {room.essentialsTitle}
-            </h2>
-            <div className="title-ornament" />
-          </div>
-          <div className="edwardian-essentials-grid reveal">
-            {room.essentials.map((group) => (
-              <div className="edwardian-essentials-card" key={group.title}>
-                <h4 className="edwardian-essentials-card-title">{group.title}</h4>
-                <ul className="edwardian-essentials-list">
-                  {group.items.map((item) => (
-                    <li key={item}>{item}</li>
-                  ))}
-                </ul>
+          <div className="room-essentials-editorial">
+            <div className="reveal">
+              <span className="editorial-eyebrow">In-Room Features</span>
+              <h2>{room.essentialsTitle}</h2>
+              <p>Considered details for sleeping, bathing, working and unwinding — all gathered in one calm, characterful space.</p>
+              <div className="room-essentials-lists">
+                {room.essentials.map((group) => (
+                  <div key={group.title}>
+                    <h3>{group.title}</h3>
+                    <ul>
+                      {group.items.map((item) => <li key={item}>{item}</li>)}
+                    </ul>
+                  </div>
+                ))}
               </div>
-            ))}
+              {room.fact ? <p className="room-detail-fact">{room.fact}</p> : null}
+            </div>
+            <div className="room-essentials-gallery reveal">
+              <RoomGallery images={detailGallery} alt={`${room.title} details`} />
+            </div>
           </div>
-          {room.fact ? (
-            <p
-              className="edwardian-detail-text"
-              style={{
-                color: 'rgba(255,255,255,0.75)',
-                maxWidth: 760,
-                margin: '36px auto 0',
-                textAlign: 'center',
-                fontStyle: 'italic',
-              }}
-            >
-              {room.fact}
-            </p>
-          ) : null}
         </div>
       </section>
+
+      <BookDirectSave compact title="Book Direct & Save" />
 
       <section className="section other-rooms" aria-label="Other Rooms">
         <div className="container">
@@ -97,25 +87,6 @@ export default function RoomDetail({ room }) {
                 cta="View Room →"
               />
             ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="section edwardian-prompt" aria-label="Book Direct">
-        <div className="container">
-          <div className="edwardian-prompt-inner reveal">
-            <div className="edwardian-prompt-content">
-              <h2 className="edwardian-prompt-title">Book This Room Directly</h2>
-              <p className="edwardian-prompt-desc">
-                Best rate guaranteed, flexible cancellation, and exclusive KAYA CLUB perks when you book directly with us.
-              </p>
-            </div>
-            <BookNowButton
-              className="btn room-detail-book-btn"
-              style={{ flexShrink: 0, background: 'var(--color-primary)', color: 'var(--color-white)' }}
-            >
-              Book Now
-            </BookNowButton>
           </div>
         </div>
       </section>
