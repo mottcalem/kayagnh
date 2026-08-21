@@ -26,7 +26,7 @@ export default function LocalGuidePage() {
           <h2 className="editorial-section-title">Go further.</h2>
           <EditorialCarousel label="London guides">
             <a href="https://kayagnhlondon.com/local-guide/" className="editorial-carousel-card" target="_blank" rel="noopener">
-              <img src="https://kayagnhlondon.com/wp-content/uploads/2020/06/southbank-london-eye.jpg" alt="London Favourites" />
+              <img src="/img/basic/london-favourites.jpg" alt="London Favourites" />
               <div className="editorial-carousel-card-copy"><span className="editorial-eyebrow">London Favourites</span><h3>Five places worth the journey.</h3><p>Our edited list of capital essentials, all easy to reach from the hotel.</p><span className="editorial-link">Read the Guide ↗</span></div>
             </a>
             <a href="https://kayagnhlondon.com/local-guide/" className="editorial-carousel-card" target="_blank" rel="noopener">
@@ -37,8 +37,8 @@ export default function LocalGuidePage() {
         </div>
       </section>
 
-      <EditorialFeature tag="Local Benefits" title="Local discounts." text="Stay with us and discover selected benefits around King's Cross — a little more from the neighbourhood." image="/img/basic/key.webp" href="https://kayagnhlondon.com/local-guide/" cta="Explore Local Discounts" />
-      <EditorialFeature reverse tag="North London" title="Why visit Camden." text="Markets, canals, music and a character unlike anywhere else in London — all within easy reach of the hotel." image="/img/basic/background.webp" href="https://kayagnhlondon.com/local-guide/" cta="Discover Camden" />
+      <EditorialFeature tag="Local Benefits" title="Local discounts." text="Stay with us and discover selected benefits around King's Cross — a little more from the neighbourhood." image="/img/basic/kings-cross-shops.jpg" href="https://kayagnhlondon.com/local-guide/" cta="Explore Local Discounts" />
+      <EditorialFeature reverse tag="North London" title="Why visit Camden." text="Markets, canals, music and a character unlike anywhere else in London — all within easy reach of the hotel." image="/img/basic/camden.jpg" href="https://kayagnhlondon.com/local-guide/" cta="Discover Camden" />
 
       <section className="section local-map-section">
         <div className="container">

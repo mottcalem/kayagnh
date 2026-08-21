@@ -67,10 +67,16 @@ export default function Navbar() {
           <nav className="menu-nav" aria-label="Full screen navigation">
             <ul className="menu-list">
               {NAV_LINKS.map((link) => {
-                const active = link.href === pathname || (link.href !== '/' && pathname.startsWith(link.href));
+                const active = !link.target && (link.href === pathname || (link.href !== '/' && pathname.startsWith(link.href)));
                 return (
-                  <li className="menu-item" key={link.href}>
-                    <Link target={link.target} href={link.href} className={`menu-link${active ? ' active' : ''}`} onClick={() => setMenuOpen(false)}>
+                  <li className="menu-item" key={link.label}>
+                    <Link
+                      target={link.target}
+                      rel={link.target === '_blank' ? 'noopener noreferrer' : undefined}
+                      href={link.href}
+                      className={`menu-link${active ? ' active' : ''}`}
+                      onClick={() => setMenuOpen(false)}
+                    >
                       {link.label}
                     </Link>
                   </li>

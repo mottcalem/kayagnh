@@ -15,6 +15,7 @@ function Action({ href, children, className = 'editorial-link' }) {
 }
 
 export function EditorialFeature({
+  id,
   tag,
   title,
   text,
@@ -28,7 +29,7 @@ export function EditorialFeature({
   className = '',
 }) {
   return (
-    <section className={`editorial-feature${reverse ? ' editorial-feature--reverse' : ''} ${className}`.trim()}>
+    <section id={id} className={`editorial-feature${reverse ? ' editorial-feature--reverse' : ''} ${className}`.trim()}>
       <div className="container editorial-feature-grid">
         <div className="editorial-feature-media reveal">
           <img src={image} alt={imageAlt || title} loading="lazy" />
@@ -92,7 +93,7 @@ export function SplitFaq({ tag = 'Good To Know', title = 'Frequently Asked Quest
 }
 
 export function BookDirectSave({ title = 'Book Direct & Save', text, benefits, compact = false }) {
-  const items = benefits || ['Best available rate', '5% member saving', 'Flexible cancellation', 'Kaya Club rewards'];
+  const items = benefits || ['Best available rate', '5% member saving', 'Flexible cancellation', 'Kaya Club Rewards'];
   return (
     <section className={`book-direct-editorial${compact ? ' book-direct-editorial--compact' : ''}`}>
       <div className="container book-direct-editorial-grid">

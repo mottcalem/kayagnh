@@ -22,7 +22,7 @@ export default function Footer() {
             <ul>
               {FOOTER_QUICK.map((l) => (
                 <li key={l.href + l.label}>
-                  <Link target={l.target} href={l.href}>{l.label}</Link>
+                  <Link target={l.target} rel={l.target === '_blank' ? 'noopener noreferrer' : undefined} href={l.href}>{l.label}</Link>
                 </li>
               ))}
             </ul>

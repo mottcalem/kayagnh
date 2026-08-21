@@ -33,6 +33,8 @@
     --color-accent-light: #EFEDE8;
     --color-accent-dark: #C5C0B7;
     --color-gold: #C4A35A;
+    /* Meets AA contrast for small uppercase labels on light backgrounds */
+    --color-gold-deep: #8A6820;
     --color-cream: #F5F0EB;
     --color-cream-dark: #E8DFD5;
     --color-white: #FFFFFF;
@@ -1834,12 +1836,20 @@ p {
 .editorial-eyebrow {
     display: inline-block;
     margin-bottom: 18px;
-    color: var(--color-gold);
+    color: var(--color-gold-deep);
     font-family: var(--font-accent);
-    font-size: .66rem;
-    letter-spacing: .28em;
+    font-size: .76rem;
+    font-weight: 600;
+    letter-spacing: .22em;
     line-height: 1.4;
     text-transform: uppercase;
+}
+
+.kaya-club-section .editorial-eyebrow,
+.book-direct-editorial .editorial-eyebrow,
+.room-essentials-editorial .editorial-eyebrow,
+.editorial-image-cta-content .editorial-eyebrow {
+    color: var(--color-gold);
 }
 
 .editorial-intro {
@@ -1945,6 +1955,65 @@ p {
 
 .editorial-feature-copy h2 {
     font-size: clamp(2.2rem, 4.7vw, 4.9rem);
+}
+
+.editorial-feature.editorial-feature--dark {
+    background: var(--color-primary);
+}
+
+.editorial-feature--dark .editorial-feature-media {
+    height: clamp(470px, 58vw, 780px);
+}
+
+.editorial-feature--dark .editorial-feature-copy h2 {
+    color: var(--color-white);
+}
+
+.editorial-feature--dark .editorial-feature-copy > p {
+    color: rgba(255, 255, 255, .72);
+}
+
+.editorial-feature--dark .editorial-eyebrow {
+    color: var(--color-gold);
+}
+
+.editorial-feature--dark .editorial-link {
+    color: var(--color-white);
+}
+
+.offer-benefits {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 30px;
+    margin: 0 0 34px;
+    padding: 0;
+    list-style: none;
+}
+
+.offer-benefits li {
+    padding: 13px 0;
+    color: var(--color-text-light);
+    border-bottom: 1px solid rgba(10, 35, 64, .12);
+    font-size: .95rem;
+}
+
+.offer-benefits li::before {
+    content: '◆';
+    margin-right: 12px;
+    color: var(--color-gold);
+    font-size: .45rem;
+    vertical-align: middle;
+}
+
+.editorial-feature--dark .offer-benefits li {
+    color: rgba(255, 255, 255, .82);
+    border-bottom-color: rgba(255, 255, 255, .14);
+}
+
+@media (max-width: 600px) {
+    .offer-benefits {
+        grid-template-columns: 1fr;
+    }
 }
 
 .editorial-meta {
@@ -2520,7 +2589,8 @@ p {
     }
 
     .editorial-intro-image,
-    .editorial-feature-media {
+    .editorial-feature-media,
+    .editorial-feature--dark .editorial-feature-media {
         min-height: 0;
         height: min(72vw, 580px);
     }
@@ -6613,18 +6683,18 @@ p {
     display: flex; flex-direction: column; flex: 1;
 }
 .other-room-card-tag {
-    font-family: var(--font-accent); font-size: 0.55rem; letter-spacing: 2.5px;
-    text-transform: uppercase; color: var(--color-gold); margin-bottom: 6px; display: block;
+    font-family: var(--font-accent); font-size: 0.64rem; letter-spacing: 2.2px; font-weight: 600;
+    text-transform: uppercase; color: var(--color-gold-deep); margin-bottom: 6px; display: block;
 }
 .other-room-card-cta {
-    font-family: var(--font-accent); font-size: 0.65rem; letter-spacing: 2px;
-    text-transform: uppercase; color: var(--color-gold); display: inline-flex;
+    font-family: var(--font-accent); font-size: 0.68rem; letter-spacing: 2px; font-weight: 600;
+    text-transform: uppercase; color: var(--color-gold-deep); display: inline-flex;
     align-items: center; gap: 4px; width: fit-content; transition: gap 0.3s ease;
 }
 .other-room-card:hover .other-room-card-cta { gap: 10px; }
 .other-room-card-category {
-    font-family: var(--font-accent); font-size: 0.55rem; letter-spacing: 2.5px;
-    text-transform: uppercase; color: var(--color-gold); margin-bottom: 6px; display: block;
+    font-family: var(--font-accent); font-size: 0.64rem; letter-spacing: 2.2px; font-weight: 600;
+    text-transform: uppercase; color: var(--color-gold-deep); margin-bottom: 6px; display: block;
 }
 .other-room-card-title {
     font-family: var(--font-display); font-size: 1rem; font-weight: 600;
@@ -6636,8 +6706,8 @@ p {
     margin: 0 0 16px; flex: 1;
 }
 .other-room-card-link {
-    font-family: var(--font-accent); font-size: 0.65rem; letter-spacing: 2px;
-    text-transform: uppercase; color: var(--color-gold); display: inline-flex;
+    font-family: var(--font-accent); font-size: 0.68rem; letter-spacing: 2px; font-weight: 600;
+    text-transform: uppercase; color: var(--color-gold-deep); display: inline-flex;
     align-items: center; gap: 4px; width: fit-content; transition: gap 0.3s ease;
 }
 .other-room-card:hover .other-room-card-link { gap: 10px; }
@@ -8085,4 +8155,160 @@ p {
 
 .legal-article a:hover {
     color: var(--color-gold);
+}
+
+/* ============================================ */
+/* CAREERS / VACANCY DETAIL                      */
+/* ============================================ */
+.job-section {
+    background: var(--color-white);
+}
+
+.job-lead {
+    margin: 0 0 clamp(20px, 4vw, 40px);
+}
+
+.job-title {
+    margin: 0 0 16px;
+    color: var(--color-primary);
+    font-family: var(--font-display);
+    font-size: clamp(2.6rem, 6vw, 5.2rem);
+    font-weight: 500;
+    letter-spacing: -.03em;
+    line-height: .98;
+}
+
+.job-tagline {
+    max-width: 900px;
+    margin: 0 0 36px;
+    color: var(--color-primary);
+    font-family: var(--font-serif);
+    font-size: clamp(1.3rem, 2.4vw, 1.95rem);
+    line-height: 1.35;
+}
+
+.job-meta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 24px 34px;
+    margin: 0 0 40px;
+    padding: 28px 0;
+    border-top: 1px solid rgba(10, 35, 64, .13);
+    border-bottom: 1px solid rgba(10, 35, 64, .13);
+}
+
+.job-meta-label {
+    display: block;
+    margin-bottom: 7px;
+    color: var(--color-gold-deep);
+    font-family: var(--font-accent);
+    font-size: .66rem;
+    font-weight: 600;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+}
+
+.job-meta-value {
+    color: var(--color-primary);
+    font-size: .98rem;
+    line-height: 1.5;
+}
+
+.job-intro {
+    margin-bottom: 36px;
+    column-count: 2;
+    column-gap: clamp(44px, 7vw, 110px);
+}
+
+.job-intro p {
+    margin: 0 0 22px;
+    color: var(--color-text-light);
+    font-size: clamp(.98rem, 1.25vw, 1.12rem);
+    line-height: 1.85;
+    break-inside: avoid;
+}
+
+.job-intro p:last-child {
+    margin-bottom: 0;
+}
+
+.job-block {
+    display: grid;
+    grid-template-columns: minmax(200px, .55fr) minmax(0, 1.45fr);
+    gap: clamp(38px, 7vw, 110px);
+    padding: clamp(44px, 6vw, 72px) 0;
+    border-top: 1px solid rgba(10, 35, 64, .13);
+}
+
+.job-block-label {
+    position: sticky;
+    top: 130px;
+    align-self: start;
+}
+
+.job-block-label h3 {
+    margin: 0;
+    color: var(--color-primary);
+    font-family: var(--font-display);
+    font-size: clamp(1.85rem, 3.2vw, 3rem);
+    font-weight: 500;
+    line-height: 1.05;
+}
+
+.job-block-body p {
+    margin: 0 0 22px;
+    color: var(--color-text-light);
+    font-size: clamp(.96rem, 1.2vw, 1.08rem);
+    line-height: 1.85;
+}
+
+.job-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 44px;
+    margin: 6px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.job-list--single {
+    grid-template-columns: 1fr;
+    max-width: 780px;
+}
+
+.job-list li {
+    position: relative;
+    padding: 15px 0 15px 26px;
+    color: var(--color-text);
+    border-bottom: 1px solid rgba(10, 35, 64, .1);
+    font-size: .97rem;
+    line-height: 1.6;
+}
+
+.job-list li::before {
+    content: '◆';
+    position: absolute;
+    top: 18px;
+    left: 0;
+    color: var(--color-gold);
+    font-size: .5rem;
+}
+
+@media (max-width: 900px) {
+    .job-block {
+        grid-template-columns: 1fr;
+        gap: 26px;
+    }
+
+    .job-block-label {
+        position: static;
+    }
+
+    .job-list {
+        grid-template-columns: 1fr;
+    }
+
+    .job-intro {
+        column-count: 1;
+    }
 }
