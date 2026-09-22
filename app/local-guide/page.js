@@ -37,8 +37,8 @@ export default function LocalGuidePage() {
         </div>
       </section>
 
-      <EditorialFeature tag="Local Benefits" title="Local discounts." text="Stay with us and discover selected benefits around King's Cross — a little more from the neighbourhood." image="/img/basic/kings-cross-shops.jpg" href="https://kayagnhlondon.com/local-guide/" cta="Explore Local Discounts" />
-      <EditorialFeature reverse tag="North London" title="Why visit Camden." text="Markets, canals, music and a character unlike anywhere else in London — all within easy reach of the hotel." image="/img/basic/camden.jpg" href="https://kayagnhlondon.com/local-guide/" cta="Discover Camden" />
+      <EditorialFeature reverse tag="Local Benefits" title="Local discounts." text="Stay with us and discover selected benefits around King's Cross — a little more from the neighbourhood." image="/img/basic/kings-cross-shops.jpg" href="https://kayagnhlondon.com/local-guide/" cta="Explore Local Discounts" />
+      <EditorialFeature tag="North London" title="Why visit Camden." text="Markets, canals, music and a character unlike anywhere else in London — all within easy reach of the hotel." image="/img/basic/camden.jpg" href="https://kayagnhlondon.com/local-guide/" cta="Discover Camden" />
 
       <section className="section local-map-section">
         <div className="container">

@@ -37,7 +37,7 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-          <div className="footer-newsletter reveal">
+          <div className="footer-newsletter reveal" id="newsletter">
             <p className="newsletter-text">Be the first to hear about exclusive offers, events, and happenings.</p>
             <form className="newsletter-form" action="#" method="post" onSubmit={(e) => e.preventDefault()}>
               <input type="email" className="newsletter-input" placeholder="Your email address" required aria-label="Email" />

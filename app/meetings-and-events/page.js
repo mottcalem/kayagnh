@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import PageHero from '@/components/PageHero';
-import { EditorialFeature, ImageCta, SplitFaq } from '@/components/Editorial';
+import EnquirySection from '@/components/EnquirySection';
+import { EditorialIntro, SplitFaq } from '@/components/Editorial';
 
 export const metadata = {
   title: 'Meetings & Private Events',
@@ -8,30 +8,36 @@ export const metadata = {
     "Meeting rooms and private events at Kaya Great Northern Hotel beside King's Cross and St Pancras — The Carriage, Lounge, Mezzanine and RAILS.",
 };
 
+const ENQUIRY_URL = '#enquiry';
+
 const spaces = [
   {
-    title: 'The Carriage',
-    desc: "Boardroom-style space for 16 seated guests or up to 30 standing, with views of the King's Cross canopy.",
-    image: 'https://kayagnhlondon.com/wp-content/uploads/2026/03/ME__0003_Layer-2.jpg',
-    meta: ['16 seated · 30 standing', 'Boardroom & reception', 'King’s Cross canopy views'],
+    badge: 'The Carriage',
+    image: '/img/basic/meetings-the-carriage.webp',
+    imageAlt: 'The Carriage set up boardroom-style for a meeting',
+    text: "Boardroom-style space for 16 seated guests or up to 30 standing, with views of the King's Cross canopy.",
+    meta: '16 seated · 30 standing',
   },
   {
-    title: 'RAILS',
-    desc: 'RAILS Restaurant hosts up to 90 banquet guests, with a projector and screen available on request.',
-    image: '/img/basic/ZDA_6282.webp',
-    meta: ['Up to 90 banquet', 'Dining & celebration', 'Projector on request'],
+    badge: 'RAILS',
+    image: '/img/basic/meetings-rails.webp',
+    imageAlt: 'RAILS Restaurant set for a private dinner',
+    text: 'RAILS Restaurant hosts up to 90 banquet guests, with a projector and screen available on request.',
+    meta: 'Up to 90 banquet',
   },
   {
-    title: 'Mezzanine',
-    desc: 'Intimate semi-private space accommodating 8 seated or up to 15 standing, overlooking GNH Bar.',
-    image: '/img/basic/ZDA_6276.webp',
-    meta: ['8 seated · 15 standing', 'Semi-private', '42″ TV with HDMI'],
+    badge: 'The Mezzanine',
+    image: '/img/basic/meetings-mezzanine.webp',
+    imageAlt: 'The Mezzanine laid out for a private lunch',
+    text: 'Intimate semi-private space accommodating 8 seated or up to 15 standing, overlooking GNH Bar.',
+    meta: '8 seated · 15 standing',
   },
   {
-    title: 'The Lounge',
-    desc: 'First floor area leading off The Carriage — plush interiors and high ceilings for receptions and breakouts.',
-    image: '/img/basic/full-dinner-table.webp',
-    meta: ['Up to 60 combined', 'Reception & breakout', 'Flexible configuration'],
+    badge: 'The Lounge',
+    image: '/img/basic/meetings-lounge.webp',
+    imageAlt: 'The Lounge at Kaya Great Northern Hotel lit by candlelight',
+    text: 'First floor area leading off The Carriage — plush interiors and high ceilings for receptions and breakouts.',
+    meta: 'Up to 60 combined',
   },
 ];
 
@@ -70,47 +76,47 @@ const faqs = [
 export default function MeetingsPage() {
   return (
     <>
-      <PageHero
-        image="https://kayagnhlondon.com/wp-content/uploads/2026/03/ME__0003_Layer-2.jpg"
-        tag="Meetings & Events"
-        title="Meetings & Events"
-        description="Distinctive spaces for meeting, dining and celebrating at the best-connected address in London."
-        primaryHref="mailto:reservations@kayagnhlondon.com"
-        primaryLabel="Make an Enquiry"
-      />
+      <EditorialIntro
+        className="editorial-intro--top"
+        headingFullWidth
+        tag="Meeting Rooms & Private Events"
+        title="Meeting Rooms in King’s Cross & St Pancras"
+        image="/img/basic/meetings-carriage.webp"
+        imageAlt="The Carriage meeting room at Kaya Great Northern Hotel"
+      >
+        <p>
+          Kaya Great Northern Hotel offers meeting rooms King’s Cross, beside King’s Cross Station and St Pancras International — ideal for private events and private dining. Set within an original Victorian railway hotel built in 1854, our elegant interiors provide a distinctive backdrop for meetings, dinners and celebrations. Choose from four versatile spaces, adaptable from formal set-ups to private parties and dining rooms.
+        </p>
+        <div className="editorial-intro-actions">
+          <a className="btn intro-btn-solid" href={ENQUIRY_URL}>Make an Enquiry</a>
+          <a className="btn intro-btn-ghost" href="#spaces">Our Spaces</a>
+        </div>
+      </EditorialIntro>
 
-      {spaces.map((space, index) => (
-        <EditorialFeature
-          key={space.title}
-          reverse={index % 2 === 1}
-          tag={index === 0 ? 'Our Spaces' : 'Meet · Dine · Celebrate'}
-          title={space.title}
-          text={space.desc}
-          image={space.image}
-          href="mailto:reservations@kayagnhlondon.com"
-          cta="Enquire About This Space"
-          meta={space.meta.map((item) => <span key={item}>{item}</span>)}
-        />
-      ))}
-
-      <section className="section experience-trio">
+      <section className="section bar-card-section bar-card-section--dark" id="spaces" aria-label="Our Spaces">
         <div className="container">
-          <span className="editorial-eyebrow">Made for the moment</span>
-          <h2 className="editorial-section-title">Meet. Dine. Celebrate.</h2>
-          <div className="experience-trio-grid reveal">
-            {[
-              ['Meet', '/img/basic/GNH-AerialView-1.webp', 'Focused rooms, connected location.'],
-              ['Dine', '/img/basic/full-dinner-table.webp', 'Menus shaped around your gathering.'],
-              ['Celebrate', '/img/basic/ZDA_6282.webp', 'Service that makes the moment feel effortless.'],
-            ].map(([title, image, text]) => (
-              <article key={title}><img src={image} alt="" /><h3>{title}</h3><p>{text}</p></article>
+          <span className="editorial-eyebrow bar-card-section-eyebrow">Our Spaces</span>
+          <div className="bar-card-grid reveal">
+            {spaces.map((space) => (
+              <article className="bar-card" key={space.badge}>
+                <div className="bar-card-image">
+                  <img src={space.image} alt={space.imageAlt} style={space.imagePosition ? { objectPosition: space.imagePosition } : undefined} loading="lazy" />
+                </div>
+                <div className="bar-card-body">
+                  <span className="bar-card-badge">{space.badge}</span>
+                  <p className="bar-card-text">{space.text}</p>
+                  <p className="bar-card-meta">{space.meta}</p>
+                </div>
+                <a className="btn bar-card-btn" href={ENQUIRY_URL}>Make An Enquire</a>
+              </article>
             ))}
           </div>
         </div>
       </section>
 
-      <SplitFaq compact title="Planning your event." items={faqs} />
-      <ImageCta image="https://kayagnhlondon.com/wp-content/uploads/2026/03/ME__0003_Layer-2.jpg" tag="Meetings & Events" title="Make your next event memorable." href="mailto:reservations@kayagnhlondon.com" cta="Enquire Now" />
+      <EnquirySection />
+
+      <SplitFaq compact tag="FAQs" title="Planning your event." items={faqs} />
     </>
   );
 }

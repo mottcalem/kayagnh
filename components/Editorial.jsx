@@ -47,17 +47,47 @@ export function EditorialFeature({
   );
 }
 
-export function EditorialIntro({ tag, title, text, image, imageAlt = '', href, cta }) {
-  return (
-    <section className="editorial-intro">
-      <div className="container editorial-intro-grid">
-        {image ? <div className="editorial-intro-image reveal"><img src={image} alt={imageAlt || title} loading="lazy" /></div> : null}
-        <div className="editorial-intro-copy reveal">
-          {tag ? <span className="editorial-eyebrow">{tag}</span> : null}
-          <h2>{title}</h2>
-          <p>{text}</p>
-          {href && cta ? <Action href={href}>{cta} <span aria-hidden="true">↗</span></Action> : null}
+export function EditorialIntro({ tag, title, text, image, imageAlt = '', imagePosition, href, cta, className = '', headingFullWidth = false, headingLevel = 'h2', children }) {
+  const HeadingTag = headingLevel === 'h1' ? 'h1' : 'h2';
+  const heading = (
+    <>
+      {tag ? <span className="editorial-eyebrow">{tag}</span> : null}
+      <HeadingTag>{title}</HeadingTag>
+    </>
+  );
+  const media = image ? (
+    <div className="editorial-intro-image reveal">
+      <img src={image} alt={imageAlt || title} style={imagePosition ? { objectPosition: imagePosition } : undefined} loading="lazy" />
+    </div>
+  ) : null;
+  const copy = (
+    <div className="editorial-intro-copy reveal">
+      {headingFullWidth ? null : heading}
+      {text ? <p>{text}</p> : null}
+      {children}
+      {href && cta ? <Action href={href}>{cta} <span aria-hidden="true">↗</span></Action> : null}
+    </div>
+  );
+
+  if (headingFullWidth) {
+    return (
+      <section className={`editorial-intro editorial-intro--stacked ${className}`.trim()}>
+        <div className="container">
+          <div className="editorial-intro-head reveal">{heading}</div>
+          <div className="editorial-intro-grid">
+            {media}
+            {copy}
+          </div>
         </div>
+      </section>
+    );
+  }
+
+  return (
+    <section className={`editorial-intro ${className}`.trim()}>
+      <div className="container editorial-intro-grid">
+        {media}
+        {copy}
       </div>
     </section>
   );
@@ -109,7 +139,7 @@ export function BookDirectSave({ title = 'Book Direct & Save', text, benefits, c
           <div>
             <BookNowButton className="btn btn-primary">Book Direct</BookNowButton>
             <a className="editorial-link editorial-link--light" href="https://kayahotels.com/en/kaya-club/" target="_blank" rel="noopener">
-              Discover Kaya Club <span aria-hidden="true">↗</span>
+              Discover Kaya Club Rewards <span aria-hidden="true">↗</span>
             </a>
           </div>
         </div>

@@ -1,4 +1,3 @@
-import PageHero from '@/components/PageHero';
 import RoomDetail from '@/components/RoomDetail';
 import { getRoom } from '@/lib/rooms';
 
@@ -10,17 +9,5 @@ export const metadata = {
 };
 
 export default function EdwardianRoomPage() {
-  return (
-    <>
-      <PageHero
-        image={room.heroImage}
-        tag={room.tag}
-        title={room.title}
-        description={room.heroDescription}
-        primaryBook
-        primaryLabel="Book Now"
-      />
-      <RoomDetail room={room} />
-    </>
-  );
+  return <RoomDetail room={room} />;
 }

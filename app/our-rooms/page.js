@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import PageHero from '@/components/PageHero';
+import BookNowButton from '@/components/BookNowButton';
 import EditorialCarousel from '@/components/EditorialCarousel';
 import { BookDirectSave, SplitFaq } from '@/components/Editorial';
 import { rooms, ROOM_AMENITIES } from '@/lib/rooms';
@@ -11,12 +12,92 @@ export const metadata = {
 };
 
 const roomFaqs = [
-  { q: 'What time are check-in and check-out?', a: <p>Check-in is from 3pm and check-out is by 11am. Early arrival and late departure are subject to availability.</p> },
-  { q: 'Which room is the most spacious?', a: <p>Our Victorian rooms are the largest category, with a generous seating area and a bath or double dual shower in selected rooms.</p> },
-  { q: 'Do all rooms include Wi-Fi?', a: <p>Yes. Complimentary Wi-Fi, air-conditioning, a flat-screen HDTV and an in-room safe are included in every room.</p> },
-  { q: 'Can I request a bath?', a: <p>Baths are available in selected Victorian rooms. Please contact reservations before arrival and we will do our best to accommodate your preference.</p> },
-  { q: 'What do I receive when booking direct?', a: <p>Direct bookings receive our best available rate, flexible booking options and access to Kaya Club member benefits.</p> },
-  { q: 'Are accessible rooms available?', a: <p>Yes. Please contact the hotel before booking so our team can recommend the room that best suits your requirements.</p> },
+  {
+    q: 'What time is check-in and check-out?',
+    a: <p>Check-in is <strong>15:00</strong> and check-out is <strong>11:00</strong>.</p>,
+  },
+  {
+    q: 'What amenities are included in the rooms?',
+    a: (
+      <p>
+        Rooms include essentials like <strong>air-conditioning</strong>, <strong>Wi-Fi</strong>, <strong>USB ports</strong>,{' '}
+        <strong>in-room safe</strong>, <strong>flat-screen HDTV</strong>, <strong>coffee facilities</strong>, <strong>bathrobes</strong>, and{' '}
+        <strong>in-room dining</strong>.
+      </p>
+    ),
+  },
+  {
+    q: 'Is breakfast available at Kaya Great Northern Hotel, and where is it served?',
+    a: (
+      <p>
+        Yes — breakfast is available daily in <Link href="/rails-restaurant">RAILS Restaurant &amp; Little Bar</Link> (1st floor) or via{' '}
+        <strong>room service</strong>.
+      </p>
+    ),
+  },
+  {
+    q: 'Can I store luggage before check-in or after check-out?',
+    a: (
+      <p>
+        Yes — <strong>luggage storage</strong> is available for guests before check-in and after check-out (ideal if you arrive early or have a
+        later train).
+      </p>
+    ),
+  },
+  {
+    q: 'Do you provide cots for children?',
+    a: <p>Yes — <strong>cots are available free of charge on request</strong>.</p>,
+  },
+  {
+    q: 'Is Kaya Great Northern Hotel one of the best hotels near King’s Cross Station and St Pancras Station?',
+    a: (
+      <p>
+        Yes — <Link href="/">Kaya Great Northern Hotel</Link> is a convenient base if you’re looking for{' '}
+        <strong>hotels near King’s Cross station</strong>, <strong>hotels near St Pancras station</strong>, or{' '}
+        <strong>hotels near King’s Cross St Pancras station</strong>.
+      </p>
+    ),
+  },
+  {
+    q: 'Do rooms at Kaya Great Northern Hotel include free Wi-Fi and air conditioning?',
+    a: <p>Yes — rooms include <strong>Wi-Fi</strong> and <strong>air conditioning</strong>, plus key in-room essentials.</p>,
+  },
+  {
+    q: 'Does this London wedding venue have rooms, a bar and a restaurant — and is it by the King’s Cross station?',
+    a: (
+      <p>
+        Yes — if you’re searching for <strong>hotels near Eurostar London</strong>, our location by King’s Cross and St Pancras makes travel
+        simple. You can view <Link href="/">the hotel</Link> and plan your stay around your Eurostar arrival or departure.
+      </p>
+    ),
+  },
+  {
+    q: 'Do you have a hotel bar near King’s Cross?',
+    a: (
+      <p>
+        Yes — <Link href="/gnh-bar">GNH Bar</Link> is our on-site <strong>hotel bar in King’s Cross</strong>, ideal for a relaxed drink before
+        heading out or winding down after a day in London.
+      </p>
+    ),
+  },
+  {
+    q: 'Do you have a wedding venue?',
+    a: (
+      <p>
+        Yes — Kaya Great Northern Hotel is a great option if you’re looking for a <strong>London hotel wedding venue</strong>. Visit{' '}
+        <Link href="/weddings">Weddings at Kaya GNH</Link> to explore the spaces and enquire.
+      </p>
+    ),
+  },
+  {
+    q: 'Do you offer a King’s Cross events space for meetings or private hire?',
+    a: (
+      <p>
+        Yes — if you need a <strong>King’s Cross events space</strong>, we host events and private gatherings in the hotel. Start with{' '}
+        <Link href="/meetings-and-events">Events at Kaya GNH</Link> to discuss your date and requirements.
+      </p>
+    ),
+  },
 ];
 
 export default function OurRoomsPage() {
@@ -39,29 +120,34 @@ export default function OurRoomsPage() {
             <div className="title-ornament" />
             <p className="rooms-list-intro-text">
               Individual and bespoke, our boutique hotel rooms are just a minute&apos;s walk from King&apos;s Cross and
-              St Pancras. Choose from four distinct styles, each with its own personality.
+              St Pancras. Set within our Victorian landmark, each room blends period character with modern amenities
+              for a comfortable stay in the heart of London. Choose from four distinct styles – Couchette, Edwardian,
+              Heritage and Victorian – each designed with its own personality.
             </p>
           </div>
 
-          <EditorialCarousel label="room collection" className="reveal">
+          <EditorialCarousel label="room collection" className="reveal editorial-carousel--duo">
             {rooms.map((room) => (
               <article className="editorial-carousel-card" id={`${room.slug}-room`} key={room.slug}>
-                <div>
+                <div className="editorial-carousel-card-media">
                   <img src={room.cardImage} alt={room.title} loading="lazy" />
-                </div>
-                <div className="editorial-carousel-card-copy">
                   {room.listBadge ? (
                     <div className={`rooms-list-badge${room.listBadgeGold ? ' rooms-list-badge--gold' : ''}`}>
                       {room.listBadge}
                     </div>
                   ) : null}
+                </div>
+                <div className="editorial-carousel-card-copy">
                   <span className="rooms-list-category">{room.listCategory}</span>
                   <h3>{room.shortTitle}</h3>
                   <p>{room.cardDesc}</p>
                   <div className="editorial-meta">
                     {room.listMeta.slice(0, 2).map((item) => <span key={item.label}>{item.label}</span>)}
                   </div>
-                  <Link href={`/rooms/${room.slug}`} className="editorial-link">Explore Room <span aria-hidden="true">↗</span></Link>
+                  <div className="editorial-carousel-card-actions">
+                    <Link href={`/rooms/${room.slug}`} className="editorial-link">Explore Room <span aria-hidden="true">↗</span></Link>
+                    <BookNowButton className="editorial-link editorial-link--solid">Book Now</BookNowButton>
+                  </div>
                 </div>
               </article>
             ))}

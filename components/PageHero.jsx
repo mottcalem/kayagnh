@@ -15,6 +15,8 @@ export default function PageHero({
   primaryBook,
   secondaryHref,
   secondaryLabel,
+  overlayLight = false,
+  overlayDark = false,
 }) {
   const Primary = () => {
     if (primaryBook) {
@@ -36,7 +38,10 @@ export default function PageHero({
   };
 
   return (
-    <section className="rooms-page-hero" aria-label={title}>
+    <section
+      className={`rooms-page-hero${overlayLight ? ' rooms-page-hero--light' : ''}${overlayDark ? ' rooms-page-hero--dark' : ''}`.trim()}
+      aria-label={title}
+    >
       <div className="rooms-page-hero-bg" style={{ backgroundImage: `url('${image}')` }} />
       <div className="rooms-page-hero-overlay" />
       <div className="rooms-page-hero-content">

@@ -5,12 +5,12 @@ import { useEffect, useRef } from 'react';
 
 const ROOMS = [
   {
-    name: 'Victorian',
-    bg: '/img/basic/Victorian-Room-1.webp',
-    href: '/rooms/victorian',
-    desc: 'Light-filled, beautifully crafted interiors with a standalone bath or an inviting double dual shower.',
-    size: '200 × 200 cm Hypnos bed',
-    guests: '2 Guests',
+    name: 'Couchette',
+    bg: '/img/rooms/couchette/Couchette-Room-1.webp',
+    href: '/rooms/couchette',
+    desc: 'The perfect short-stay sleeper, with a bespoke leather banquette, walk-in shower and beautifully used space.',
+    size: '140 × 200 cm Hypnos bed',
+    guests: '1–2 Guests',
   },
   {
     name: 'Edwardian',
@@ -29,12 +29,12 @@ const ROOMS = [
     guests: '2 Guests',
   },
   {
-    name: 'Couchette',
-    bg: '/img/basic/ZDA_6276.webp',
-    href: '/rooms/couchette',
-    desc: 'The perfect short-stay sleeper, with a bespoke leather banquette, walk-in shower and beautifully used space.',
-    size: '140 × 200 cm Hypnos bed',
-    guests: '1–2 Guests',
+    name: 'Victorian',
+    bg: '/img/basic/Victorian-Room-1.webp',
+    href: '/rooms/victorian',
+    desc: 'Light-filled, beautifully crafted interiors with a standalone bath or an inviting double dual shower.',
+    size: '200 × 200 cm Hypnos bed',
+    guests: '2 Guests',
   },
 ];
 

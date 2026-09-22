@@ -1,67 +1,66 @@
 import { SpaceCard } from '@/components/ContentCard';
 import RoomGallery from '@/components/RoomGallery';
+import BookNowButton from '@/components/BookNowButton';
+import RoomEssentialsModal from '@/components/RoomEssentialsModal';
 import { BookDirectSave } from '@/components/Editorial';
 import { getOtherRooms } from '@/lib/rooms';
 
+// listMeta is authored in this order for every room
+const META_LABELS = ['Bathroom', 'Occupancy', 'Bedding'];
+
 export default function RoomDetail({ room }) {
   const otherRooms = getOtherRooms(room.slug);
-  // Opens on a room view, then runs into the detail shots, skipping the image the hero gallery starts on
-  const detailGallery = room.gallery.length > 1 ? room.gallery.slice(1) : room.gallery;
+  const facts = [
+    ...room.sizes.map((size) => ({ label: size.label, value: size.value })),
+    ...room.listMeta.map((item, index) => ({ label: META_LABELS[index] || 'Detail', value: item.label })),
+  ];
 
   return (
     <>
-      <section className="edwardian-detail" id="edwardian-detail" aria-label="Room Gallery & Overview">
-        <div className="edwardian-detail-inner">
-          <RoomGallery images={room.gallery} alt={room.title} />
-          <div className="edwardian-detail-content">
-            <h2 className="section-title">{room.overviewTitle}</h2>
-            <div className="title-ornament" style={{ marginLeft: 0, marginRight: 0 }} />
-            <p className="edwardian-detail-text">{room.overviewText}</p>
-            <div className="edwardian-detail-sizes">
-              {room.sizes.map((size) => (
-                <div className="edwardian-detail-size" key={size.label}>
-                  <span className="edwardian-detail-size-label">{size.label}</span>
-                  <span className="edwardian-detail-size-value">{size.value}</span>
+      <section className="room-opener" id="room-opener" aria-label={`${room.title} gallery`}>
+        <div className="room-opener-inner">
+          <div className="room-opener-gallery">
+            <RoomGallery images={room.gallery} alt={room.title} />
+          </div>
+          <div className="room-opener-content">
+            <span className="editorial-eyebrow">{room.listCategory}</span>
+            <h1>{room.title}</h1>
+            <p className="room-opener-lead">{room.heroDescription}</p>
+            <div className="room-opener-facts">
+              {facts.map((fact) => (
+                <div key={fact.value}>
+                  <span className="room-opener-fact-label">{fact.label}</span>
+                  <span className="room-opener-fact-value">{fact.value}</span>
                 </div>
               ))}
             </div>
-            <div className="edwardian-detail-features">
-              {room.features.map((feature) => (
-                <div className="edwardian-detail-feature" key={feature.title}>
-                  <span className="edwardian-detail-feature-icon">◆</span>
-                  <div>
-                    <h4>{feature.title}</h4>
-                    <p>{feature.desc}</p>
-                  </div>
-                </div>
-              ))}
+            <div className="room-opener-actions">
+              <BookNowButton className="btn btn-primary room-opener-book">Book This Room</BookNowButton>
+              {room.essentialsList ? (
+                <RoomEssentialsModal title={`${room.shortTitle} Essentials`} items={room.essentialsList} />
+              ) : null}
+              <a className="editorial-link" href="#room-story">Room Details <span aria-hidden="true">↗</span></a>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="section edwardian-essentials" id="edwardian-essentials" aria-label="Room Essentials">
-        <div className="container">
-          <div className="room-essentials-editorial">
-            <div className="reveal">
-              <span className="editorial-eyebrow">In-Room Features</span>
-              <h2>{room.essentialsTitle}</h2>
-              <p>Considered details for sleeping, bathing, working and unwinding — all gathered in one calm, characterful space.</p>
-              <div className="room-essentials-lists">
-                {room.essentials.map((group) => (
-                  <div key={group.title}>
-                    <h3>{group.title}</h3>
-                    <ul>
-                      {group.items.map((item) => <li key={item}>{item}</li>)}
-                    </ul>
-                  </div>
-                ))}
+      <section className="section room-story" id="room-story" aria-label={room.overviewTitle}>
+        <div className="container room-story-grid">
+          <div className="reveal">
+            <span className="editorial-eyebrow">{room.overviewTitle}</span>
+            <h2>{room.title}, in detail.</h2>
+            <p className="room-story-text">{room.overviewText}</p>
+            {room.fact ? <p className="room-story-fact">{room.fact}</p> : null}
+          </div>
+          <div className="room-story-features reveal">
+            {room.features.map((feature) => (
+              <div className="room-story-feature" key={feature.title}>
+                <span className="room-story-feature-icon" aria-hidden="true">◆</span>
+                <h3>{feature.title}</h3>
+                <p>{feature.desc}</p>
               </div>
-              {room.fact ? <p className="room-detail-fact">{room.fact}</p> : null}
-            </div>
-            <div className="room-essentials-gallery reveal">
-              <RoomGallery images={detailGallery} alt={`${room.title} details`} />
-            </div>
+            ))}
           </div>
         </div>
       </section>

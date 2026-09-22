@@ -1,7 +1,6 @@
 import Link from 'next/link';
-import PageHero from '@/components/PageHero';
 import EditorialCarousel from '@/components/EditorialCarousel';
-import { EditorialFeature, EditorialIntro, ImageCta, SplitFaq } from '@/components/Editorial';
+import { EditorialIntro, SplitFaq } from '@/components/Editorial';
 
 export const metadata = {
   title: 'GNH Bar & Terrace',
@@ -9,13 +8,51 @@ export const metadata = {
     "GNH Bar & Terrace at King's Cross — a reinvention of the traditional railway bar. Breakfast, small plates, cream tea, cocktails, live jazz and DJ sessions. Open daily 8am–11pm.",
 };
 
+const menus = [
+  {
+    badge: 'Food',
+    image: '/img/basic/gnh-bar-food.webp',
+    imageAlt: 'Cheese board, bread and wine at GNH Bar',
+    text: 'Breakfast, small plates, cream tea and hearty British classics.',
+    href: 'https://kayagnhlondon.com/wp-content/uploads/2020/06/GNH-Bar-April-2026-Food.pdf',
+    cta: 'Food Menu',
+  },
+  {
+    badge: 'Drinks',
+    image: '/img/basic/gnh-bar-drinks.webp',
+    imageAlt: 'Champagne on ice at GNH Bar',
+    text: 'Classic & signature cocktails, beers, wines & spirits.',
+    href: 'https://kayagnhlondon.com/wp-content/uploads/2020/06/GNH-Bar-April-2026-Drinks.pdf',
+    cta: 'Drinks Menu',
+  },
+];
+
+const spaces = [
+  {
+    badge: 'Little Bar',
+    image: '/img/basic/ZDA_6276.webp',
+    imageAlt: 'Cocktails at Little Bar',
+    text: 'A stylish escape from the hustle and bustle of King’s Cross.',
+    href: '/rails-restaurant',
+  },
+  {
+    badge: 'RAILS Restaurant',
+    image: '/img/basic/ZDA_6282.webp',
+    imageAlt: 'RAILS Restaurant dining room',
+    imagePosition: '50% 78%',
+    text: 'British inspired menu, with a French accent, full of familiarities.',
+    href: '/rails-restaurant',
+  },
+];
+
 const faqs = [
   {
     q: 'Where is GNH Bar & Terrace located?',
     a: (
       <p>
-        GNH Bar &amp; Terrace is part of <Link href="/">Kaya Great Northern Hotel</Link>, right beside King&apos;s Cross and St Pancras.
-        Guests can also find full location details on the <a href="/#contact">Contact page</a>.
+        GNH Bar &amp; Terrace is part of <Link href="/">Kaya Great Northern Hotel</Link>, right beside King’s Cross and St Pancras.
+        <br />
+        Guests can also find full location details on the <Link href="/contact">Contact page</Link>.
       </p>
     ),
   },
@@ -23,8 +60,9 @@ const faqs = [
     q: 'What are the opening hours at GNH Bar & Terrace?',
     a: (
       <p>
-        GNH Bar &amp; Terrace is open daily from 8am to 11pm, with breakfast served from 8am to 11am. For current happenings at the hotel, you can also visit the{' '}
-        <Link href="/whats-on">What&apos;s On page</Link>.
+        GNH Bar &amp; Terrace is open daily from 8am to 11pm, with breakfast served from 8am to 11am.
+        <br />
+        For current happenings at the hotel, you can also visit the <Link href="/whats-on">What’s On page</Link>.
       </p>
     ),
   },
@@ -32,8 +70,9 @@ const faqs = [
     q: 'What food is served at GNH Bar & Terrace?',
     a: (
       <p>
-        The menu includes breakfast, small plates, cream tea and hearty British classics. For a more restaurant-led dining experience, guests can also explore{' '}
-        <Link href="/rails-restaurant">RAILS Restaurant &amp; Little Bar</Link>.
+        The menu includes breakfast, small plates, cream tea and hearty British classics.
+        <br />
+        For a more restaurant-led dining experience, guests can also explore <Link href="/rails-restaurant">RAILS Restaurant &amp; Little Bar</Link>.
       </p>
     ),
   },
@@ -41,8 +80,9 @@ const faqs = [
     q: 'What drinks are available at GNH Bar & Terrace?',
     a: (
       <p>
-        Guests can enjoy classic and signature cocktails, beers, wines and spirits at GNH Bar &amp; Terrace. You can also explore the hotel&apos;s wider{' '}
-        <Link href="/rails-restaurant">Food &amp; Drink offering</Link>.
+        Guests can enjoy classic and signature cocktails, beers, wines and spirits at GNH Bar &amp; Terrace.
+        <br />
+        You can also explore the hotel’s wider <Link href="/rails-restaurant">Food &amp; Drink offering</Link>.
       </p>
     ),
   },
@@ -50,8 +90,9 @@ const faqs = [
     q: 'Does GNH Bar & Terrace have live music or events?',
     a: (
       <p>
-        Yes. GNH Bar &amp; Terrace hosts live jazz on Wednesdays and live DJ sessions on Saturdays. More hotel events can be found on the{' '}
-        <Link href="/whats-on">What&apos;s On page</Link>.
+        Yes. GNH Bar &amp; Terrace hosts live jazz on Wednesdays and live DJ sessions on Saturdays.
+        <br />
+        More hotel events can be found on the <Link href="/whats-on">What’s On page</Link>.
       </p>
     ),
   },
@@ -59,8 +100,9 @@ const faqs = [
     q: 'Is GNH Bar & Terrace only for hotel guests?',
     a: (
       <p>
-        No. The bar is a lively meeting point for travellers and locals alike. Visitors looking for broader stay information can also view{' '}
-        <Link href="/our-rooms">Our Rooms</Link> or the hotel&apos;s main <Link href="/faqs">FAQs</Link>.
+        No. The bar is a lively meeting point for travellers and locals alike.
+        <br />
+        Visitors looking for broader stay information can also view <Link href="/our-rooms">Our Rooms</Link> or the hotel’s main <Link href="/faqs">FAQs</Link>.
       </p>
     ),
   },
@@ -69,35 +111,90 @@ const faqs = [
 export default function GnhBarPage() {
   return (
     <>
-      <PageHero image="/img/GNH-Bar-Banner.webp" tag="Bar & Terrace" title="GNH Bar & Terrace" description="From morning coffee to late-night cocktails, a railway bar reimagined for King's Cross today." primaryHref="#venue-menus" primaryLabel="View Menus" />
+      <EditorialIntro
+        className="editorial-intro--top"
+        headingFullWidth
+        tag="GNH Bar & Terrace"
+        title="Great Northern Hotel Bar in King’s Cross & St Pancras"
+        image="/img/basic/gnh-bar-terrace.webp"
+        imageAlt="GNH Bar terrace at King's Cross"
+      >
+        <p>
+          A reinvention of the traditional railway bar – where business is done, journeys pause and friendships are built. Located beside
+          King’s Cross and St Pancras stations, GNH Bar is the hotel’s lively meeting point for travellers and locals alike.
+        </p>
+        <p>
+          Blending British heritage with global influences, it’s as suited to a morning coffee or quick beer as it is to cocktails and
+          champagne, moving seamlessly from relaxed daytime spot to vibrant evening destination.
+        </p>
+        <div className="bar-hours">
+          <p><span>Open Daily</span> 8am – 11pm</p>
+          <p><span>Breakfast</span> 8am – 11am</p>
+        </div>
+        <img className="bar-intro-logo" src="/img/basic/gnh-bar-logo.webp" alt="GNH Bar, King's Cross" width={200} height={70} />
+      </EditorialIntro>
 
-      <EditorialIntro tag="GNH Bar & Terrace" title="The day flows differently here." text="A lively meeting point for travellers and locals, moving easily from breakfast and coffee to small plates, champagne and cocktails after dark. Open daily 8am–11pm." image="/img/basic/ZDA_6276.webp" />
-
-      <div id="venue-menus">
-        <EditorialFeature tag="Food" title="All-day, at your pace." text="Breakfast, small plates, cream tea and hearty British classics — made for quick stops, long lunches and everything in between." image="/img/basic/full-dinner-table.webp" href="https://kayagnhlondon.com/wp-content/uploads/2020/06/GNH-Bar-April-2026-Food.pdf" cta="View Food Menu" />
-        <EditorialFeature reverse tag="Drinks" title="Classics, signatures and a little theatre." text="Cocktails mixed with character, alongside champagne, wines, beers and spirits for every kind of arrival." image="/img/GNH-Bar-Banner.webp" href="https://kayagnhlondon.com/wp-content/uploads/2020/06/GNH-Bar-April-2026-Drinks.pdf" cta="View Drinks Menu" />
-      </div>
+      <section className="section bar-card-section" id="venue-menus" aria-label="Food & Drink">
+        <div className="container">
+          <span className="editorial-eyebrow bar-card-section-eyebrow">Food &amp; Drink</span>
+          <div className="bar-card-grid reveal">
+            {menus.map((menu) => (
+              <article className="bar-card" key={menu.badge}>
+                <div className="bar-card-image">
+                  <img src={menu.image} alt={menu.imageAlt} loading="lazy" />
+                </div>
+                <div className="bar-card-body">
+                  <span className="bar-card-badge">{menu.badge}</span>
+                  <p className="bar-card-text">{menu.text}</p>
+                  <img className="bar-card-logo" src="/img/basic/gnh-bar-logo.webp" alt="GNH Bar, King's Cross" width={160} height={56} loading="lazy" />
+                </div>
+                <a className="btn bar-card-btn" href={menu.href} target="_blank" rel="noopener noreferrer">
+                  {menu.cta}
+                </a>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
 
       <section className="section editorial-discover editorial-discover--dark" id="venue-whatson">
         <div className="container">
           <span className="editorial-eyebrow">Live at GNH Bar</span>
           <h2 className="editorial-section-title">A soundtrack for King&apos;s Cross.</h2>
           <EditorialCarousel label="live events">
-            <Link href="/whats-on" className="editorial-carousel-card">
-              <img src="/img/basic/ZDA_6276.webp" alt="Jazz Wednesdays" />
-              <div className="editorial-carousel-card-copy"><span className="editorial-eyebrow">Wednesdays · 6–8pm</span><h3>Jazz Wednesdays</h3><p>Live jazz, soul and good vibes from Jodie Shankland.</p><span className="editorial-link">Event Details ↗</span></div>
-            </Link>
-            <Link href="/whats-on" className="editorial-carousel-card">
-              <img src="/img/GNH-Bar-Banner.webp" alt="Saturday DJ Sessions" />
-              <div className="editorial-carousel-card-copy"><span className="editorial-eyebrow">Saturdays · 3–8pm</span><h3>Saturday DJ Sessions</h3><p>Afternoon into evening, from funk and jazz to dance.</p><span className="editorial-link">Event Details ↗</span></div>
-            </Link>
+            <article className="editorial-carousel-card">
+              <img src="/img/basic/jazz-wednesdays.webp" alt="Jodie Shankland singing live at GNH Bar" />
+              <div className="editorial-carousel-card-copy"><span className="editorial-eyebrow">Wednesdays · 6–8pm</span><h3>Jazz Wednesdays</h3><p>Join us every Wednesday from 6–8pm for live jazz, soul and good vibes from the wonderful Jodie Shankland.</p></div>
+            </article>
+            <article className="editorial-carousel-card">
+              <img src="/img/basic/saturday-dj.webp" alt="DJ playing a live set at GNH Bar" />
+              <div className="editorial-carousel-card-copy"><span className="editorial-eyebrow">Saturdays · 3–8pm</span><h3>Saturday Live DJ</h3><p>Live DJ sessions every Saturday in GNH Bar from 3–8pm — a range of genres from funk to jazz to dance!</p></div>
+            </article>
           </EditorialCarousel>
         </div>
       </section>
 
-      <EditorialFeature tag="More to Discover" title="Dinner is one floor away." text="Continue the evening at RAILS, our intimate dining room serving modern British classics with a French accent." image="/img/basic/ZDA_6282.webp" href="/rails-restaurant" cta="Discover RAILS" />
-      <SplitFaq compact title="Good to know." items={faqs} />
-      <ImageCta image="/img/GNH-Bar-Banner.webp" tag="GNH Bar & Terrace" title="From morning coffee to late-night cocktails." href="#venue-menus" cta="Discover GNH Bar" />
+      <section className="section bar-card-section" aria-label="Other Spaces">
+        <div className="container">
+          <span className="editorial-eyebrow bar-card-section-eyebrow">Other Spaces</span>
+          <div className="bar-card-grid reveal">
+            {spaces.map((space) => (
+              <article className="bar-card" key={space.badge}>
+                <div className="bar-card-image">
+                  <img src={space.image} alt={space.imageAlt} style={space.imagePosition ? { objectPosition: space.imagePosition } : undefined} loading="lazy" />
+                </div>
+                <div className="bar-card-body">
+                  <span className="bar-card-badge">{space.badge}</span>
+                  <p className="bar-card-text">{space.text}</p>
+                </div>
+                <Link className="btn bar-card-btn" href={space.href}>Read More</Link>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <SplitFaq compact tag="FAQs" title="Frequently asked questions." items={faqs} />
     </>
   );
 }
