@@ -46,7 +46,7 @@
     --color-green: #2B4637;
     --color-green-light: #3D5F4A;
 
-    --font-display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+    --font-display: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     --font-serif: 'Cormorant Garamond', Georgia, serif;
     --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     --font-accent: 'Cinzel', Georgia, serif;
@@ -128,7 +128,8 @@ button {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
     font-weight: 600;
-    line-height: 1.2;
+    line-height: 1.15;
+    letter-spacing: -0.03em;
     color: var(--color-primary);
 }
 
@@ -202,8 +203,8 @@ p {
 
 .section-title {
     font-family: var(--font-display);
-    font-weight: 600;
-    letter-spacing: -0.02em;
+    font-weight: 500;
+    letter-spacing: -0.035em;
     margin-bottom: 20px;
 }
 
@@ -644,9 +645,12 @@ p {
     position: relative;
     z-index: 2;
     height: 100vh;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
-    padding: 24px 48px;
+    align-items: center;
+    justify-content: center;
+    padding: 56px 32px 28px;
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.5s ease, transform 0.5s ease;
@@ -667,37 +671,41 @@ p {
 }
 
 .menu-header {
+    position: absolute;
+    top: 16px;
+    right: 24px;
+    z-index: 3;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-bottom: 20px;
+    padding: 0;
 }
 
 .menu-close-btn {
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--color-white);
-    border: 1px solid var(--color-white);
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.35);
     cursor: pointer;
-    transition: border-color var(--transition-fast), transform 0.3s ease;
-    margin-left: auto;
+    transition: border-color var(--transition-fast), background var(--transition-fast), transform 0.3s ease;
     border-radius: 4px;
 }
 
 .menu-close-btn:hover {
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.55);
     transform: rotate(90deg);
 }
 
 .close-line {
     position: absolute;
-    width: 22px;
+    width: 18px;
     height: 1.5px;
-    background-color: var(--color-primary);
+    background-color: var(--color-white);
     border-radius: 1px;
 }
 
@@ -710,20 +718,22 @@ p {
 }
 
 .menu-nav {
-    flex: 1;
+    flex: 0 1 auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    max-height: min(62vh, 520px);
     overflow-y: auto;
 }
 
 .menu-list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 6px 40px;
-    max-width: 800px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 4px 48px;
+    max-width: min(600px, 100%);
     width: 100%;
-    padding: 20px 0;
+    padding: 0;
 }
 
 .menu-item {
@@ -753,12 +763,13 @@ p {
 
 .menu-link {
     display: block;
-    font-family: var(--font-display);
-    font-size: clamp(1.4rem, 2.2vw, 1.8rem);
-    font-weight: 400;
-    color: rgba(255, 255, 255, 0.7);
-    padding: 8px 0;
-    transition: all var(--transition-fast);
+    font-family: var(--font-sans);
+    font-size: clamp(1.05rem, 1.35vw, 1.2rem);
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.72);
+    padding: 7px 0;
+    transition: color var(--transition-fast), padding var(--transition-fast);
     position: relative;
 }
 
@@ -776,36 +787,42 @@ p {
 .menu-link:hover,
 .menu-link.active {
     color: var(--color-white);
-    padding-left: 16px;
+    padding-left: 8px;
 }
 
 .menu-link:hover::after,
 .menu-link.active::after {
-    width: 40px;
+    width: 24px;
 }
 
 .menu-footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding-top: 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    width: 100%;
+    max-width: min(720px, 100%);
+    padding-top: 10px;
+    margin-top: 8px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .menu-lang {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 14px;
-    padding: 24px 0 12px;
+    flex-wrap: wrap;
+    gap: 10px 14px;
+    width: 100%;
+    max-width: min(720px, 100%);
+    padding: 14px 0 0;
+    margin-top: 12px;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
-    margin-top: auto;
 }
 
 .menu-lang-label {
-    font-size: 0.8rem;
-    color: var(--color-white);
-    letter-spacing: 2px;
+    font-size: 0.65rem;
+    color: rgba(255, 255, 255, 0.75);
+    letter-spacing: 0.14em;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -818,14 +835,14 @@ p {
 .menu-lang-btn {
     display: flex;
     align-items: center;
-    gap: 6px;
-    padding: 6px 12px;
+    gap: 5px;
+    padding: 5px 10px;
     background: transparent;
     border: 1px solid rgba(255, 255, 255, 0.12);
     border-radius: 4px;
     cursor: pointer;
     transition: all var(--transition-fast);
-    font-size: 0.8rem;
+    font-size: 0.72rem;
     color: var(--color-white);
 }
 
@@ -841,7 +858,7 @@ p {
 }
 
 .lang-flag {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     line-height: 1;
 }
 
@@ -877,10 +894,36 @@ p {
 }
 
 .menu-contact a {
-    font-size: 0.85rem;
-    color: var(--color-white);
-    letter-spacing: 0.5px;
+    font-size: 0.72rem;
+    color: rgba(255, 255, 255, 0.85);
+    letter-spacing: 0.04em;
     transition: color var(--transition-fast);
+}
+
+/* Laptop / tablet — tighter overlay menu */
+@media (max-width: 1280px) and (min-width: 769px) {
+    .menu-overlay-content {
+        padding: 48px 28px 22px;
+    }
+
+    .menu-list {
+        gap: 2px 36px;
+        max-width: 540px;
+    }
+
+    .menu-link {
+        font-size: clamp(1rem, 1.5vw, 1.12rem);
+        padding: 6px 0;
+    }
+
+    .menu-nav {
+        max-height: min(65vh, 500px);
+    }
+
+    .menu-lang {
+        padding-top: 12px;
+        margin-top: 10px;
+    }
 }
 
 .menu-contact a:hover {
@@ -888,8 +931,8 @@ p {
 }
 
 .menu-contact-sep {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.35);
+    font-size: 0.65rem;
 }
 
 /* ============================================ */
@@ -6002,23 +6045,27 @@ p {
     }
 
     .menu-list {
-        grid-template-columns: 1fr;
-        gap: 4px;
+        gap: 2px 32px;
+        max-width: 520px;
     }
 
     .menu-overlay-content {
-        padding: 20px 32px;
+        padding: 44px 28px 20px;
     }
 
     .menu-footer {
         flex-direction: column;
-        gap: 16px;
+        gap: 8px;
         text-align: center;
+        border-top: none;
+        padding-top: 6px;
+        margin-top: 0;
     }
 
     .menu-contact {
         flex-wrap: wrap;
         justify-content: center;
+        gap: 10px;
     }
 
     .kaya-club-inner {
@@ -6056,17 +6103,37 @@ p {
     }
 
     .menu-overlay-content {
-        padding: 16px 24px;
+        justify-content: flex-start;
+        padding: 56px 20px 16px;
+    }
+
+    .menu-nav {
+        max-height: none;
+        flex: 0 0 auto;
+        align-items: stretch;
+        margin-top: 4px;
     }
 
     .menu-list {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        column-gap: 12px;
+        row-gap: 0;
         max-width: 100%;
     }
 
     .menu-link {
-        font-size: 1.1rem;
-        padding: 5px 0;
+        font-size: clamp(0.95rem, 3.8vw, 1.08rem);
+        padding: 11px 0;
+        line-height: 1.25;
+    }
+
+    .menu-lang {
+        margin-top: 16px;
+        padding-top: 12px;
+    }
+
+    .menu-footer {
+        padding-top: 8px;
     }
 
     .menu-contact {
@@ -6388,13 +6455,17 @@ p {
         display: none;
     }
 
+    .menu-overlay-content {
+        padding: 52px 16px 12px;
+    }
+
     .menu-list {
-        gap: 2px;
+        column-gap: 10px;
     }
 
     .menu-link {
-        font-size: 1rem;
-        padding: 4px 0;
+        font-size: 0.95rem;
+        padding: 10px 0;
     }
 
 }
@@ -6476,10 +6547,11 @@ p {
 .rooms-page-hero-title {
     font-family: var(--font-display);
     font-size: clamp(2.5rem, 6vw, 4rem);
-    font-weight: 600;
+    font-weight: 500;
+    letter-spacing: -0.03em;
     color: var(--color-white);
     margin-bottom: 20px;
-    line-height: 1.1;
+    line-height: 1.08;
     /* The overlay is light, so the copy carries its own contrast */
     text-shadow: 0 2px 10px rgba(6, 21, 43, .55), 0 6px 40px rgba(6, 21, 43, .45);
 }

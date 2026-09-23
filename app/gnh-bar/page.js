@@ -30,11 +30,11 @@ const menus = [
 
 const spaces = [
   {
-    badge: 'Little Bar',
-    image: '/img/basic/ZDA_6276.webp',
-    imageAlt: 'Cocktails at Little Bar',
-    text: 'A stylish escape from the hustle and bustle of King’s Cross.',
-    href: '/rails-restaurant',
+    badge: "RAILS' Little Bar",
+    image: '/img/basic/rails-little-bar-cover.webp',
+    imageAlt: "Champagne coupes at RAILS' Little Bar",
+    text: 'French-inspired digestifs and cocktails in an intimate setting above King’s Cross.',
+    href: '/rails-little-bar',
   },
   {
     badge: 'RAILS Restaurant',

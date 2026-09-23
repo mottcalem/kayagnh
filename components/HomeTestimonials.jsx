@@ -67,15 +67,13 @@ export default function HomeTestimonials() {
           <div className="kaya-brand-story reveal">
             <span className="section-tag">Part of Kaya Hotels &amp; Resorts</span>
             <h2 className="section-title">
-              Turkish Hospitality,
+            London Heritage, 
               <br />
-              In the Heart of London
+              Kaya Hospitality
             </h2>
             <div className="title-ornament" />
             <p>
-              Kaya Great Northern Hotel brings the warmth and care of Kaya Hotels &amp; Resorts to one of
-              London&apos;s most storied railway landmarks. Across distinctive destinations, the Kaya family
-              creates stays shaped by generous hospitality, thoughtful detail and a true sense of place.
+            Kaya Great Northern Hotel combines the character and history of one of London’s original railway hotels with the warmth and personal service of Kaya Hotels & Resorts. Together, we create a distinctive stay in the heart of King’s Cross.
             </p>
             <a href="https://kayahotels.com/en" className="btn kaya-brand-cta" target="_blank" rel="noopener noreferrer">
               Discover Kaya Hotels &amp; Resorts

@@ -203,20 +203,17 @@ export default function HomePage() {
             <article className="offer-card featured reveal">
               <div className="offer-image">
                 <img
-                  src="/img/basic/Main-picture-480x320.webp"
-                  alt="Spring Afternoon Tea"
+                  src="/img/basic/blooming-garden-afternoon-tea.jpg?v=2"
+                  alt="Blooming Garden Afternoon Tea at GNH Bar"
                   loading="lazy"
-                  width={480}
-                  height={320}
+                  width={1024}
+                  height={749}
                 />
               </div>
               <div className="offer-content">
                 <span className="offer-category">Seasonal</span>
                 <h3 className="offer-title">A Blooming Garden Afternoon Tea</h3>
                 <p className="offer-desc">Celebrate spring with our floral-inspired afternoon tea in the GNH Bar.</p>
-                <Link href="/whats-on" className="offer-link">
-                  Discover More &rarr;
-                </Link>
               </div>
             </article>
 
@@ -241,7 +238,12 @@ export default function HomePage() {
                 <p className="offer-desc">
                   Exclusive benefits: Welcome bonus, 5% discount, 3% MoneyPoints, and priority updates.
                 </p>
-                <a href="#kaya-club" className="offer-link">
+                <a
+                  href="https://kayahotels.com/en/kaya-club/"
+                  className="offer-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Join Free &rarr;
                 </a>
               </div>
@@ -261,9 +263,6 @@ export default function HomePage() {
                 <span className="offer-category">Experience</span>
                 <h3 className="offer-title">GNH Bar &amp; Terrace</h3>
                 <p className="offer-desc">Relax in our elegant surroundings with crafted cocktails and fine wines.</p>
-                <Link href="/gnh-bar" className="offer-link">
-                  Discover More &rarr;
-                </Link>
               </div>
             </article>
 
@@ -271,20 +270,17 @@ export default function HomePage() {
               <div className="offer-card-horizontal reveal">
                 <div className="offer-image">
                   <img
-                    src="/img/basic/easter-480x321.webp"
-                    alt="Easter Celebrations"
+                    src="/img/basic/easter-at-kaya-gnh.jpg"
+                    alt="Easter afternoon tea at Kaya Great Northern Hotel"
                     loading="lazy"
-                    width={480}
-                    height={321}
+                    width={1024}
+                    height={816}
                   />
                 </div>
                 <div className="offer-content">
                   <span className="offer-category">Event</span>
                   <h3 className="offer-title">Easter at Kaya GNH</h3>
                   <p className="offer-desc">Easter Sunday Roast, egg hunt for little ones, and special afternoon tea.</p>
-                  <Link href="/whats-on" className="offer-link">
-                    Discover More &rarr;
-                  </Link>
                 </div>
               </div>
 

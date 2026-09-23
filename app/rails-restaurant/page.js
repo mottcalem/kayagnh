@@ -17,9 +17,10 @@ const spaces = [
   },
   {
     badge: 'RAILS’ Little Bar',
-    image: '/img/basic/little-bar.webp',
+    image: '/img/basic/rails-little-bar-cover.webp',
     imageAlt: 'Champagne coupes at RAILS’ Little Bar',
-    text: 'Inviting and snug. It boasts an extensive choice of digestifs, cocktails, champagne and wine.',
+    text: 'French-inspired digestifs and cocktails, with an extensive wine list in an intimate setting.',
+    href: '/rails-little-bar',
   },
 ];
 
@@ -76,7 +77,8 @@ const faqs = [
     q: 'Does RAILS have a bar?',
     a: (
       <p>
-        Yes. RAILS includes Little Bar, a snug adjoining space offering digestifs, cocktails, champagne and wine.
+        Yes. RAILS includes <Link href="/rails-little-bar">Little Bar</Link>, a snug adjoining space offering
+        digestifs, cocktails, champagne and wine.
         <br />
         Guests looking for a more bustling drinks setting can also visit <Link href="/gnh-bar">GNH Bar &amp; Terrace</Link>.
       </p>
