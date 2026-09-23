@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import EnquirySection from '@/components/EnquirySection';
+import MeetingSpacesCarousel from '@/components/MeetingSpacesCarousel';
 import { EditorialIntro, SplitFaq } from '@/components/Editorial';
 
 export const metadata = {
@@ -13,22 +14,46 @@ const ENQUIRY_URL = '#enquiry';
 const spaces = [
   {
     badge: 'The Carriage',
-    image: '/img/basic/meetings-the-carriage.webp',
     imageAlt: 'The Carriage set up boardroom-style for a meeting',
+    images: [
+      {
+        src: '/img/basic/meetings-carriage-3.png',
+        alt: 'The Carriage private dining with candlelit table and station views',
+        priority: true,
+      },
+      {
+        src: '/img/basic/meetings-carriage-2.png',
+        alt: 'The Carriage meeting room with U-shaped table setup',
+      },
+      {
+        src: '/img/basic/meetings-carriage-1.png',
+        alt: 'The Carriage boardroom with chandelier and teal seating',
+      },
+    ],
     text: "Boardroom-style space for 16 seated guests or up to 30 standing, with views of the King's Cross canopy.",
     meta: '16 seated · 30 standing',
   },
   {
     badge: 'RAILS',
-    image: '/img/basic/meetings-rails.webp',
     imageAlt: 'RAILS Restaurant set for a private dinner',
+    images: [
+      {
+        src: '/img/basic/rails-interior-1.jpg',
+        alt: 'RAILS dining room with curved banquette seating and pendant lights',
+        priority: true,
+      },
+      {
+        src: '/img/basic/rails-interior-2.jpg',
+        alt: 'RAILS restaurant interior with marble tables and evening atmosphere',
+      },
+    ],
     text: 'RAILS Restaurant hosts up to 90 banquet guests, with a projector and screen available on request.',
     meta: 'Up to 90 banquet',
   },
   {
     badge: 'The Mezzanine',
-    image: '/img/basic/meetings-mezzanine.webp',
-    imageAlt: 'The Mezzanine laid out for a private lunch',
+    image: '/img/basic/meetings-mezzanine.jpg',
+    imageAlt: 'The Mezzanine with marble table, wood panelling and mirrored ceiling',
     text: 'Intimate semi-private space accommodating 8 seated or up to 15 standing, overlooking GNH Bar.',
     meta: '8 seated · 15 standing',
   },
@@ -96,20 +121,8 @@ export default function MeetingsPage() {
       <section className="section bar-card-section bar-card-section--dark" id="spaces" aria-label="Our Spaces">
         <div className="container">
           <span className="editorial-eyebrow bar-card-section-eyebrow">Our Spaces</span>
-          <div className="bar-card-grid reveal">
-            {spaces.map((space) => (
-              <article className="bar-card" key={space.badge}>
-                <div className="bar-card-image">
-                  <img src={space.image} alt={space.imageAlt} style={space.imagePosition ? { objectPosition: space.imagePosition } : undefined} loading="lazy" />
-                </div>
-                <div className="bar-card-body">
-                  <span className="bar-card-badge">{space.badge}</span>
-                  <p className="bar-card-text">{space.text}</p>
-                  <p className="bar-card-meta">{space.meta}</p>
-                </div>
-                <a className="btn bar-card-btn" href={ENQUIRY_URL}>Make An Enquire</a>
-              </article>
-            ))}
+          <div className="reveal">
+            <MeetingSpacesCarousel spaces={spaces} enquiryUrl={ENQUIRY_URL} />
           </div>
         </div>
       </section>

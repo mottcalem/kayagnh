@@ -2,7 +2,14 @@
 
 import { useCallback, useEffect, useRef, useState } from 'react';
 
-export default function EditorialCarousel({ children, label = 'Carousel', className = '' }) {
+export default function EditorialCarousel({
+  children,
+  label = 'Carousel',
+  className = '',
+  autoplay = false,
+  autoplayMs = 7000,
+}) {
+  const rootRef = useRef(null);
   const trackRef = useRef(null);
   const [scrollable, setScrollable] = useState(false);
 
@@ -21,13 +28,17 @@ export default function EditorialCarousel({ children, label = 'Carousel', classN
     return () => observer.disconnect();
   }, [readScrollable]);
 
-  // Wraps around at either end so the arrows never dead-end
-  const move = (direction) => {
+  const move = useCallback((direction) => {
     const track = trackRef.current;
     if (!track) return;
     const max = track.scrollWidth - track.clientWidth;
     const item = track.firstElementChild;
-    const distance = item ? item.getBoundingClientRect().width + 24 : track.clientWidth * 0.85;
+    const pageScroll = track.closest('.editorial-carousel--duo, .local-guide-carousel--duo');
+    const distance = pageScroll
+      ? track.clientWidth
+      : item
+        ? item.getBoundingClientRect().width + 24
+        : track.clientWidth * 0.85;
 
     if (direction > 0 && track.scrollLeft >= max - 4) {
       track.scrollTo({ left: 0, behavior: 'smooth' });
@@ -40,21 +51,65 @@ export default function EditorialCarousel({ children, label = 'Carousel', classN
 
     const target = Math.min(Math.max(track.scrollLeft + distance * direction, 0), max);
     track.scrollTo({ left: target, behavior: 'smooth' });
-  };
+  }, []);
+
+  useEffect(() => {
+    if (!autoplay || !scrollable) return undefined;
+    if (typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      return undefined;
+    }
+
+    let paused = false;
+    const root = rootRef.current;
+    const pause = () => {
+      paused = true;
+    };
+    const resume = () => {
+      paused = false;
+    };
+
+    root?.addEventListener('mouseenter', pause);
+    root?.addEventListener('mouseleave', resume);
+    root?.addEventListener('focusin', pause);
+    root?.addEventListener('focusout', resume);
+
+    const timer = window.setInterval(() => {
+      if (paused) return;
+      move(1);
+    }, autoplayMs);
+
+    return () => {
+      window.clearInterval(timer);
+      root?.removeEventListener('mouseenter', pause);
+      root?.removeEventListener('mouseleave', resume);
+      root?.removeEventListener('focusin', pause);
+      root?.removeEventListener('focusout', resume);
+    };
+  }, [autoplay, autoplayMs, move, scrollable]);
 
   return (
-    <div className={`editorial-carousel ${className}`.trim()} aria-label={label}>
+    <div ref={rootRef} className={`editorial-carousel ${className}`.trim()} aria-label={label}>
       <div className="editorial-carousel-viewport">
         <div className="editorial-carousel-track" ref={trackRef}>
           {children}
         </div>
         {scrollable ? (
           <>
-            <button type="button" className="editorial-carousel-nav editorial-carousel-nav--prev" onClick={() => move(-1)} aria-label={`Previous ${label}`}>
-              <span aria-hidden="true">←</span>
+            <button
+              type="button"
+              className="editorial-carousel-nav editorial-carousel-nav--prev"
+              onClick={() => move(-1)}
+              aria-label={`Previous ${label}`}
+            >
+              <span aria-hidden="true">‹</span>
             </button>
-            <button type="button" className="editorial-carousel-nav editorial-carousel-nav--next" onClick={() => move(1)} aria-label={`Next ${label}`}>
-              <span aria-hidden="true">→</span>
+            <button
+              type="button"
+              className="editorial-carousel-nav editorial-carousel-nav--next"
+              onClick={() => move(1)}
+              aria-label={`Next ${label}`}
+            >
+              <span aria-hidden="true">›</span>
             </button>
           </>
         ) : null}

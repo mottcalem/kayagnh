@@ -98,12 +98,25 @@ export default function RailsPage() {
   return (
     <>
       <EditorialIntro
-        className="editorial-intro--top"
+        className="editorial-intro--top editorial-intro--cover"
         headingFullWidth
         tag="RAILS Restaurant & Little Bar"
         title="RAILS Restaurant & Little Bar"
-        image="/img/basic/rails-exterior.webp"
-        imageAlt="RAILS Restaurant entrance at King’s Cross"
+        images={[
+          {
+            src: '/img/basic/rails-exterior.webp',
+            alt: 'RAILS Restaurant entrance at King’s Cross',
+            priority: true,
+          },
+          {
+            src: '/img/basic/rails-interior-1.jpg',
+            alt: 'RAILS dining room with curved banquette seating and pendant lights',
+          },
+          {
+            src: '/img/basic/rails-interior-2.jpg',
+            alt: 'RAILS restaurant interior with marble tables and Little Bar area',
+          },
+        ]}
       >
         <p>
           RAILS is an intimate restaurant near King’s Cross Station and St Pancras, serving modern British classics with a French accent. Ideal for pre-theatre dinners, business lunches or relaxed evenings – a calm dining space just moments from the station.

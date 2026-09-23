@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import BookNowButton from '@/components/BookNowButton';
 import FaqAccordion from '@/components/FaqAccordion';
+import IntroImageCarousel from '@/components/IntroImageCarousel';
 
 function Action({ href, children, className = 'editorial-link' }) {
   if (!href) return null;
@@ -47,7 +48,21 @@ export function EditorialFeature({
   );
 }
 
-export function EditorialIntro({ tag, title, text, image, imageAlt = '', imagePosition, href, cta, className = '', headingFullWidth = false, headingLevel = 'h2', children }) {
+export function EditorialIntro({
+  tag,
+  title,
+  text,
+  image,
+  imageAlt = '',
+  images,
+  imagePosition,
+  href,
+  cta,
+  className = '',
+  headingFullWidth = false,
+  headingLevel = 'h2',
+  children,
+}) {
   const HeadingTag = headingLevel === 'h1' ? 'h1' : 'h2';
   const heading = (
     <>
@@ -55,9 +70,26 @@ export function EditorialIntro({ tag, title, text, image, imageAlt = '', imagePo
       <HeadingTag>{title}</HeadingTag>
     </>
   );
-  const media = image ? (
-    <div className="editorial-intro-image reveal">
-      <img src={image} alt={imageAlt || title} style={imagePosition ? { objectPosition: imagePosition } : undefined} loading="lazy" />
+  const carouselSlides = images?.length
+    ? images
+    : image
+      ? [{ src: image, alt: imageAlt || title, priority: true }]
+      : null;
+
+  const media = carouselSlides ? (
+    <div
+      className={`editorial-intro-image reveal${carouselSlides.length > 1 ? ' editorial-intro-image--carousel' : ''}`.trim()}
+    >
+      {carouselSlides.length > 1 ? (
+        <IntroImageCarousel slides={carouselSlides} label={title} dotsPosition="bottom" autoplayMs={6000} />
+      ) : (
+        <img
+          src={carouselSlides[0].src}
+          alt={carouselSlides[0].alt || title}
+          style={imagePosition ? { objectPosition: imagePosition } : undefined}
+          loading="eager"
+        />
+      )}
     </div>
   ) : null;
   const copy = (

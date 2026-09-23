@@ -6,7 +6,7 @@ import { useEffect, useRef } from 'react';
 const ROOMS = [
   {
     name: 'Couchette',
-    bg: '/img/rooms/couchette/Couchette-Room-1.webp',
+    bg: '/img/rooms/couchette/Couchette-Room-1.jpg',
     href: '/rooms/couchette',
     desc: 'The perfect short-stay sleeper, with a bespoke leather banquette, walk-in shower and beautifully used space.',
     size: '140 × 200 cm Hypnos bed',

@@ -32,7 +32,13 @@ export default function Footer() {
             <ul>
               {FOOTER_MORE.map((l) => (
                 <li key={l.href + l.label}>
-                  <Link href={l.href}>{l.label}</Link>
+                  <Link
+                    href={l.href}
+                    target={l.target}
+                    rel={l.target === '_blank' ? 'noopener noreferrer' : undefined}
+                  >
+                    {l.label}
+                  </Link>
                 </li>
               ))}
             </ul>

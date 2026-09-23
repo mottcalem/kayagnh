@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import EditorialCarousel from '@/components/EditorialCarousel';
-import { EditorialIntro, SplitFaq } from '@/components/Editorial';
+import GnhBarOpener from '@/components/GnhBarOpener';
+import { SplitFaq } from '@/components/Editorial';
 
 export const metadata = {
   title: 'GNH Bar & Terrace',
@@ -111,28 +112,7 @@ const faqs = [
 export default function GnhBarPage() {
   return (
     <>
-      <EditorialIntro
-        className="editorial-intro--top"
-        headingFullWidth
-        tag="GNH Bar & Terrace"
-        title="Great Northern Hotel Bar in King’s Cross & St Pancras"
-        image="/img/basic/gnh-bar-terrace.webp"
-        imageAlt="GNH Bar terrace at King's Cross"
-      >
-        <p>
-          A reinvention of the traditional railway bar – where business is done, journeys pause and friendships are built. Located beside
-          King’s Cross and St Pancras stations, GNH Bar is the hotel’s lively meeting point for travellers and locals alike.
-        </p>
-        <p>
-          Blending British heritage with global influences, it’s as suited to a morning coffee or quick beer as it is to cocktails and
-          champagne, moving seamlessly from relaxed daytime spot to vibrant evening destination.
-        </p>
-        <div className="bar-hours">
-          <p><span>Open Daily</span> 8am – 11pm</p>
-          <p><span>Breakfast</span> 8am – 11am</p>
-        </div>
-        <img className="bar-intro-logo" src="/img/basic/gnh-bar-logo.webp" alt="GNH Bar, King's Cross" width={200} height={70} />
-      </EditorialIntro>
+      <GnhBarOpener />
 
       <section className="section bar-card-section" id="venue-menus" aria-label="Food & Drink">
         <div className="container">

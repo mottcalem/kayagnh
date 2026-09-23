@@ -1,5 +1,8 @@
 import Link from 'next/link';
+import EnquirySection from '@/components/EnquirySection';
 import { EditorialFeature, EditorialIntro, SplitFaq } from '@/components/Editorial';
+
+const ENQUIRY_URL = '#enquiry';
 
 export const metadata = {
   title: 'Weddings',
@@ -133,11 +136,11 @@ export default function WeddingsPage() {
   return (
     <>
       <EditorialIntro
-        className="editorial-intro--top"
+        className="editorial-intro--top weddings-intro"
         headingFullWidth
         headingLevel="h1"
         tag="A London Hotel Wedding Venue"
-        title="Weddings at Kaya GNH"
+        title="Where history meets your happily ever after"
         image="/img/basic/weddings-carriage.webp"
         imageAlt="The Carriage dressed for a wedding dinner"
       >
@@ -151,7 +154,9 @@ export default function WeddingsPage() {
           Please contact <a href="mailto:events@gnhlondon.com">events@gnhlondon.com</a> to book your Kings Cross wedding venue.
         </p>
         <div className="editorial-intro-actions">
-          <a className="btn intro-btn-solid" href="mailto:events@gnhlondon.com">Make an Enquiry</a>
+          <a className="btn intro-btn-solid" href={ENQUIRY_URL}>
+            Make an Enquiry
+          </a>
         </div>
       </EditorialIntro>
 
@@ -168,6 +173,16 @@ export default function WeddingsPage() {
           className="editorial-feature--square"
         />
       ))}
+
+      <EnquirySection
+        tag="Enquire"
+        title="Plan your wedding with us."
+      >
+        <p>
+          Share your date, guest numbers and the kind of celebration you have in mind — our events team will reply with
+          availability, spaces and menu options for your King&apos;s Cross wedding.
+        </p>
+      </EnquirySection>
 
       <SplitFaq compact tag="FAQs" title="Kaya GNH | Wedding FAQs" items={faqs} />
     </>
