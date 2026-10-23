@@ -88,11 +88,11 @@ export default function HomePage() {
       <KayaClubRibbon />
 
       {/* Rooms */}
-      <section className="section rooms" id="rooms" aria-label="Rooms & Suites">
+      <section className="section rooms" id="rooms" aria-label="Our Rooms">
         <div className="container">
           <div className="section-header rooms-header reveal">
             <span className="section-tag">Accommodation</span>
-            <h2 className="section-title">Rooms &amp; Suites</h2>
+            <h2 className="section-title">Our Rooms</h2>
             <div className="title-ornament" />
             <p className="section-desc">
               Beautifully designed to emphasise space, comfort, and the character of our Victorian heritage.

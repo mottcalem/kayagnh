@@ -6,7 +6,7 @@ import { BookDirectSave, SplitFaq } from '@/components/Editorial';
 import { rooms, ROOM_AMENITIES } from '@/lib/rooms';
 
 export const metadata = {
-  title: 'Rooms & Suites',
+  title: 'Our Rooms',
   description:
     'Explore our beautifully designed rooms and suites at Kaya Great Northern Hotel. Victorian, Edwardian, Heritage and Couchette rooms — Victorian charm, modern comfort.',
 };
@@ -106,7 +106,7 @@ export default function OurRoomsPage() {
       <PageHero
         image="/img/basic/Victorian-Room-1.webp"
         tag="Accommodation"
-        title="Rooms & Suites"
+        title="Our Rooms"
         description="Beautifully designed to emphasise space, comfort, and the character of our Victorian heritage. Each room tells a story of London's golden age of railways, reimagined for the modern traveller."
         primaryBook
         primaryLabel="Book Now"
