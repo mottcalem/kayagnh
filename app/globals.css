@@ -7502,6 +7502,68 @@ body:has(.local-guide-opener) .nav-logo-sticky {
     }
 }
 
+/* Festive Season — full-width opener photo, centred CTAs */
+.festive-season-opener.editorial-intro--top {
+    padding-top: calc(var(--nav-height) + clamp(16px, 2.5vw, 28px));
+}
+
+.festive-season-opener {
+    background: var(--color-white);
+    padding-bottom: 0;
+}
+
+.festive-season-opener-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.festive-season-opener-media {
+    margin: 0;
+    width: 100%;
+    max-width: min(560px, 100%);
+}
+
+.festive-season-opener-media img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+}
+
+.festive-season-intro-wrap {
+    padding-top: clamp(36px, 4vw, 56px);
+    padding-bottom: clamp(56px, 6vw, 88px);
+}
+
+@media (max-width: 768px) {
+    .festive-season-opener-media {
+        max-width: min(400px, 90vw);
+    }
+}
+
+.festive-season-intro.section-header {
+    margin-bottom: 0;
+}
+
+.festive-season-intro .editorial-intro-actions,
+.festive-season-actions--centered {
+    justify-content: center;
+    width: 100%;
+}
+
+.festive-season-contact .section-header {
+    margin-bottom: 0;
+}
+
+.festive-offer-back {
+    margin: 0 0 clamp(20px, 3vw, 32px);
+}
+
+.festive-offer-back .offer-link {
+    font-size: 0.85rem;
+    letter-spacing: 0.04em;
+}
+
 .bar-hours {
     margin: 0 0 28px;
     padding-top: 22px;

@@ -1,0 +1,1819 @@
+<!DOCTYPE html>
+
+<!--// OPEN HTML //-->
+<html lang="en-GB">
+
+	<!--// OPEN HEAD //-->
+	<head>
+	
+		                        
+            
+            <!--// SITE META //-->
+            <meta charset="UTF-8"/>
+                        	                <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"/>
+                        
+            <!--// PINGBACK & FAVICON //-->
+            <link rel="pingback" href="https://kayagnhlondon.com/xmlrpc.php"/>
+
+        			<noscript>
+				GOT HERE
+				Array
+(
+    [strictly_necessary] => Array
+        (
+        )
+
+    [functional] => Array
+        (
+        )
+
+    [performance_analytics] => Array
+        (
+        )
+
+    [advertisement_targeting] => Array
+        (
+        )
+
+    [gtm] => Array
+        (
+            [0] => Google Tag Manager (Head)
+            [1] => <!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PM9MF4X4');</script><!-- End Google Tag Manager -->
+            [2] => on
+        )
+
+)
+			</noscript>
+		    <script>function spbImageResizer_writeCookie(){the_cookie=document.cookie,the_cookie&&window.devicePixelRatio>=2&&(the_cookie="spb_image_resizer_pixel_ratio="+window.devicePixelRatio+";"+the_cookie,document.cookie=the_cookie)}spbImageResizer_writeCookie();</script>
+    <script>function uplift_writeCookie(){the_cookie=document.cookie,the_cookie&&window.devicePixelRatio>=2&&(the_cookie="uplift_pixel_ratio="+window.devicePixelRatio+";"+the_cookie,document.cookie=the_cookie)}uplift_writeCookie();</script>
+<meta name='robots' content='noindex, follow' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.7 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Page not found - Kaya Great Northern Hotel</title>
+	<meta property="og:locale" content="en_GB" />
+	<meta property="og:title" content="Page not found - Kaya Great Northern Hotel" />
+	<meta property="og:site_name" content="Kaya Great Northern Hotel" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebSite","@id":"https:\/\/kayagnhlondon.com\/#website","url":"https:\/\/kayagnhlondon.com\/","name":"Kaya Great Northern Hotel","description":"Exquisite boutique hotel in the heart of Kings Cross St Pancras London","publisher":{"@id":"https:\/\/kayagnhlondon.com\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/kayagnhlondon.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-GB"},{"@type":"Organization","@id":"https:\/\/kayagnhlondon.com\/#organization","name":"Great Northern Hotel","url":"https:\/\/kayagnhlondon.com\/","logo":{"@type":"ImageObject","inLanguage":"en-GB","@id":"https:\/\/kayagnhlondon.com\/#\/schema\/logo\/image\/","url":"","contentUrl":"","caption":"Great Northern Hotel"},"image":{"@id":"https:\/\/kayagnhlondon.com\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/www.facebook.com\/GNHotelLondon","https:\/\/x.com\/GNHotel","https:\/\/www.instagram.com\/gnhotel\/","https:\/\/www.linkedin.com\/company\/great-northern-hotel-london"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Kaya Great Northern Hotel &raquo; Feed" href="https://kayagnhlondon.com/feed/" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v11.3.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-7KRTCPG29D"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '11.3.0';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+								var MonsterInsightsDefaultLocations = {"page_location":"https:\/\/kayagnhlondon.com\/wp-content\/uploads\/2021\/10\/NYE1-1024x683.jpg\/"};
+								if ( typeof MonsterInsightsPrivacyGuardFilter === 'function' ) {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsPrivacyGuardFilter( MonsterInsightsExcludeQuery ) : MonsterInsightsPrivacyGuardFilter( MonsterInsightsDefaultLocations );
+				} else {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsExcludeQuery : MonsterInsightsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-7KRTCPG29D',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+					if ( MonsterInsightsLocations.page_location ) {
+						__gtagTracker('set', MonsterInsightsLocations);
+					}
+										__gtagTracker('config', 'G-7KRTCPG29D', {"forceSSL":"true","link_attribution":"true","page_path":'\/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer} );
+										window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+							<!-- / Google Analytics by MonsterInsights -->
+		<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://kayagnhlondon.com/wp-includes/css/dist/block-library/style.min.css?ver=6.9.11' type='text/css' media='all' />
+
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<link rel='stylesheet' id='wp-components-css' href='https://kayagnhlondon.com/wp-includes/css/dist/components/style.min.css?ver=6.9.11' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-preferences-css' href='https://kayagnhlondon.com/wp-includes/css/dist/preferences/style.min.css?ver=6.9.11' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-editor-css' href='https://kayagnhlondon.com/wp-includes/css/dist/block-editor/style.min.css?ver=6.9.11' type='text/css' media='all' />
+<link rel='stylesheet' id='popup-maker-block-library-style-css' href='https://kayagnhlondon.com/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=dbea705cfafe089d65f1' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='myfonts_webfonts_196816-css' href='https://kayagnhlondon.com/wp-content/plugins/GNH/GNH.css?ver=6.9.11' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css' href='https://kayagnhlondon.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.2.12' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+/*# sourceURL=rs-plugin-settings-inline-css */
+</style>
+<link rel='stylesheet' id='bg-shce-genericons-css' href='https://kayagnhlondon.com/wp-content/plugins/show-hidecollapse-expand/assets/css/genericons/genericons.css?ver=6.9.11' type='text/css' media='all' />
+<link rel='stylesheet' id='bg-show-hide-css' href='https://kayagnhlondon.com/wp-content/plugins/show-hidecollapse-expand/assets/css/bg-show-hide.css?ver=6.9.11' type='text/css' media='all' />
+<link rel='stylesheet' id='spb-frontend-css' href='https://kayagnhlondon.com/wp-content/plugins/swift-framework/includes/page-builder/frontend-assets/css/spb-styles.css' type='text/css' media='all' />
+<link rel='stylesheet' id='swift-slider-min-css' href='https://kayagnhlondon.com/wp-content/plugins/swift-framework/includes/swift-slider/assets/css/swift-slider.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-my-login-css' href='https://kayagnhlondon.com/wp-content/plugins/theme-my-login/assets/styles/theme-my-login.min.css?ver=7.1.14' type='text/css' media='all' />
+<link rel='stylesheet' id='up-cookie-consent-css' href='https://kayagnhlondon.com/wp-content/plugins/up-cookie-consent/public/css/up-cookie-consent-public.css?ver=1.1.1' type='text/css' media='all' />
+<style id='up-inline-critical-css-inline-css' type='text/css'>
+.upcc-cookie-widget{background-color:var(--upcc-background-color);color:var(--upcc-text-color);border-radius:8px;box-shadow:4px 8px 24px rgba(0,10,44,.075);transition:all .1s;width:unset}.upcc-cookie-widget .upcc-cookie-message,.upcc-cookie-widget p{color:var(--upcc-text-color)}.upcc-cookie-widget h1,.upcc-cookie-widget h2,.upcc-cookie-widget h3,.upcc-cookie-widget h4,.upcc-cookie-widget h5,.upcc-cookie-widget h6{font-weight:700;color:var(--upcc-text-color)}.upcc-cookie-widget p{margin-bottom:0}.upcc-cookie-widget .upcc-container{padding:var(--upcc-space-l)}.upcc-container a,.upcc-container a.upcc-button,.upcc-cookie-modal-container a,.upcc-cookie-modal-container a.upcc-button{transition:all .5s}.upcc-container a::before,.upcc-container a::after,.upcc-container a.upcc-button::before,.upcc-container a.upcc-button::after,.upcc-cookie-modal-container a::before,.upcc-cookie-modal-container a::after,.upcc-cookie-modal-container a.upcc-button::before,.upcc-cookie-modal-container a.upcc-button::after{transition:all .5s}.upcc-container a:not(.upcc-button):hover,.upcc-cookie-modal-container a:not(.upcc-button):hover{color:var(--upcc-buttons-color)}.upcc-container a:not(.upcc-button):hover::before,.upcc-container a:not(.upcc-button):hover::after,.upcc-cookie-modal-container a:not(.upcc-button):hover::before,.upcc-cookie-modal-container a:not(.upcc-button):hover::after{background-color:var(--upcc-buttons-color)}.upcc-container .upcc-button:hover,.upcc-cookie-modal-container .upcc-button:hover{background-color:oklch(from var(--upcc-buttons-color) calc(l + 0.15) c h)}.upcc-container .upcc-button:hover.upcc-cookie-reject-all,.upcc-cookie-modal-container .upcc-button:hover.upcc-cookie-reject-all{background-color:rgba(0,0,0,0)}.upcc-cookie-modal-container,.upcc-cookie-widget{transition:all .5s allow-discrete;opacity:0;visibility:hidden}.upcc-cookie-modal-container.upcc-popover-fallback,.upcc-cookie-widget.upcc-popover-fallback{position:fixed}.upcc-cookie-modal-container.upcc-widget-open,.upcc-cookie-widget.upcc-widget-open{display:flex;opacity:1;visibility:visible;position:fixed;z-index:9999999}[popover]:popover-open{opacity:1;visibility:visible}@starting-style{[popover]:popover-open{opacity:0}}.upcc-cookie-widget.upcc-mandatory-modal .upcc-mandatory-overlay{width:100%;height:100%;position:fixed;background-color:rgba(0,0,0,.4784313725);z-index:999;top:0;bottom:0;left:0;right:0}.upcc-cookie-widget.upcc-mandatory-modal .upcc-container{inset:0;max-width:40rem;height:-webkit-fit-content;height:-moz-fit-content;height:fit-content;top:50%;left:50%;transform:translate(-50%, -50%);z-index:9999;position:fixed;background-color:var(--upcc-background-color);color:var(--upcc-text-color);border-radius:8px;box-shadow:4px 8px 24px rgba(0,10,44,.075);transition:all .5s}@supports not (inset: 0){.upcc-cookie-widget.upcc-mandatory-modal .upcc-container{top:0;bottom:0;left:0;right:0}}@media only screen and (max-width: 700px){.upcc-cookie-widget.upcc-mandatory-modal .upcc-container{max-width:unset;width:calc(100% - var(--upcc-space-m))}}.upcc-cookie-widget.upcc-mandatory-modal.upcc-includes-reject .upcc-cookie-reject-all{padding-right:var(--upcc-space-s)}.upcc-cookie-widget.upcc-mandatory-modal.upcc-includes-reject .upcc-action-buttons-wrap{display:flex;flex-wrap:wrap;align-items:center}
+/*# sourceURL=up-inline-critical-css-inline-css */
+</style>
+<link rel='stylesheet' id='bootstrap-css' href='https://kayagnhlondon.com/wp-content/themes/uplift/css/bootstrap.min.css?ver=3.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-v5-css' href='https://kayagnhlondon.com/wp-content/themes/uplift/css/font-awesome.min.css?ver=5.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-v4shims-css' href='https://kayagnhlondon.com/wp-content/themes/uplift/css/v4-shims.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='uplift-iconfont-css' href='https://kayagnhlondon.com/wp-content/themes/uplift/css/iconfont.css' type='text/css' media='all' />
+<link rel='stylesheet' id='uplift-main-css' href='https://kayagnhlondon.com/wp-content/themes/uplift/css/main.css' type='text/css' media='all' />
+<link rel='stylesheet' id='uplift-responsive-css' href='https://kayagnhlondon.com/wp-content/themes/uplift/css/sf-responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='uplift-style-css' href='https://kayagnhlondon.com/wp-content/themes/uplift/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='uplift-custom-css' href='https://kayagnhlondon.com/wp-content/uploads/swiftframework/uplift-custom.css?ver=ed68be' type='text/css' media='all' />
+<link rel='stylesheet' id='popup-maker-site-css' href='//kayagnhlondon.com/wp-content/uploads/pum/pum-site-styles.css?generated=1770629404&#038;ver=1.21.5' type='text/css' media='all' />
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic&#038;display=swap&#038;ver=1778868850" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic&#038;display=swap&#038;ver=1778868850" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic&#038;display=swap&#038;ver=1778868850" /></noscript><style id='rocket-lazyload-inline-css' type='text/css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(https://kayagnhlondon.com/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}
+/*# sourceURL=rocket-lazyload-inline-css */
+</style>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=11.3.0" id="monsterinsights-frontend-script-js" async="async" data-wp-strategy="async"></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='monsterinsights-frontend-script-js-extra'>/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/kayagnhlondon.com","hash_tracking":"false","v4_id":"G-7KRTCPG29D"};/* ]]> */
+</script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.0.7" id="tp-tools-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.2.12" id="revmin-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/plugins/swift-framework/public/js/lib/imagesloaded.pkgd.min.js" id="imagesLoaded-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/plugins/swift-framework/public/js/lib/jquery.viewports.min.js" id="jquery-viewports-js"></script>
+<script type="text/javascript" id="up-cookie-consent-js-extra">
+/* <![CDATA[ */
+var frontend_up_cookie_consent = {"header":{"strictly_necessary":[],"functional":[],"performance_analytics":[],"advertisement_targeting":[],"gtm":["Google Tag Manager (Head)","\u003C!-- Google Tag Manager --\u003E\u003Cscript\u003E(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PM9MF4X4');\u003C/script\u003E\u003C!-- End Google Tag Manager --\u003E","on"]},"body":{"strictly_necessary":[],"functional":[],"performance_analytics":[],"advertisement_targeting":[],"gtm":["Google Tag Manager (Head)","\u003C!-- Google Tag Manager (noscript) --\u003E\u003Cnoscript\u003E\u003Ciframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PM9MF4X4\"height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"\u003E\u003C/iframe\u003E\u003C/noscript\u003E\u003C!-- End Google Tag Manager (noscript) --\u003E","on"]},"autoload_script":{"strictly_necessary":[],"functional":[],"performance_analytics":[],"advertisement_targeting":[]},"version_number":"","require_version":"1","gtm_connect":"GTM-PM9MF4X4"};
+//# sourceURL=up-cookie-consent-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/plugins/up-cookie-consent/public/js/up-cookie-consent-public.js?ver=1.1.1" id="up-cookie-consent-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/plyr.js" id="plyr-js"></script>
+
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+<!-- Google Analytics snippet added by Site Kit -->
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=GT-KV5GV6M7" id="google_gtagjs-js" async></script>
+<script type="text/javascript" id="google_gtagjs-js-after">
+/* <![CDATA[ */
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["kayagnhlondon.com"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-KV5GV6M7");
+ window._googlesitekit = window._googlesitekit || {}; window._googlesitekit.throttledEvents = []; window._googlesitekit.gtagEvent = (name, data) => { var key = JSON.stringify( { name, data } ); if ( !! window._googlesitekit.throttledEvents[ key ] ) { return; } window._googlesitekit.throttledEvents[ key ] = true; setTimeout( () => { delete window._googlesitekit.throttledEvents[ key ]; }, 5 ); gtag( "event", name, { ...data, event_source: "site-kit" } ); }; 
+//# sourceURL=google_gtagjs-js-after
+/* ]]> */
+</script>
+<link rel="https://api.w.org/" href="https://kayagnhlondon.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://kayagnhlondon.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9.11" />
+<meta name="generator" content="Redux 4.5.10" /><meta name="generator" content="Site Kit by Google 1.173.0" /><meta name="ti-site-data" content="eyJyIjoiMTowITc6MCEzMDowIiwibyI6Imh0dHBzOlwvXC9rYXlhZ25obG9uZG9uLmNvbVwvd3AtYWRtaW5cL2FkbWluLWFqYXgucGhwP2FjdGlvbj10aV9vbmxpbmVfdXNlcnNfdHJpcGFkdmlzb3ImYW1wO3A9JTJGd3AtY29udGVudCUyRnVwbG9hZHMlMkYyMDIxJTJGMTAlMkZOWUUxLTEwMjR4NjgzLmpwZyZhbXA7X3dwbm9uY2U9NmEyYWM2OTkzZiJ9" />			<script type="text/javascript">
+			var ajaxurl = 'https://kayagnhlondon.com/wp-admin/admin-ajax.php';
+			</script>
+			
+    <style>
+        .upcc-cookie-widget, .upcc-cookie-modal-container, .upcc-cookie-list{
+            --upcc-space-3xs:0.25rem;--upcc-space-2xs:0.5rem;--upcc-space-xs:0.75rem;--upcc-space-s:1rem;--upcc-space-m:1.5rem;--upcc-space-l:2rem;--upcc-space-xl:3rem;--upcc-space-2xl:4rem;--upcc-space-3xl:6rem;        }
+    </style>
+
+            <style>
+            @font-face {
+                font-family:'Outfit';
+                src: url('/wp-content/plugins/up-cookie-consent/assets/fonts/Outfit-VariableFont_wght.ttf');
+                font-style: normal;
+                font-display: swap;
+            }
+        </style>
+    
+    
+    <style>
+        .upcc-cookie-widget, .upcc-cookie-modal-container{
+                    --upcc-buttons-color: #e3e1db;
+                            --upcc-buttons-color-text: #0a2240;
+                            --upcc-background-color: #0a2240;
+                            --upcc-text-color: #ffffff;
+                }
+    </style>
+
+    
+
+
+        <div popover="manual" class="upcc-cookie-widget upcc-mandatory-modal                                                       upcc-default-fonts" 
+        >
+        <div class="upcc-mandatory-overlay"></div>
+        <div class="upcc-container">
+                            <h3>THIS WEBSITE USES COOKIES TO IMPROVE YOUR EXPERIENCE</h3>
+                                        <div class="upcc-cookie-message">
+                    <p>We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking &ldquo;Accept&rdquo;, you consent to the use of ALL the cookies.</p>
+                </div>
+                        <div class="upcc-cookie-buttons">
+                <a class="upcc-cookie-options js-upcc-view-upcc-cookie-options" href="#">Options</a>
+                <div class="upcc-action-buttons-wrap">
+                                        <a class="upcc-button upcc-cookie-accept" href="#">Accept</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div popover="manual" class="upcc-cookie-modal-container                                     upcc-default-fonts" 
+        >
+        <div class="upcc-cookie-modal">
+            <div class="upcc-cookie-modal-content">
+                <a class="upcc-cookie-modal-close" href="#">Close</a>
+                <div class="upcc-cookie-modal-title">
+                    <h2>Cookie Preferences</h2>
+                </div>
+                <div class="upcc-cookie-modal-details">
+                    <p>This website uses cookies to improve your experience while you navigate through the website. Out of these cookies, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may have an effect on your browsing experience.</p>
+                </div>
+                <a class="upcc-cookie-modal-view-more" href="#"><span class="upcc-open">View More</span><span class="upcc-close">Show Less</span></a>
+                <div class="upcc-cookie-modal-accordian">
+                    <div class="upcc-cookie-accordian-buttons">
+                                                    <a class="upcc-cookie-modal-view-policy" href="https://kayagnhlondon.com/privacy-notice/">View our Cookie Policy</a>
+                                                <span class="upcc-cookie-modal-accept-all" href="#">
+                            <label class="upcc-switch">
+                                <p>Accept All</p>
+                                <input type="checkbox" id="select-all">
+                                <span class="upcc-slider"></span>
+                            </label>
+                        </span>
+                    </div>
+                                        <div class="upcc-cookie-modal-accordian-section">
+                        <div class="upcc-cookie-modal-accordian-section-header">
+                            <a class="upcc-cookie-accordian-open-button" href="#">Strictly Necessary</a>
+                                                            <span class="upcc-switch-text"><p>Always Enabled</p></span>
+                                                    </div>
+                        <div class="upcc-cookie-modal-accordian-content">
+                            <p class="upcc-font-medium">We use necessary cookies to ensure our website works properly and provide essential functionalities and security features. These cookies do not collect any personal information and are always enabled. By continuing to use our website, you agree to our use of these cookies.</p>
+                                                                                </div>  
+                    </div>
+                                        <div class="upcc-cookie-modal-accordian-section">
+                        <div class="upcc-cookie-modal-accordian-section-header">
+                            <a class="upcc-cookie-accordian-open-button" href="#">Functional</a>
+                                                                                            <label class="upcc-switch"><span class="upcc-switch-text upcc-off"><p>Disabled</p></span><span class="upcc-switch-text upcc-on"><p>Enabled</p></span>
+                                    <input class="upcc-selected-cookies" name="functional"  id="isEnabled" type="checkbox">
+                                    <span class="upcc-slider"></span>
+                                </label>
+                                                    </div>
+                        <div class="upcc-cookie-modal-accordian-content">
+                            <p class="upcc-font-medium">Functional cookies enable specific functionalities such as social media sharing, feedback collection, and other third-party features. These cookies may collect anonymous data to improve user experience.</p>
+                            <div class='upcc-cookie-group'></div>                                                    </div>  
+                    </div>
+                                        <div class="upcc-cookie-modal-accordian-section">
+                        <div class="upcc-cookie-modal-accordian-section-header">
+                            <a class="upcc-cookie-accordian-open-button" href="#">Performance and Analytics</a>
+                                                                                            <label class="upcc-switch"><span class="upcc-switch-text upcc-off"><p>Disabled</p></span><span class="upcc-switch-text upcc-on"><p>Enabled</p></span>
+                                    <input class="upcc-selected-cookies" name="performance_analytics"  id="isEnabled" type="checkbox">
+                                    <span class="upcc-slider"></span>
+                                </label>
+                                                    </div>
+                        <div class="upcc-cookie-modal-accordian-content">
+                            <p class="upcc-font-medium">To enhance user experience, we use performance and analytical cookies to understand and analyze the key performance indexes of our website. Performance cookies help us deliver better user experiences by tracking metrics such as load times and response times. Analytical cookies help us understand how visitors interact with our website by providing information on metrics like the number of visitors, bounce rate, traffic source, and more. </p>
+                            <div class='upcc-cookie-group'>                                                    <ul class='upcc-font-small'>
+                                                        <li>
+                                                            <div>Cookie</div>
+                                                            <div>_ga</div>
+                                                        </li>
+                                                        <li>
+                                                            <div>Duration</div>
+                                                            <div>2 years</div>
+                                                        </li>
+                                                        <li>
+                                                            <div>Description</div>
+                                                            <div>ID used to identify users</div>
+                                                        </li>
+                                                        <li>
+                                                            <div>Vendor</div>
+                                                            <div>Google Analytics</div>
+                                                        </li>
+                                                    
+                                                        <li>
+                                                            <div>Privacy Policy</div>
+                                                            <div><a href='https://policies.google.com/privacy' rel='noopener' target='_blank'>https://policies.google.com/privacy</a></div>
+                                                        </li>
+                                                    </ul>
+                                                                                                    <ul class='upcc-font-small'>
+                                                        <li>
+                                                            <div>Cookie</div>
+                                                            <div>_ga_*ID*</div>
+                                                        </li>
+                                                        <li>
+                                                            <div>Duration</div>
+                                                            <div>2 years</div>
+                                                        </li>
+                                                        <li>
+                                                            <div>Description</div>
+                                                            <div>ID used to identify users</div>
+                                                        </li>
+                                                        <li>
+                                                            <div>Vendor</div>
+                                                            <div>Google Analytics</div>
+                                                        </li>
+                                                    
+                                                        <li>
+                                                            <div>Privacy Policy</div>
+                                                            <div><a href='https://policies.google.com/privacy' rel='noopener' target='_blank'>https://policies.google.com/privacy</a></div>
+                                                        </li>
+                                                    </ul>
+                                                </div>                                                    </div>  
+                    </div>
+                                        <div class="upcc-cookie-modal-accordian-section">
+                        <div class="upcc-cookie-modal-accordian-section-header">
+                            <a class="upcc-cookie-accordian-open-button" href="#">Advertisement and Targeting</a>
+                                                                                            <label class="upcc-switch"><span class="upcc-switch-text upcc-off"><p>Disabled</p></span><span class="upcc-switch-text upcc-on"><p>Enabled</p></span>
+                                    <input class="upcc-selected-cookies" name="advertisement_targeting"  id="isEnabled" type="checkbox">
+                                    <span class="upcc-slider"></span>
+                                </label>
+                                                    </div>
+                        <div class="upcc-cookie-modal-accordian-content">
+                            <p class="upcc-font-medium">To personalize your online experience, we use advertisement cookies that track your activity across websites and gather information to display relevant ads and marketing campaigns. These cookies help us tailor our advertising to your interests and preferences. </p>
+                            <div class='upcc-cookie-group'></div>                                                    </div>  
+                    </div>
+                                    </div>
+                <div class="upcc-cookie-buttons">
+                    <a class="upcc-cookie-options upcc-cookie-reject-all" href="#">Reject All</a>
+                    <a class="upcc-button upcc-cookie-accept upcc-selectable" href="#">Accept Selected</a>
+                </div>
+            </div>
+                            <div class="upcc-cookie-advert">
+                    <a href="https://uphotel.agency" target="_blank" rel="noopener">
+                        <p class="upcc-font-small">Powered by</p>
+                        <div class="upcc-cookie-advert-logo">
+                            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 278"><title>UP Hotel Agency</title><path d="M335.3,119.55h20.8v27.566h23.728V119.55h20.7v72.192h-20.7V163.271H356.1v28.471H335.3Z" fill="currentColor"/><path d="M407.478,166v-.808c0-16.962,12.62-27.663,28.98-27.663,16.253,0,28.775,10.4,28.775,27.159v.808c0,17.165-12.62,27.465-28.877,27.465S407.478,183.058,407.478,166Zm39.378-.3v-.808c0-8.885-3.534-13.834-10.4-13.834-6.765,0-10.5,4.746-10.5,13.631v.808c0,9.088,3.534,14.033,10.5,14.033C443.224,179.524,446.856,174.476,446.856,165.694Z" fill="currentColor"/><path d="M475.524,174.78V151.255h-6.359V138.936h6.359V127.931H493.6v11.005H504v12.319H493.6v21.807c0,3.838,1.919,5.556,5.351,5.556a13.736,13.736,0,0,0,5.149-.911v13.732a37.817,37.817,0,0,1-10,1.517C482.191,192.956,475.524,187.2,475.524,174.78Z" fill="currentColor"/><path d="M509.547,166v-.808c0-16.962,12.621-27.663,28.575-27.663,14.436,0,26.856,8.278,26.856,27.26v4.745H527.822c.5,6.969,4.543,11.007,11,11.007,5.957,0,8.483-2.726,9.188-6.261h16.963c-1.616,11.916-10.8,18.681-26.758,18.681C521.663,192.956,509.547,183.263,509.547,166Zm37.861-6.663c-.3-6.361-3.431-9.895-9.286-9.895-5.454,0-9.189,3.534-10.1,9.895Z" fill="currentColor"/><path d="M573.252,115.715h17.971v76.027H573.252Z" fill="currentColor"/><path d="M645.939,119.55H672.7l22.92,72.192H673.705l-3.833-13.428H645.939l-3.833,13.428H622.818Zm4.039,44.528h15.855l-7.876-27.766Z" fill="currentColor"/><path d="M698.839,191.742H716.81c.808,3.838,3.133,6.864,9.693,6.864,7.979,0,11.21-4.543,11.21-11.1v-8.078a18.523,18.523,0,0,1-16.356,9.693c-12.321,0-22.415-9.086-22.415-25.343v-.808c0-15.55,10-25.443,22.415-25.443,8.377,0,13.326,3.532,16.356,8.885v-7.473h18.074V187.3c0,15.753-10.4,24.032-29.284,24.032C708.532,211.329,700.254,203.756,698.839,191.742Zm39.378-28.07v-.7c0-7.269-3.735-11.915-10.4-11.915-6.765,0-10.4,4.746-10.4,12.016v.807c0,7.27,3.838,11.913,10.3,11.913S738.217,171.145,738.217,163.672Z" fill="currentColor"/><path d="M763.655,166v-.808c0-16.962,12.62-27.663,28.574-27.663,14.436,0,26.856,8.278,26.856,27.26v4.745H781.929c.5,6.969,4.543,11.007,11,11.007,5.957,0,8.483-2.726,9.188-6.261h16.963c-1.616,11.916-10.8,18.681-26.758,18.681C775.771,192.956,763.655,183.263,763.655,166Zm37.86-6.663c-.3-6.361-3.431-9.895-9.286-9.895-5.454,0-9.189,3.534-10.1,9.895Z" fill="currentColor"/><path d="M826.854,138.936h18.074v8.481c2.825-5.451,8.582-9.893,17.364-9.893,10.2,0,17.266,6.361,17.266,19.889v34.329H861.484V161.048c0-5.957-2.32-8.885-7.573-8.885-5.35,0-8.983,3.231-8.983,10v29.583H826.854Z" fill="currentColor"/><path d="M887.024,166v-.808c0-17.567,12.62-27.663,28.168-27.663,12.924,0,24.839,5.654,25.848,21.708H924.077c-.807-4.949-3.231-7.676-8.479-7.676-6.363,0-10.1,4.545-10.1,13.431v.807c0,9.187,3.535,13.935,10.4,13.935,5.047,0,8.581-3.03,9.184-8.787h16.257c-.5,13.33-9.492,22.014-26.553,22.014C899.038,192.956,887.024,183.767,887.024,166Z" fill="currentColor"/><path d="M963.25,186.391l-21.1-47.455h19.586l10.907,28.17,10.094-28.17H1000L971.729,209.41H954.463Z" fill="currentColor"/><path d="M100.948,0,67.966,16.851v33.7L34.983,33.7,2,50.552V193.677l32.983,16.851,98.934-50.56.027-143.124ZM67.972,126.281l24.806,12.695L67.972,151.643ZM10.142,54.712,34.983,42.021l24.84,12.691L34.983,67.4Zm115.627,75.757v25.387l-24.807,12.71v-.035L35.016,202.225l-.033-25.406.026-.014L34.983,75.722l24.84-12.691V164.137l41.132-21-.026-101.074,24.84-12.691Zm-24.84-96.8L76.088,20.979,100.929,8.288l24.84,12.691Z" fill="currentColor"/><path d="M199.876,84.243,166.91,101.1l0,42.023,24.8,12.679-57.767,29.525L133.9,261.1,167.108,278l32.765-16.932.029-33.687L266.533,193.3V118.275Zm-24.849,21.012,24.859-12.7,57.832,29.555-24.809,12.717Zm82.721,84.208-66.037,33.75V256.9l-24.786,12.69V210.569L232.9,176.837V143.122l24.847-12.653Z" fill="currentColor"/></svg>
+                        </div>
+                    </a>
+                </div>
+                    </div>
+    </div>
+<!--[if lt IE 9]><script data-cfasync="false" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/respond.js"></script><script data-cfasync="false" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/html5shiv.js"></script><![endif]--><meta name="generator" content="Powered by Slider Revolution 6.2.12 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="https://kayagnhlondon.com/wp-content/uploads/2026/02/kgnh.jpg" sizes="32x32" />
+<link rel="icon" href="https://kayagnhlondon.com/wp-content/uploads/2026/02/kgnh.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://kayagnhlondon.com/wp-content/uploads/2026/02/kgnh.jpg" />
+<meta name="msapplication-TileImage" content="https://kayagnhlondon.com/wp-content/uploads/2026/02/kgnh.jpg" />
+<script type="text/javascript">function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}				
+					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+					document.getElementById(e.c).height = newh+"px";
+					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script>
+<style type='text/css'></style>		<style type="text/css" id="wp-custom-css">
+			@media screen and (max-width:768px){
+	.rezbutton {
+		display: none !important;
+	}
+}
+
+.mhs-tablet-land #mobile-top-text, .mhs-tablet-land #mobile-header, .mhs-tablet-land #mobile-header-sticky-wrapper{
+
+    display: block;
+
+}
+
+.mhs-tablet-land .header-wrap, .mhs-tablet-land #top-bar, .mhs-tablet-land #top-bar-sticky-wrapper {
+
+    display: none !important;
+    
+}
+
+#dmn-partner-widget {
+		margin: 0 auto;
+}
+
+/* CSS logo */
+
+#mobile-header {
+  padding: 25px;
+}
+
+#mobile-top-text {
+  top: 43px;
+  right: 75px;
+}
+
+.mobile-header-opts.opts-left {
+  left: 26px;
+}
+
+#mobile-logo, #mobile-logo.has-img img {
+    max-height: none;
+    height: 79px;
+}
+
+@media screen and (max-width: 768px) {
+  #mobile-header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .hamburger-box, 
+  #mobile-top-text {
+    border: 2px solid #E3E1DB;
+  }
+
+  #mobile-logo, 
+  #mobile-logo.has-img img {
+    height: 48px;
+  }
+
+  #mobile-top-text {
+    top: 39px;
+    right: 18px;
+    padding: 2px 8px;
+    height: 36px;
+  }
+  
+  .mobile-header-opts.opts-left {
+    left: 20px;
+  }
+
+  .mobile-header-opts {
+    margin-top: -14px;
+  }
+
+  .hamburger-box {
+    height: 31px;
+    width: 42px;
+    padding: 3px 6px;
+  }
+	
+	.swift-slider-outer, 
+	.swift-slider, 
+	.swiper-wrapper, 
+	.swiper-slide {
+  max-height: 448px;
+  padding-top: 14px;
+	}
+}
+
+	.swift-slider-outer, .swift-slider, .swiper-wrapper, .swiper-slide{
+		min-height: 85vh !important;
+	}
+
+
+.mhs-tablet-land #mobile-top-text,
+.mhs-tablet-land #mobile-header, .mhs-tablet-land #mobile-header-sticky-wrapper {
+  display: block ;
+  position: fixed;
+}
+
+@media (min-width: 480px) {
+.single-post .page-heading {
+		padding-bottom: 64px;
+	}
+}
+
+@media (min-width: 768px) {
+	.single-post .page-heading {
+		padding-bottom: 128px;
+	}
+}
+
+@media screen and (max-width:768px){
+	.language-switcher {
+		top: 30px !important;
+		
+	}
+	
+.language-switcher img {
+		width: 28px !important;
+		height: 28px !important;
+	}
+}
+/* Dil değiştirici ana container */
+.language-switcher {
+    position: fixed;
+    top: 47px;
+    right: 20px;
+    z-index: 99999;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.language-switcher img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%; /* Tam yuvarlak */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: white; /* SVG arka planı için */
+    padding: 2px; /* SVG etrafında boşluk */
+	    object-fit: cover;
+}
+
+
+/* Hover efekti */
+.language-switcher img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Responsive tasarım için */
+@media (max-width: 768px) {
+    .language-switcher {
+        right: 20px;
+    }
+    
+    .language-switcher img {
+        width: 40px;
+        height: 28px;
+    }
+}
+
+.pum-overlay.pum-active,
+	.pum-overlay.pum-active .popmake.active {
+    		display: block !important;
+	}
+
+/* === GNH NEW HERO (NO SLIDER) – SAFE ADDITION === */
+/* New lightweight hero (no slider) */
+.gnh-hero{
+  text-align: center;
+  color:#fff;
+
+  /* HERO HEIGHT */
+  min-height: 70vh;
+
+  /* VERTICAL + HORIZONTAL CENTERING */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 120px 16px 90px;
+  position: relative;
+  z-index: 1;
+}
+
+
+/* Kicker with side lines */
+.gnh-hero-kicker{
+  display:inline-block;
+  position:relative;
+  font-size:16px;
+  letter-spacing:2px;
+  font-weight:600;
+  line-height:1.1;
+  text-transform:uppercase;
+  margin:0 0 18px 0;
+  padding:0 14px;
+}
+
+.gnh-hero-kicker:before,
+.gnh-hero-kicker:after{
+  content:"";
+  position:absolute;
+  top:50%;
+  width:44px;
+  border-top:1px solid rgba(255,255,255,0.9);
+}
+
+.gnh-hero-kicker:before{ right:100%; margin-right:12px; }
+.gnh-hero-kicker:after{ left:100%; margin-left:12px; }
+
+/* Headings */
+.gnh-hero-h1{
+  font-size:26px;
+	line-height:1.1;
+  font-weight:500;
+  margin:0 0 12px;
+  line-height:1.1;
+}
+
+.gnh-hero-h2{
+  margin:14px 0 16px;
+  color:#fff;
+  line-height:1.1;
+  font-weight:400;
+	font-size:62px; 
+}
+
+/* Middle underline */
+.gnh-hero-h2:after{
+  content:"";
+  display:block;
+  width:44px;
+  border-top:1px solid rgba(255,255,255,0.9);
+  margin:18px auto 0;
+}
+
+/* Sub line */
+.gnh-hero-sub{
+  font-size:16px;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  margin:0;
+  font-weight:600;
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+  .gnh-hero{
+    padding:72px 14px 56px; /* reduce overall hero height */
+  }
+
+  .gnh-hero-kicker{
+    font-size:11px;
+    margin-bottom:6px; /* tighter */
+  }
+
+  .gnh-hero-h1{
+    font-size:17px;
+    margin-bottom:6px;
+    line-height:1.2;
+  }
+
+  .gnh-hero-h2{
+    font-size:30px;      /* slightly smaller */
+    line-height:1.1;     /* tighter lines */
+    margin:6px 0 8px;    /* reduce vertical gaps */
+  }
+
+  .gnh-hero-sub{
+    font-size:11px;
+    margin-top:6px;
+    letter-spacing:1.5px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .language-switcher {
+    top: 12px !important;
+    right: 18px !important;
+    z-index: 99999 !important;
+  }
+
+  .language-switcher img {
+    width: 19px !important;
+    height: auto !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    background: none !important;
+    object-fit: contain !important;
+  }
+}
+		</style>
+		<style id="sf_uplift_options-dynamic-css" title="dynamic-css" class="redux-options-output">#logo h1, #logo h2, #mobile-logo h1{font-weight:400;font-style:normal;color:#222;font-size:24px;}body,p,nav.std-menu ul.sub-menu,ul.mega-sub-menu,blockquote.blockquote1, blockquote.blockquote1 p{font-family:Lato,Arial, Helvetica, sans-serif;font-weight:normal;font-style:normal;}h1,.impact-text,.impact-text > p,.impact-text-large,.impact-text-large > p,h3.countdown-subject, .swiper-slide .caption-content > h2, #jckqv h1, .spb_tweets_slider_widget .tweet-text, .modal-header h3{font-family:Lato,Arial, Helvetica, sans-serif;font-weight:700;font-style:normal;}h2,.blog-item .quote-excerpt, .spb-row-expand-text{font-family:Lato,Arial, Helvetica, sans-serif;font-weight:normal;font-style:normal;}h3, .single_variation_wrap .single_variation span.price, .sf-promo-bar p.standard,  .sf-promo-bar.text-size-standard p, .sf-icon-box-animated-alt .front .back-title{font-family:Lato,Arial, Helvetica, sans-serif;font-weight:normal;font-style:normal;}h4{font-family:Lato,Arial, Helvetica, sans-serif;font-weight:normal;font-style:normal;}h5,blockquote.blockquote2,blockquote.blockquote2 p,blockquote.pullquote,blockquote.pullquote p,.faq-item .faq-text:before{font-family:Lato,Arial, Helvetica, sans-serif;font-weight:normal;font-style:normal;}h6{font-family:Lato,Arial, Helvetica, sans-serif;font-weight:normal;font-style:normal;}#main-nav, #header nav, .vertical-menu nav, .header-9#header-section #main-nav, #overlay-menu nav, .sf-pushnav-menu nav, #mobile-menu, #one-page-nav li .hover-caption, .mobile-search-form input[type="text"]{font-family:Lato,Arial, Helvetica, sans-serif;font-weight:normal;font-style:normal;}</style><style>.page-heading {background-color: #e3e1db;border-bottom-color: #ffffff;}.page-heading h1, .page-heading h3 {color: ;}.page-heading .heading-text, .fancy-heading .heading-text {text-align: center;}.fancy-heading .media-overlay {background-color:;opacity:;}</style><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
+	<!--// CLOSE HEAD //-->
+	<link rel='stylesheet' id='dashicons-css' href='https://kayagnhlondon.com/wp-includes/css/dashicons.min.css?ver=6.9.11' type='text/css' media='all' />
+<link rel='stylesheet' id='nf-display-css' href='https://kayagnhlondon.com/wp-content/plugins/ninja-forms/assets/css/display-opinions-light.css?ver=6.9.11' type='text/css' media='all' />
+<link rel='stylesheet' id='nf-font-awesome-css' href='https://kayagnhlondon.com/wp-content/plugins/ninja-forms/assets/css/font-awesome.min.css?ver=6.9.11' type='text/css' media='all' />
+
+</head>
+
+	<!--// OPEN BODY //-->
+	<body class="error404 wp-custom-logo wp-theme-uplift swift-framework-v2.8.0 uplift-v1.4.26 minimal-design mobile-header-center-logo mhs-tablet-land mh-overlay responsive-fluid sticky-header-enabled page-transitions page-transition-circle product-shadows layout-fullwidth">
+	
+		<div id="site-loading" class="circle"><div class="sf-svg-loader"><object data="https://kayagnhlondon.com/wp-content/themes/uplift/images/loader-svgs/loader-32px-glyph_x-circle-08.svg" type="image/svg+xml"></object></div></div>
+		<!--// OPEN #container //-->
+		<div id="container">
+
+			<div id="mobile-menu-wrap" class="menu-is-left">
+<nav id="mobile-menu" class="clearfix">
+<div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li  class="menu-item-487 menu-item menu-item-type-post_type menu-item-object-page menu-item-home"><a href="https://kayagnhlondon.com/"><span class="menu-item-text">Home</span></a></li>
+<li  class="menu-item-491 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/our-rooms/"><span class="menu-item-text">Rooms</span></a></li>
+<li  class="menu-item-5891 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/restaurants-and-bars/gnh-bar/"><span class="menu-item-text">GNH Bar and Terrace</span></a></li>
+<li  class="menu-item-5892 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/restaurants-and-bars/kings-cross-restaurant/"><span class="menu-item-text">RAILS Restaurant &#038; Little Bar</span></a></li>
+<li  class="menu-item-9746 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/meetings-and-private-events/"><span class="menu-item-text">Meetings &#038; Events</span></a></li>
+<li  class="menu-item-9745 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/festive-season-2026/"><span class="menu-item-text">Festive Season</span></a></li>
+<li  class="menu-item-6283 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/weddings/"><span class="menu-item-text">WEDDINGS</span></a></li>
+<li  class="menu-item-8077 menu-item menu-item-type-custom menu-item-object-custom"><a href="https://kayahotels.com/en/kaya-club/"><span class="menu-item-text">KAYA CLUB</span></a></li>
+<li  class="menu-item-6868 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/special-offers/"><span class="menu-item-text">Special Offers</span></a></li>
+<li  class="menu-item-509 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/whats-on/"><span class="menu-item-text">What’s On at Kaya GNH</span></a></li>
+<li  class="menu-item-8253 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/blogs/"><span class="menu-item-text">Blogs</span></a></li>
+<li  class="menu-item-5581 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/local-guide/"><span class="menu-item-text">Local Guide</span></a></li>
+<li  class="menu-item-489 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/contact-us/"><span class="menu-item-text">Contact</span></a></li>
+<li  class="menu-item-6412 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/frequently-asked-questions/"><span class="menu-item-text">FAQS</span></a></li>
+</ul></div><ul class="alt-mobile-menu">
+</ul>
+</nav>
+<div class="mobile-menu-aux">
+</div>
+</div>
+<div id="mobile-top-text"><a href="https://book.kayagnhlondon.com/bv3/search" target="_blank">Book</a></div><header id="mobile-header" class="mobile-center-logo clearfix">
+<div class="mobile-header-opts opts-left"><button class="hamburger mobile-menu-link hamburger--3dy" type="button">
+                    <span class="button-text">Menu</span>
+				  <span class="hamburger-box">
+				    <span class="hamburger-inner"></span>
+				  </span>
+				</button>
+</div><div id="mobile-logo" class="logo-center has-img clearfix" data-anim="">
+<a href="https://kayagnhlondon.com">
+<img class="standard" src="https://kayagnhlondon.com/wp-content/uploads/2025/08/KAYA-GNH-LOGO-V2.png" alt="Kaya Great Northern Hotel" height="2664" width="6315" />
+<div class="text-logo"></div>
+</a>
+</div>
+<div class="mobile-header-opts opts-right"></div></header>
+			
+			<!--// HEADER //-->
+			<div class="header-wrap  full-header-stick page-header-standard" data-style="default" data-default-style="default">
+
+				<div id="header-section" class="header-1">
+					
+<header id="header" class="sticky-header clearfix">
+		<div class="header-left">
+		<div class="aux-item text"><a href="https://book.kayagnhlondon.com/" target="_blank">Book a room</a></div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="split-menu menu-left col-sm-5">
+				<nav class="std-menu clearfix">
+<div class="menu-left-menu-container"><ul id="menu-left-menu" class="menu"><li  class="menu-item-148 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children sf-std-menu" ><a href="https://kayagnhlondon.com/our-rooms/"><span class="menu-item-text">Hotel</span></a>
+<ul class="sub-menu">
+	<li  class="menu-item-329 menu-item menu-item-type-post_type menu-item-object-page sf-std-menu" ><a href="https://kayagnhlondon.com/our-rooms/couchette-room/">Couchette Room</a></li>
+	<li  class="menu-item-328 menu-item menu-item-type-post_type menu-item-object-page sf-std-menu" ><a href="https://kayagnhlondon.com/our-rooms/edwardian-room/">Edwardian Room</a></li>
+	<li  class="menu-item-330 menu-item menu-item-type-post_type menu-item-object-page sf-std-menu" ><a href="https://kayagnhlondon.com/our-rooms/heritage-room/">Heritage Room</a></li>
+	<li  class="menu-item-1085 menu-item menu-item-type-post_type menu-item-object-page sf-std-menu" ><a href="https://kayagnhlondon.com/our-rooms/victorian-room/">Victorian Room</a></li>
+	<li  class="menu-item-2902 menu-item menu-item-type-post_type menu-item-object-page sf-std-menu" ><a href="https://kayagnhlondon.com/meetings-and-private-events/">Meeting Room</a></li>
+</ul>
+</li>
+<li  class="menu-item-235 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children sf-std-menu" ><a href="https://kayagnhlondon.com/restaurants-and-bars/"><span class="menu-item-text">Food &#038; Drink</span></a>
+<ul class="sub-menu">
+	<li  class="menu-item-394 menu-item menu-item-type-post_type menu-item-object-page sf-std-menu" ><a href="https://kayagnhlondon.com/restaurants-and-bars/kings-cross-restaurant/">RAILS Restaurant &#038; Little Bar | Near King&#8217;s Cross &#038; St Pancras Station</a></li>
+</ul>
+</li>
+</ul></div></nav>
+			</div>
+			
+			<div id="logo" class="col-sm-2 logo-center has-img clearfix" data-anim="">
+<a href="https://kayagnhlondon.com">
+<img class="standard" src="https://kayagnhlondon.com/wp-content/uploads/2022/11/GNH-LogoWeb-2x.png" alt="Kaya Great Northern Hotel" width="1001" height="110" />
+<div class="text-logo"></div>
+</a>
+</div>
+			
+			<div class="split-menu menu-right col-sm-5">
+				<nav class="std-menu clearfix">
+<div class="menu-right-menu-container"><ul id="menu-right-menu" class="menu"><li  class="menu-item-2909 menu-item menu-item-type-post_type menu-item-object-page sf-std-menu" ><a href="https://kayagnhlondon.com/meetings-and-private-events/"><span class="menu-item-text">Private Events</span></a></li>
+<li  class="menu-item-3523 menu-item menu-item-type-post_type menu-item-object-page sf-std-menu" ><a href="https://kayagnhlondon.com/hotel-experiences-in-kings-cross/"><span class="menu-item-text">Experiences</span></a></li>
+</ul></div></nav>
+			</div>
+		</div> <!-- CLOSE .row -->
+	</div> <!-- CLOSE .container -->
+	<div class="header-right">
+		<div class="aux-item text"><a href="/contact-us/">Contact</a></div>
+	</div>
+	</header>				</div>
+
+
+				
+				
+				
+			</div>
+
+		<div id="sf-mobile-slideout-backdrop"></div>                <!--// OPEN #sf-header-banner //-->
+                	            <div id="sf-header-banner" class="banner-fw-header clearfix">
+                
+                	<div class="container">
+
+                		<div id="sf-banner-widgets" class="row clearfix">
+                            
+                                <div class="col-sm-12">
+                                                                                                                
+                                </div>
+                            
+                		</div>
+
+                	</div>
+
+                    <!--// CLOSE #sf-header-banner //-->
+                </div>
+            
+			<!--// OPEN #main-container //-->
+			<div id="main-container" class="clearfix">
+
+				                
+                                            <div class="page-heading  page-heading-breadcrumbs clearfix">
+                                        <div class="container">
+                    	
+                    	                    	
+                        <div class="heading-text">
+
+                            
+                                <h1 class="entry-title">404</h1>
+							
+							
+                        </div>
+
+
+                        
+						                    <div id="breadcrumbs">
+                        <div class="container"></div>
+                    </div>
+                
+                        
+                    </div>
+                </div>
+                				
+				<div class="inner-container-wrap">
+<div class="container">
+
+	
+        					<div class="content-divider-wrap"><div class="content-divider sf-elem-bb"></div></div>
+				
+        
+        <div class="inner-page-wrap has-no-sidebar clearfix">
+
+            <!-- OPEN page -->
+                        <div class="clearfix">
+        
+            
+                <div class="page-content hfeed clearfix">
+
+                    
+<div class="help-text">
+    Sorry but we couldn't find the page you are looking for. Please check to make sure you've typed the URL correctly. You may also want to search for what you are looking for.</div>
+<form method="get" class="search-form" action="https://kayagnhlondon.com/">
+    <input type="text" placeholder="Search" name="s"/>
+</form>
+                </div>
+
+            
+            <!-- CLOSE page -->
+            </div>
+
+            
+            </div>
+
+            
+        	
+</div>
+
+				</div>
+
+				
+			<!--// CLOSE #main-container //-->
+			</div>
+
+			<div id="footer-wrap">
+				                <!--// OPEN #footer //-->
+                <footer id="footer" class="">
+                    <div class="container">
+                        <div id="footer-widgets" class="row clearfix">
+                            
+                                <div class="col-sm-12">
+                                                                            <section id="text-2" class="widget widget_text clearfix">			<div class="textwidget">
+	<div class="spb-section spb_content_element col-sm-12">
+			<section data-header-style="" class="row fw-row  dynamic-header-change">
+            <div class="spb-row   spb-remove-element-spacing" data-row-type="color" data-wrap="full-width-contained" data-image-movement="fixed" data-content-stretch="false" data-row-height="content-height" data-row-style="light" data-col-spacing="0" data-col-v-pos="default" style="margin-top: 0px;margin-bottom: 0px;">
+
+                
+                
+                
+                <div class="spb_content_element clearfix" style="">
+                     <section  class="row"><div class="blank_spacer col-sm-12" style="height:30px;"></div>
+</section>
+ <section  class="row">
+	<div class="spb-column-container col-sm-12   min-height-column"   style="z-index: 0; ">
+		<div class="spb-column-inner row clearfix" style="margin-top: 0px;margin-bottom: 0px;">
+		 <section  class="row">
+	<div class="spb_content_element col-sm-12 spb_text_column">
+		<div class="spb-asset-content" style="margin-top: 0px;margin-bottom: 0px;">
+			<div class="title-wrap"><h3 class="spb-heading spb-text-heading"><span>Connect with Kaya GNH</span></h3></div>
+			
+<p class="impact-text-large" style="text-align: center;">Get in touch</p>
+<h6 style="text-align: center;"><a href="https://goo.gl/maps/f6eaU4HBaRgkKiGM9" target="_blank" rel="noopener noreferrer">KAYA GREAT NORTHERN HOTEL, KING’S CROSS ST PANCRAS STATION, PANCRAS ROAD, LONDON, N1C 4TB</a><br />
+T: 020 3388 0800 E: <a href="/cdn-cgi/l/email-protection#0c65626a634c6b6264606362686362226f6361"><span class="__cf_email__" data-cfemail="96dfd8d0d9d6d1d8dedad9d8d2d9d8b8d5d9db">[email&#160;protected]</span></a></h6>
+<p style="text-align: center;"><ul class="social-icons standard">
+<li class="facebook"><a href="https://www.facebook.com/GNHotelLondon/" target="_blank"><i class="fab fa-facebook"></i><i class="fab fa-facebook"></i></a></li>
+<li class="instagram"><a href="https://instagram.com/gnhotel" target="_blank"><i class="fab fa-instagram"></i><i class="fab fa-instagram"></i></a></li>
+</ul>
+
+<h6 style="text-align: center;">Stay Updated</h6>
+<p style="text-align: center;">Fill in your details below to be the first to hear about all the latest offers, events, and happenings from Kaya Great Northern Hotel.</p>
+<p style="text-align: center;"><noscript class="ninja-forms-noscript-message">
+	Notice: JavaScript is required for this content.</noscript>
+<div id="nf-form-2-cont" class="nf-form-cont" aria-live="polite" aria-labelledby="nf-form-title-2" aria-describedby="nf-form-errors-2" role="form">
+
+    <div class="nf-loading-spinner"></div>
+
+</div>
+        <!-- That data is being printed as a workaround to page builders reordering the order of the scripts loaded-->
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>var formDisplay=1;var nfForms=nfForms||[];var form=[];form.id='2';form.settings={"objectType":"Form Setting","editActive":"1","title":"MailChimp Signup","created_at":"2020-07-06 15:02:32","form_title":"MailChimp Signup","default_label_pos":"above","show_title":"0","clear_complete":"1","hide_complete":"1","logged_in":"0","wrapper_class":"","element_class":"","key":"","add_submit":"0","currency":"","unique_field_error":"A form with this value has already been submitted.","not_logged_in_msg":"","sub_limit_msg":"The form has reached its submission limit.","calculations":[],"formContentData":["email_1523972427420","subscribe_1523977672092"],"drawerDisabled":"","allow_public_link":0,"embed_form":"","repeatable_fieldsets":"","ninjaForms":"Ninja Forms","changeEmailErrorMsg":"Please enter a valid email address!","changeDateErrorMsg":"Please enter a valid date!","confirmFieldErrorMsg":"These fields must match!","fieldNumberNumMinError":"Number Min Error","fieldNumberNumMaxError":"Number Max Error","fieldNumberIncrementBy":"Please increment by ","fieldTextareaRTEInsertLink":"Insert Link","fieldTextareaRTEInsertMedia":"Insert Media","fieldTextareaRTESelectAFile":"Select a file","formErrorsCorrectErrors":"Please correct errors before submitting this form.","formHoneypot":"If you are a human seeing this field, please leave it empty.","validateRequiredField":"This is a required field.","honeypotHoneypotError":"Honeypot Error","fileUploadOldCodeFileUploadInProgress":"File Upload in Progress.","fileUploadOldCodeFileUpload":"FILE UPLOAD","currencySymbol":"&euro;","fieldsMarkedRequired":"Fields marked with an <span class=\"ninja-forms-req-symbol\">*<\/span> are required","thousands_sep":",","decimal_point":".","siteLocale":"en_GB","dateFormat":"m\/d\/Y","startOfWeek":"1","of":"of","previousMonth":"Previous Month","nextMonth":"Next Month","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"weekdaysMin":["Su","Mo","Tu","We","Th","Fr","Sa"],"recaptchaConsentMissing":"reCaptcha validation couldn&#039;t load.","recaptchaMissingCookie":"reCaptcha v3 validation couldn&#039;t load the cookie needed to submit the form.","recaptchaConsentEvent":"Accept reCaptcha cookies before sending the form.","currency_symbol":"","beforeForm":"","beforeFields":"","afterFields":"","afterForm":""};form.fields=[{"objectType":"Field","objectDomain":"fields","editActive":false,"order":3,"idAttribute":"id","label":"Email","type":"email","key":"email_1523972427420","label_pos":"hidden","required":1,"default":"","placeholder":"Email Address","container_class":"three-fourths first","element_class":"","admin_label":"","help_text":"","custom_name_attribute":"email","drawerDisabled":false,"field_label":"Email","field_key":"email_1523972427420","personally_identifiable":1,"value":"","id":7,"beforeField":"","afterField":"","parentType":"email","element_templates":["email","input"],"old_classname":"","wrap_template":"wrap"},{"objectType":"Field","objectDomain":"fields","editActive":false,"order":4,"idAttribute":"id","label":"Subscribe","type":"submit","processing_label":"Processing","container_class":"one-fourth","element_class":"","key":"subscribe_1523977672092","drawerDisabled":"","field_label":"Subscribe","field_key":"subscribe_1523977672092","id":8,"beforeField":"","afterField":"","value":"","label_pos":"above","parentType":"textbox","element_templates":["submit","button","input"],"old_classname":"","wrap_template":"wrap-no-label"}];nfForms.push(form);</script>
+        </p>
+
+		</div>
+	</div> </section>
+ 
+		</div>
+	</div> </section>
+ <section  class="row">
+	<div class="spb-column-container col-sm-12   footer-logos"   style="z-index: 0; ">
+		<div class="spb-column-inner row clearfix" style="margin-top: 0px;margin-bottom: 0px;">
+		 <section  class="row">
+	<div class="spb_content_element spb_image noframe col-sm-3 thumbnail-default square-corners">
+		<div class="spb-asset-content"><figure class="animated-overlay has-link overlay-alt clearfix" style="width:250px;margin:0 auto;">
+		<a class="img-link" href="https://www.railslondon.com" target="_blank"></a><div class="img-wrap"><img decoding="async" width="875" height="237" src="https://kayagnhlondon.com/wp-content/uploads/2022/10/Rails-Logos_Gold-Logo.png" class="attachment-full size-full" alt="" srcset="https://kayagnhlondon.com/wp-content/uploads/2022/10/Rails-Logos_Gold-Logo.png 875w,   https://kayagnhlondon.com/wp-content/uploads/2022/10/Rails-Logos_Gold-Logo-300x81.png 300w,   https://kayagnhlondon.com/wp-content/uploads/2022/10/Rails-Logos_Gold-Logo-768x208.png 768w" sizes="(max-width: 875px) 100vw, 875px" /></div><div class="figcaption-wrap"></div><figcaption><div class="thumb-info"><h4></h4></div></figcaption></figure>
+		</div>
+	</div>  
+	<div class="spb_content_element spb_image noframe col-sm-2 thumbnail-default square-corners">
+		<div class="spb-asset-content"><figure class="animated-overlay has-link overlay-alt clearfix" style="width:300px;margin:0 auto;">
+		<a class="img-link" href="hhttps://kayagnhlondon.com/restaurants-and-bars/kings-cross-bars/" target="_blank"></a><div class="img-wrap"><img decoding="async" width="300" height="120" src="https://kayagnhlondon.com/wp-content/uploads/2020/06/GNH-GNHBar-Logo.png" class="attachment-full size-full" alt="" /></div><div class="figcaption-wrap"></div><figcaption><div class="thumb-info"><h4></h4></div></figcaption></figure>
+		</div>
+	</div>  
+	<div class="spb_content_element spb_image noframe col-sm-2 thumbnail-default square-corners">
+		<div class="spb-asset-content"><figure class="animated-overlay has-link overlay-alt clearfix" style="width:130px;margin:0 auto;">
+		<a class="img-link" href="https://kayagnhlondon.com/" target="_blank"></a><div class="img-wrap"><img decoding="async" width="192" height="192" src="https://kayagnhlondon.com/wp-content/uploads/2023/06/gnh_squaremeal@2x.png" class="attachment-full size-full" alt="" srcset="https://kayagnhlondon.com/wp-content/uploads/2023/06/gnh_squaremeal@2x.png 192w,   https://kayagnhlondon.com/wp-content/uploads/2023/06/gnh_squaremeal@2x-150x150.png 150w" sizes="(max-width: 192px) 100vw, 192px" /></div><div class="figcaption-wrap"></div><figcaption><div class="thumb-info"><h4></h4></div></figcaption></figure>
+		</div>
+	</div>  
+	<div class="spb_content_element spb_image noframe col-sm-2 thumbnail-default square-corners">
+		<div class="spb-asset-content"><figure class="animated-overlay has-link overlay-alt clearfix" style="width:130px;margin:0 auto;">
+		<a class="img-link" href="https://guide.michelin.com/en/hotels-stays/london/kaya-great-northern-hotel-12070" target="_blank"></a><div class="img-wrap"><img decoding="async" width="200" height="200" src="https://kayagnhlondon.com/wp-content/uploads/2026/10/michelin.png" class="attachment-full size-full" alt="" srcset="https://kayagnhlondon.com/wp-content/uploads/2026/10/michelin.png 200w,   https://kayagnhlondon.com/wp-content/uploads/2026/10/michelin-150x150.png 150w" sizes="(max-width: 200px) 100vw, 200px" /></div><div class="figcaption-wrap"></div><figcaption><div class="thumb-info"><h4></h4></div></figcaption></figure>
+		</div>
+	</div>  
+	<div class="spb_content_element spb_image noframe col-sm-3 thumbnail-default square-corners">
+		<div class="spb-asset-content"><figure class="animated-overlay has-link overlay-alt clearfix" style="width:100px;margin:0 auto;">
+		<a class="img-link" href="https://www.greenkeyengland.co.uk/" target="_blank"></a><div class="img-wrap"><img decoding="async" width="200" height="252" src="https://kayagnhlondon.com/wp-content/uploads/2024/03/Green-Key-Logo-with-text.jpg" class="attachment-full size-full" alt="" /></div><div class="figcaption-wrap"></div><figcaption><div class="thumb-info"><h4></h4></div></figcaption></figure>
+		</div>
+	</div> </section>
+ <section  class="row">
+	<div class="spb_content_element spb_image noframe col-sm-12 thumbnail-default square-corners">
+		<div class="spb-asset-content"><figure class="animated-overlay has-link overlay-alt clearfix" style="width:300px;margin:0 auto;">
+		<a class="img-link" href="https://kayahotels.com/en" target="_blank"></a><div class="img-wrap"><img decoding="async" width="1000" height="203" src="https://kayagnhlondon.com/wp-content/uploads/2026/10/KAYA-GNH-LOGO-ANNX-1.png.webp" class="attachment-full size-full" alt="" srcset="https://kayagnhlondon.com/wp-content/uploads/2026/10/KAYA-GNH-LOGO-ANNX-1.png.webp 1000w,   https://kayagnhlondon.com/wp-content/uploads/2026/10/KAYA-GNH-LOGO-ANNX-1.png-300x61.webp 300w,   https://kayagnhlondon.com/wp-content/uploads/2026/10/KAYA-GNH-LOGO-ANNX-1.png-768x156.webp 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></div><div class="figcaption-wrap"></div><figcaption><div class="thumb-info"><h4></h4></div></figcaption></figure>
+		</div>
+	</div> </section>
+ 
+		</div>
+	</div> </section>
+                 </div>
+                
+                
+            </div><!-- .spb-row -->
+
+            </section>
+
+            <div class="spb-row-sizer"></div>
+
+        
+
+	</div> 
+</div>
+		</section>                                    
+                                </div>
+                            
+                        </div>
+                    </div>
+
+                    
+                    <!--// CLOSE #footer //-->
+                </footer>
+            
+                <!--// OPEN #copyright //-->
+                <footer id="copyright" class="">
+                    <div class="container">
+                        <div class="text-left">
+                                ©2026 Kaya GNH                                        
+                        </div>
+                                                    <nav class="footer-menu std-menu">
+                                <div class="menu-footer-container"><ul id="menu-footer" class="menu"><li  class="menu-item-8424 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/our-rooms/"><span class="menu-item-text">Rooms</span></a></li>
+<li  class="menu-item-5894 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/restaurants-and-bars/"><span class="menu-item-text">Food &#038; Drink</span></a></li>
+<li  class="menu-item-8423 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/weddings/"><span class="menu-item-text">Weddings</span></a></li>
+<li  class="menu-item-8425 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/meetings-and-private-events/"><span class="menu-item-text">Meeting Rooms &#038; Private Events</span></a></li>
+<li  class="menu-item-8422 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/blogs/"><span class="menu-item-text">Blogs</span></a></li>
+<li  class="menu-item-5889 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/about/"><span class="menu-item-text">About</span></a></li>
+<li  class="menu-item-5890 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/sustainability/"><span class="menu-item-text">Sustainability</span></a></li>
+<li  class="menu-item-217 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/contact-us/"><span class="menu-item-text">Contact</span></a></li>
+<li  class="menu-item-216 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/press/"><span class="menu-item-text">Press</span></a></li>
+<li  class="menu-item-5770 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/careers/"><span class="menu-item-text">Careers</span></a></li>
+<li  class="menu-item-3255 menu-item menu-item-type-custom menu-item-object-custom"><a href="https://kayagnhlondon.skchase.com/vouchers"><span class="menu-item-text">Gift Vouchers</span></a></li>
+<li  class="menu-item-215 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/privacy-notice/"><span class="menu-item-text">Privacy Notice</span></a></li>
+<li  class="menu-item-1115 menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kayagnhlondon.com/modern-slavery-act-statement/"><span class="menu-item-text">Modern Slavery Act statement</span></a></li>
+</ul></div>                            </nav>
+                                            </div>
+                    <!--// CLOSE #copyright //-->
+                </footer>
+
+            			</div>
+
+			
+		<!--// CLOSE #container //-->
+		</div>
+
+		            <!--// FULL WIDTH VIDEO //-->
+            <div class="fw-video-area">
+                <div class="fw-video-close"><i class="sf-icon-remove"></i></div>
+                <div class="fw-video-wrap"></div>
+            </div>
+            <div class="fw-video-spacer"></div>
+                    <!--// INFINITE SCROLL PARAMS //-->
+            <div id="inf-scroll-params"
+                 data-loadingimage="https://kayagnhlondon.com/wp-content/themes/uplift/images/loader.gif"
+                 data-msgtext="Loading..." data-finishedmsg="All items loaded"></div>
+                    <!--// FRAMEWORK INCLUDES //-->
+            <div id="sf-included" class=""></div>
+                    <div id="sf-option-params" data-slider-slidespeed="7000"
+                 data-slider-animspeed="600"
+                 data-slider-autoplay="1"
+                 data-slider-loop=""
+                 data-carousel-pagespeed="800"
+                 data-carousel-slidespeed="200"
+                 data-carousel-autoplay="1"
+                 data-carousel-pagination="1"
+                 data-lightbox-nav="arrows"
+	             data-lightbox-thumbs="1"
+                 data-lightbox-skin="light"
+                 data-lightbox-sharing="0"
+                 data-product-zoom-type="inner"
+                 data-product-slider-thumbs-pos="bottom"
+                 data-product-slider-vert-height="700"
+                 data-quickview-text="Quickview"
+	             data-cart-notification="tada"
+	             data-username-placeholder="Username"
+	             data-email-placeholder="Email"
+	             data-password-placeholder="Password"
+	             data-username-or-email-placeholder="Username or email address"
+	             data-order-id-placeholder="Order ID"
+	             data-billing-email-placeholder="Billing Email"></div>
+
+        <div class="sf-svg-loader"><object data="https://kayagnhlondon.com/wp-content/themes/uplift/images/loader-svgs/loader-32px-glyph_x-circle-08.svg" type="image/svg+xml"></object></div>            <div id="loveit-locale" data-ajaxurl="https://kayagnhlondon.com/wp-admin/admin-ajax.php" data-nonce="138a4f50db"
+                 data-alreadyloved="You have already loved this item." data-error="Sorry, there was a problem processing your request."
+                 data-loggedin="false"></div>
+        
+		<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/uplift/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+            <div id="countdown-locale" data-label_year="Year"
+                 data-label_years="Years"
+                 data-label_month="Month"
+                 data-label_months="Months"
+                 data-label_weeks="Weeks"
+                 data-label_week="Week"
+                 data-label_days="Days"
+                 data-label_day="Day"
+                 data-label_hours="Hours"
+                 data-label_hour="Hour"
+                 data-label_mins="Mins"
+                 data-label_min="Min"
+                 data-label_secs="Secs"
+                 data-label_sec="Sec"></div>
+        
+			<div class="sf-container-overlay">
+				<div class="sf-loader">
+									</div>
+			</div>
+
+		<div 
+	id="pum-881" 
+	role="dialog" 
+	aria-modal="false"
+	aria-labelledby="pum_popup_title_881"
+	class="pum pum-overlay pum-theme-183 pum-theme-default-theme popmake-overlay pum-click-to-close click_open" 
+	data-popmake="{&quot;id&quot;:881,&quot;slug&quot;:&quot;victorian-essentials&quot;,&quot;theme_id&quot;:183,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie_name&quot;:null}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:&quot;1&quot;,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;custom&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;100%&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;right center&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:&quot;1&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:&quot;1&quot;,&quot;esc_press&quot;:&quot;1&quot;,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}">
+
+	<div id="popmake-881" class="pum-container popmake theme-183 size-custom pum-scrollable scrollable pum-position-fixed">
+
+				
+							<div id="pum_popup_title_881" class="pum-title popmake-title">
+				Victorian Essentials			</div>
+		
+		
+				<div class="pum-content popmake-content" tabindex="0">
+			<ul>
+<li>Air-conditioning (fully controllable)</li>
+<li>Non-smoking</li>
+<li>King-sized, Hypnos bed (200cmx200cm) with Egyptian cotton linen</li>
+<li>Walk-in shower or lush bathtub</li>
+<li>Bathroom amenities</li>
+<li>Hair dryer</li>
+<li>Bathrobes and sleepers</li>
+<li>Flat-screen HDTV</li>
+<li>WIFI, USB ports and in-room safe</li>
+<li>In-room dining from our acclaimed restaurant</li>
+<li>Coffee making facilities</li>
+<li>Pantry access (for fresh milk or treats)</li>
+<li>Turn-down service (for rooms booked directly with the hotel)</li>
+<li>Extra storage options (in Heritage and Victorian rooms only)</li>
+<li>Baby cot available (in Heritage and Victorian rooms only)</li>
+</ul>
+		</div>
+
+				
+							<button type="button" class="pum-close popmake-close" aria-label="Close">
+			CLOSE			</button>
+		
+	</div>
+
+</div>
+<div 
+	id="pum-502" 
+	role="dialog" 
+	aria-modal="false"
+	aria-labelledby="pum_popup_title_502"
+	class="pum pum-overlay pum-theme-183 pum-theme-default-theme popmake-overlay pum-click-to-close click_open" 
+	data-popmake="{&quot;id&quot;:502,&quot;slug&quot;:&quot;heritage-essentials&quot;,&quot;theme_id&quot;:183,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie_name&quot;:null}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:&quot;1&quot;,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;custom&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;100%&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;right center&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:&quot;1&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:&quot;1&quot;,&quot;esc_press&quot;:&quot;1&quot;,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}">
+
+	<div id="popmake-502" class="pum-container popmake theme-183 size-custom pum-scrollable scrollable pum-position-fixed">
+
+				
+							<div id="pum_popup_title_502" class="pum-title popmake-title">
+				Heritage Essentials			</div>
+		
+		
+				<div class="pum-content popmake-content" tabindex="0">
+			<ul>
+<li>Air-conditioning (fully controllable)</li>
+<li>Non-smoking</li>
+<li>European King-sized, Hypnos bed (160cmx200cm) with Egyptian cotton linen</li>
+<li>Walk-in shower</li>
+<li>Bathroom amenities</li>
+<li>Hair dryer</li>
+<li>Bathrobes and sleepers</li>
+<li>Flat-screen HDTV</li>
+<li>WIFI, USB ports and in-room safe</li>
+<li>In-room dining from our acclaimed restaurant</li>
+<li>Coffee making facilities</li>
+<li>Pantry access (for fresh milk or treats)</li>
+<li>Turn-down service (for rooms booked directly with the hotel)</li>
+<li>Extra storage options (in Heritage and Victorian rooms only)</li>
+<li>Baby cot available (in Heritage and Victorian rooms only)</li>
+</ul>
+		</div>
+
+				
+							<button type="button" class="pum-close popmake-close" aria-label="Close">
+			CLOSE			</button>
+		
+	</div>
+
+</div>
+<div 
+	id="pum-500" 
+	role="dialog" 
+	aria-modal="false"
+	aria-labelledby="pum_popup_title_500"
+	class="pum pum-overlay pum-theme-183 pum-theme-default-theme popmake-overlay pum-click-to-close click_open" 
+	data-popmake="{&quot;id&quot;:500,&quot;slug&quot;:&quot;edwardian-essentials&quot;,&quot;theme_id&quot;:183,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie_name&quot;:null}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:&quot;1&quot;,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;custom&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;100%&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;right center&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:&quot;1&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:&quot;1&quot;,&quot;esc_press&quot;:&quot;1&quot;,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}">
+
+	<div id="popmake-500" class="pum-container popmake theme-183 size-custom pum-scrollable scrollable pum-position-fixed">
+
+				
+							<div id="pum_popup_title_500" class="pum-title popmake-title">
+				Edwardian Essentials			</div>
+		
+		
+				<div class="pum-content popmake-content" tabindex="0">
+			<ul>
+<li>Air-conditioning (fully controllable)</li>
+<li>Non-smoking</li>
+<li>European King-sized, Hypnos bed (160cmx200cm) with Egyptian cotton linen</li>
+<li>Walk-in shower</li>
+<li>Bathroom amenities</li>
+<li>Hair dryer</li>
+<li>Bathrobes and sleepers</li>
+<li>Flat-screen HDTV</li>
+<li>WIFI, USB ports and in-room safe</li>
+<li>In-room dining from our acclaimed restaurant</li>
+<li>Coffee making facilities</li>
+<li>Pantry access (for fresh milk or treats)</li>
+<li>Turn-down service (for rooms booked directly with the hotel)</li>
+<li>Extra storage options (in Heritage and Victorian rooms only)</li>
+<li>Baby cot available (in Heritage and Victorian rooms only)</li>
+</ul>
+		</div>
+
+				
+							<button type="button" class="pum-close popmake-close" aria-label="Close">
+			CLOSE			</button>
+		
+	</div>
+
+</div>
+<div 
+	id="pum-498" 
+	role="dialog" 
+	aria-modal="false"
+	aria-labelledby="pum_popup_title_498"
+	class="pum pum-overlay pum-theme-183 pum-theme-default-theme popmake-overlay pum-click-to-close click_open" 
+	data-popmake="{&quot;id&quot;:498,&quot;slug&quot;:&quot;couchette-essentials&quot;,&quot;theme_id&quot;:183,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie_name&quot;:null}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:&quot;1&quot;,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;custom&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;100%&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;right center&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:&quot;1&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:&quot;1&quot;,&quot;esc_press&quot;:&quot;1&quot;,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}">
+
+	<div id="popmake-498" class="pum-container popmake theme-183 size-custom pum-scrollable scrollable pum-position-fixed">
+
+				
+							<div id="pum_popup_title_498" class="pum-title popmake-title">
+				Couchette Essentials			</div>
+		
+		
+				<div class="pum-content popmake-content" tabindex="0">
+			<ul>
+<li>Air-conditioning (fully controllable)</li>
+<li>Non-smoking</li>
+<li>Hypnos bed (140cmx200cm) with Egyptian cotton linen</li>
+<li>Walk-in shower</li>
+<li>Bathroom amenities</li>
+<li>Hair dryer</li>
+<li>Bathrobes and sleepers</li>
+<li>Flat-screen HDTV</li>
+<li>WIFI, USB ports and in-room safe</li>
+<li>In-room dining from our acclaimed restaurant</li>
+<li>Coffee making facilities</li>
+<li>Pantry access (for fresh milk or treats)</li>
+<li>Turn-down service (for rooms booked directly with the hotel)</li>
+<li>Extra storage options (in Heritage and Victorian rooms only)</li>
+<li>Baby cot available (in Heritage and Victorian rooms only)</li>
+</ul>
+		</div>
+
+				
+							<button type="button" class="pum-close popmake-close" aria-label="Close">
+			CLOSE			</button>
+		
+	</div>
+
+</div>
+<div 
+	id="pum-194" 
+	role="dialog" 
+	aria-modal="false"
+	aria-labelledby="pum_popup_title_194"
+	class="pum pum-overlay pum-theme-183 pum-theme-default-theme popmake-overlay pum-click-to-close click_open" 
+	data-popmake="{&quot;id&quot;:194,&quot;slug&quot;:&quot;room-amenities&quot;,&quot;theme_id&quot;:183,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie_name&quot;:null}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:&quot;1&quot;,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;custom&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;100%&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;right center&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:&quot;1&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:&quot;1&quot;,&quot;esc_press&quot;:&quot;1&quot;,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}">
+
+	<div id="popmake-194" class="pum-container popmake theme-183 size-custom pum-scrollable scrollable pum-position-fixed">
+
+				
+							<div id="pum_popup_title_194" class="pum-title popmake-title">
+				Room Amenities			</div>
+		
+		
+				<div class="pum-content popmake-content" tabindex="0">
+			<ul>
+<li>Hypnos beds with Egyptian cotton linen</li>
+<li>Walk-in shower</li>
+<li>Stunning standalone bath (available in some Victorian rooms)</li>
+<li>In-room dining from our acclaimed restaurant</li>
+<li>Nespresso coffee machine</li>
+<li>Complimentary mineral water</li>
+<li>Mini-fridge</li>
+<li>Flat-screen HDTV</li>
+<li>WiFi</li>
+<li>Hairdryer</li>
+<li>Extra storage options (available in Edwardian and Heritage rooms)</li>
+</ul>
+		</div>
+
+				
+							<button type="button" class="pum-close popmake-close" aria-label="Close">
+			CLOSE			</button>
+		
+	</div>
+
+</div>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-includes/js/jquery/ui/effect.min.js?ver=1.13.3" id="jquery-effects-core-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-includes/js/jquery/ui/effect-slide.min.js?ver=1.13.3" id="jquery-effects-slide-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-includes/js/jquery/ui/effect-highlight.min.js?ver=1.13.3" id="jquery-effects-highlight-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-includes/js/jquery/ui/effect-fold.min.js?ver=1.13.3" id="jquery-effects-fold-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-includes/js/jquery/ui/effect-blind.min.js?ver=1.13.3" id="jquery-effects-blind-js"></script>
+<script type="text/javascript" id="bg-show-hide-script-js-extra">
+/* <![CDATA[ */
+var BG_SHCE_USE_EFFECTS = "0";
+var BG_SHCE_TOGGLE_SPEED = "400";
+var BG_SHCE_TOGGLE_OPTIONS = "none";
+var BG_SHCE_TOGGLE_EFFECT = "blind";
+//# sourceURL=bg-show-hide-script-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/plugins/show-hidecollapse-expand/assets/js/bg-show-hide.js?ver=6.9.11" id="bg-show-hide-script-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/plugins/swift-framework/includes/page-builder/frontend-assets/js/lib/modernizr-custom.js" id="modernizr-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/plugins/swift-framework/includes/page-builder/frontend-assets/js/spb-functions.min.js" id="spb-frontend-js-min-js"></script>
+<script type="text/javascript" data-cfasync="true" src="https://kayagnhlondon.com/wp-content/plugins/swift-framework/includes/swift-slider/assets/js/swift-slider.min.js" id="swift-slider-min-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/plugins/swift-framework/public/js/lib/jquery.smartresize.min.js" id="jquery-smartresize-js"></script>
+<script type="text/javascript" id="theme-my-login-js-extra">
+/* <![CDATA[ */
+var themeMyLogin = {"action":"","errors":[]};
+//# sourceURL=theme-my-login-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/plugins/theme-my-login/assets/scripts/theme-my-login.min.js?ver=7.1.14" id="theme-my-login-js"></script>
+<script type="text/javascript" id="pll_cookie_script-js-after">
+/* <![CDATA[ */
+(function() {
+				var expirationDate = new Date();
+				expirationDate.setTime( expirationDate.getTime() + 31536000 * 1000 );
+				document.cookie = "pll_language=en; expires=" + expirationDate.toUTCString() + "; path=/; secure; SameSite=Lax";
+			}());
+
+//# sourceURL=pll_cookie_script-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-browser-checker-js-after">
+/* <![CDATA[ */
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"/(.*)sitemap(.*).xml/|/(.*)sitemap.xsl/|/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://kayagnhlondon.com","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-after">
+/* <![CDATA[ */
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket_lazyload_css-js-extra">
+/* <![CDATA[ */
+var rocket_lazyload_css_data = {"threshold":"300"};
+//# sourceURL=rocket_lazyload_css-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket_lazyload_css-js-after">
+/* <![CDATA[ */
+!function o(n,c,a){function u(t,e){if(!c[t]){if(!n[t]){var r="function"==typeof require&&require;if(!e&&r)return r(t,!0);if(s)return s(t,!0);throw(e=new Error("Cannot find module '"+t+"'")).code="MODULE_NOT_FOUND",e}r=c[t]={exports:{}},n[t][0].call(r.exports,function(e){return u(n[t][1][e]||e)},r,r.exports,o,n,c,a)}return c[t].exports}for(var s="function"==typeof require&&require,e=0;e<a.length;e++)u(a[e]);return u}({1:[function(e,t,r){"use strict";{const c="undefined"==typeof rocket_pairs?[]:rocket_pairs,a=(("undefined"==typeof rocket_excluded_pairs?[]:rocket_excluded_pairs).map(t=>{var e=t.selector;document.querySelectorAll(e).forEach(e=>{e.setAttribute("data-rocket-lazy-bg-"+t.hash,"excluded")})}),document.querySelector("#wpr-lazyload-bg-container"));var o=rocket_lazyload_css_data.threshold||300;const u=new IntersectionObserver(e=>{e.forEach(t=>{t.isIntersecting&&c.filter(e=>t.target.matches(e.selector)).map(t=>{var e;t&&((e=document.createElement("style")).textContent=t.style,a.insertAdjacentElement("afterend",e),t.elements.forEach(e=>{u.unobserve(e),e.setAttribute("data-rocket-lazy-bg-"+t.hash,"loaded")}))})})},{rootMargin:o+"px"});function n(){0<(0<arguments.length&&void 0!==arguments[0]?arguments[0]:[]).length&&c.forEach(t=>{try{document.querySelectorAll(t.selector).forEach(e=>{"loaded"!==e.getAttribute("data-rocket-lazy-bg-"+t.hash)&&"excluded"!==e.getAttribute("data-rocket-lazy-bg-"+t.hash)&&(u.observe(e),(t.elements||=[]).push(e))})}catch(e){console.error(e)}})}n(),function(){const r=window.MutationObserver;return function(e,t){if(e&&1===e.nodeType)return(t=new r(t)).observe(e,{attributes:!0,childList:!0,subtree:!0}),t}}()(document.querySelector("body"),n)}},{}]},{},[1]);
+//# sourceURL=rocket_lazyload_css-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/js.cookie.js" id="js-cookie-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/bootstrap.min.js" id="bootstrap-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-includes/js/jquery/ui/accordion.min.js?ver=1.13.3" id="jquery-ui-accordion-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/lightslider.min.js" id="lightslider-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/jquery.equalHeights.js?ver=1.0.1" id="jquery-equalHeights-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/jquery.infinitescroll.min.js" id="jquery-infinitescroll-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/jquery.stickyplugin.js" id="jquery-stickyplugin-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/jquery.touchSwipe.min.js" id="jquery-touchswipe-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/jquery.transit.min.js" id="jquery-transit-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/jquery.appear.js" id="jquery-appear-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/jquery.auto-grow-input.min.js" id="jquery-autoGrowInput-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/jquery.waypoints.min.js" id="jquery-waypoints-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/ilightbox.min.js" id="ilightbox-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/owl.carousel.min.js" id="owlcarousel-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/jquery.isotope.min.js" id="jquery-isotope-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/jquery.dotdotdot.js" id="jquery-dotdotdot-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/jquery.easing.1.3.js" id="jquery-easing-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/jquery.fittext.js" id="jquery-fittext-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/jquery.hoverIntent.min.js" id="jquery-hoverIntent-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/jquery.stellar.min.js" id="jquery-stellar-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/jquery.stickem.js" id="jquery-stickem-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/jquery.timeago.js" id="jquery-timeago-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/jquery.viewport.js" id="jquery-viewport-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/lib/jquery.visible.min.js" id="jquery-visible-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/themes/uplift/js/functions.js" id="uplift-functions-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
+<script type="text/javascript" id="popup-maker-site-js-extra">
+/* <![CDATA[ */
+var pum_vars = {"version":"1.21.5","pm_dir_url":"https://kayagnhlondon.com/wp-content/plugins/popup-maker/","ajaxurl":"https://kayagnhlondon.com/wp-admin/admin-ajax.php","restapi":"https://kayagnhlondon.com/wp-json/pum/v1","rest_nonce":null,"default_theme":"183","debug_mode":"1","disable_tracking":"","home_url":"/","message_position":"top","core_sub_forms_enabled":"1","popups":[],"cookie_domain":"","analytics_enabled":"1","analytics_route":"analytics","analytics_api":"https://kayagnhlondon.com/wp-json/pum/v1"};
+var pum_debug_vars = {"debug_mode_enabled":"Popup Maker: Debug Mode Enabled","debug_started_at":"Debug started at:","debug_more_info":"For more information on how to use this information visit https://wppopupmaker.com/docs/?utm_medium=js-debug-info&utm_campaign=contextual-help&utm_source=browser-console&utm_content=more-info","global_info":"Global Information","localized_vars":"Localized variables","popups_initializing":"Popups Initializing","popups_initialized":"Popups Initialized","single_popup_label":"Popup: #","theme_id":"Theme ID: ","label_method_call":"Method Call:","label_method_args":"Method Arguments:","label_popup_settings":"Settings","label_triggers":"Triggers","label_cookies":"Cookies","label_delay":"Delay:","label_conditions":"Conditions","label_cookie":"Cookie:","label_settings":"Settings:","label_selector":"Selector:","label_mobile_disabled":"Mobile Disabled:","label_tablet_disabled":"Tablet Disabled:","label_event":"Event: %s","triggers":{"click_open":"Click Open","auto_open":"Time Delay / Auto Open","form_submission":"Form Submission"},"cookies":{"on_popup_close":"On Popup Close","on_popup_open":"On Popup Open","on_popup_conversion":"On Popup Conversion","form_submission":"Form Submission","pum_sub_form_success":"Subscription Form: Successful","pum_sub_form_already_subscribed":"Subscription Form: Already Subscribed","manual":"Manual","ninja_form_success":"Ninja Form Success (deprecated. Use Form Submission instead.)"}};
+var pum_sub_vars = {"ajaxurl":"https://kayagnhlondon.com/wp-admin/admin-ajax.php","message_position":"top"};
+var pum_popups = {"pum-881":{"triggers":[],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"183","size":"custom","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"100%","scrollable_content":true,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"right center","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":true,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":true,"close_on_esc_press":true,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"default-theme","id":881,"slug":"victorian-essentials"},"pum-502":{"triggers":[],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"183","size":"custom","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"100%","scrollable_content":true,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"right center","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":true,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":true,"close_on_esc_press":true,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"default-theme","id":502,"slug":"heritage-essentials"},"pum-500":{"triggers":[],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"183","size":"custom","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"100%","scrollable_content":true,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"right center","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":true,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":true,"close_on_esc_press":true,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"default-theme","id":500,"slug":"edwardian-essentials"},"pum-498":{"triggers":[],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"183","size":"custom","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"100%","scrollable_content":true,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"right center","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":true,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":true,"close_on_esc_press":true,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"default-theme","id":498,"slug":"couchette-essentials"},"pum-194":{"triggers":[],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"183","size":"custom","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"100%","scrollable_content":true,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"right center","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":true,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":true,"close_on_esc_press":true,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"default-theme","id":194,"slug":"room-amenities"}};
+//# sourceURL=popup-maker-site-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="//kayagnhlondon.com/wp-content/uploads/pum/pum-site-scripts.js?defer&amp;generated=1770629404&amp;ver=1.21.5" id="popup-maker-site-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-includes/js/underscore.min.js?ver=1.13.7" id="underscore-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-includes/js/backbone.min.js?ver=1.6.0" id="backbone-js"></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-ninja-forms-8c1d8885e4652d19a77a.js" id="googlesitekit-events-provider-ninja-forms-js" defer></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-popup-maker-615906192af3108b105c.js" id="googlesitekit-events-provider-popup-maker-js" defer></script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/plugins/ninja-forms/assets/js/min/front-end-deps.js?ver=3.8.25.1" id="nf-front-end-deps-js"></script>
+<script type="text/javascript" id="nf-front-end-js-extra">
+/* <![CDATA[ */
+var nfi18n = {"ninjaForms":"Ninja Forms","changeEmailErrorMsg":"Please enter a valid email address!","changeDateErrorMsg":"Please enter a valid date!","confirmFieldErrorMsg":"These fields must match!","fieldNumberNumMinError":"Number Min Error","fieldNumberNumMaxError":"Number Max Error","fieldNumberIncrementBy":"Please increment by ","fieldTextareaRTEInsertLink":"Insert Link","fieldTextareaRTEInsertMedia":"Insert Media","fieldTextareaRTESelectAFile":"Select a file","formErrorsCorrectErrors":"Please correct errors before submitting this form.","formHoneypot":"If you are a human seeing this field, please leave it empty.","validateRequiredField":"This is a required field.","honeypotHoneypotError":"Honeypot Error","fileUploadOldCodeFileUploadInProgress":"File Upload in Progress.","fileUploadOldCodeFileUpload":"FILE UPLOAD","currencySymbol":"\u20ac","fieldsMarkedRequired":"Fields marked with an \u003Cspan class=\"ninja-forms-req-symbol\"\u003E*\u003C/span\u003E are required","thousands_sep":",","decimal_point":".","siteLocale":"en_GB","dateFormat":"m/d/Y","startOfWeek":"1","of":"of","previousMonth":"Previous Month","nextMonth":"Next Month","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"weekdaysMin":["Su","Mo","Tu","We","Th","Fr","Sa"],"recaptchaConsentMissing":"reCaptcha validation couldn't load.","recaptchaMissingCookie":"reCaptcha v3 validation couldn't load the cookie needed to submit the form.","recaptchaConsentEvent":"Accept reCaptcha cookies before sending the form."};
+var nfFrontEnd = {"adminAjax":"https://kayagnhlondon.com/wp-admin/admin-ajax.php","ajaxNonce":"33d1cf86ba","requireBaseUrl":"https://kayagnhlondon.com/wp-content/plugins/ninja-forms/assets/js/","use_merge_tags":{"user":{"address":"address","textbox":"textbox","button":"button","checkbox":"checkbox","city":"city","confirm":"confirm","date":"date","email":"email","firstname":"firstname","html":"html","hidden":"hidden","lastname":"lastname","listcheckbox":"listcheckbox","listcountry":"listcountry","listimage":"listimage","listmultiselect":"listmultiselect","listradio":"listradio","listselect":"listselect","liststate":"liststate","note":"note","number":"number","password":"password","passwordconfirm":"passwordconfirm","product":"product","quantity":"quantity","recaptcha":"recaptcha","recaptcha_v3":"recaptcha_v3","repeater":"repeater","shipping":"shipping","spam":"spam","starrating":"starrating","submit":"submit","terms":"terms","textarea":"textarea","total":"total","unknown":"unknown","zip":"zip","hr":"hr","mailchimp-optin":"mailchimp-optin"},"post":{"address":"address","textbox":"textbox","button":"button","checkbox":"checkbox","city":"city","confirm":"confirm","date":"date","email":"email","firstname":"firstname","html":"html","hidden":"hidden","lastname":"lastname","listcheckbox":"listcheckbox","listcountry":"listcountry","listimage":"listimage","listmultiselect":"listmultiselect","listradio":"listradio","listselect":"listselect","liststate":"liststate","note":"note","number":"number","password":"password","passwordconfirm":"passwordconfirm","product":"product","quantity":"quantity","recaptcha":"recaptcha","recaptcha_v3":"recaptcha_v3","repeater":"repeater","shipping":"shipping","spam":"spam","starrating":"starrating","submit":"submit","terms":"terms","textarea":"textarea","total":"total","unknown":"unknown","zip":"zip","hr":"hr","mailchimp-optin":"mailchimp-optin"},"system":{"address":"address","textbox":"textbox","button":"button","checkbox":"checkbox","city":"city","confirm":"confirm","date":"date","email":"email","firstname":"firstname","html":"html","hidden":"hidden","lastname":"lastname","listcheckbox":"listcheckbox","listcountry":"listcountry","listimage":"listimage","listmultiselect":"listmultiselect","listradio":"listradio","listselect":"listselect","liststate":"liststate","note":"note","number":"number","password":"password","passwordconfirm":"passwordconfirm","product":"product","quantity":"quantity","recaptcha":"recaptcha","recaptcha_v3":"recaptcha_v3","repeater":"repeater","shipping":"shipping","spam":"spam","starrating":"starrating","submit":"submit","terms":"terms","textarea":"textarea","total":"total","unknown":"unknown","zip":"zip","hr":"hr","mailchimp-optin":"mailchimp-optin"},"fields":{"address":"address","textbox":"textbox","button":"button","checkbox":"checkbox","city":"city","confirm":"confirm","date":"date","email":"email","firstname":"firstname","html":"html","hidden":"hidden","lastname":"lastname","listcheckbox":"listcheckbox","listcountry":"listcountry","listimage":"listimage","listmultiselect":"listmultiselect","listradio":"listradio","listselect":"listselect","liststate":"liststate","note":"note","number":"number","password":"password","passwordconfirm":"passwordconfirm","product":"product","quantity":"quantity","recaptcha":"recaptcha","recaptcha_v3":"recaptcha_v3","repeater":"repeater","shipping":"shipping","spam":"spam","starrating":"starrating","submit":"submit","terms":"terms","textarea":"textarea","total":"total","unknown":"unknown","zip":"zip","hr":"hr","mailchimp-optin":"mailchimp-optin"},"calculations":{"html":"html","hidden":"hidden","note":"note","unknown":"unknown"}},"opinionated_styles":"light","filter_esc_status":"false","nf_consent_status_response":[]};
+var nfInlineVars = [];
+//# sourceURL=nf-front-end-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://kayagnhlondon.com/wp-content/plugins/ninja-forms/assets/js/min/front-end.js?ver=3.8.25.1" id="nf-front-end-js"></script>
+<div class="language-switcher"><a href="https://kayagnhlondon.com/tr/" aria-label="Türkçe"><img src="https://kayagnhlondon.com/wp-content/uploads/2020/06/tr.svg" alt="Türkçe"></a></div><script id="tmpl-nf-layout" type="text/template">
+	<span id="nf-form-title-{{{ data.id }}}" class="nf-form-title">
+		{{{ ( 1 == data.settings.show_title ) ? '<h' + data.settings.form_title_heading_level + '>' + data.settings.title + '</h' + data.settings.form_title_heading_level + '>' : '' }}}
+	</span>
+	<div class="nf-form-wrap ninja-forms-form-wrap">
+		<div class="nf-response-msg"></div>
+		<div class="nf-debug-msg"></div>
+		<div class="nf-before-form"></div>
+		<div class="nf-form-layout"></div>
+		<div class="nf-after-form"></div>
+	</div>
+</script>
+
+<script id="tmpl-nf-empty" type="text/template">
+
+</script>
+<script id="tmpl-nf-before-form" type="text/template">
+	{{{ data.beforeForm }}}
+</script><script id="tmpl-nf-after-form" type="text/template">
+	{{{ data.afterForm }}}
+</script><script id="tmpl-nf-before-fields" type="text/template">
+    <div class="nf-form-fields-required">{{{ data.renderFieldsMarkedRequired() }}}</div>
+    {{{ data.beforeFields }}}
+</script><script id="tmpl-nf-after-fields" type="text/template">
+    {{{ data.afterFields }}}
+    <div id="nf-form-errors-{{{ data.id }}}" class="nf-form-errors" role="alert"></div>
+    <div class="nf-form-hp"></div>
+</script>
+<script id="tmpl-nf-before-field" type="text/template">
+    {{{ data.beforeField }}}
+</script><script id="tmpl-nf-after-field" type="text/template">
+    {{{ data.afterField }}}
+</script><script id="tmpl-nf-form-layout" type="text/template">
+	<form>
+		<div>
+			<div class="nf-before-form-content"></div>
+			<div class="nf-form-content {{{ data.element_class }}}"></div>
+			<div class="nf-after-form-content"></div>
+		</div>
+	</form>
+</script><script id="tmpl-nf-form-hp" type="text/template">
+	<label id="nf-label-field-hp-{{{ data.id }}}" for="nf-field-hp-{{{ data.id }}}" aria-hidden="true">
+		{{{ nfi18n.formHoneypot }}}
+		<input id="nf-field-hp-{{{ data.id }}}" name="nf-field-hp" class="nf-element nf-field-hp" type="text" value="" aria-labelledby="nf-label-field-hp-{{{ data.id }}}" />
+	</label>
+</script>
+<script id="tmpl-nf-field-layout" type="text/template">
+    <div id="nf-field-{{{ data.id }}}-container" class="nf-field-container {{{ data.type }}}-container {{{ data.renderContainerClass() }}}">
+        <div class="nf-before-field"></div>
+        <div class="nf-field"></div>
+        <div class="nf-after-field"></div>
+    </div>
+</script>
+<script id="tmpl-nf-field-before" type="text/template">
+    {{{ data.beforeField }}}
+</script><script id="tmpl-nf-field-after" type="text/template">
+    <#
+    /*
+     * Render our input limit section if that setting exists.
+     */
+    #>
+    <div class="nf-input-limit"></div>
+    <#
+    /*
+     * Render our error section if we have an error.
+     */
+    #>
+    <div id="nf-error-{{{ data.id }}}" class="nf-error-wrap nf-error" role="alert" aria-live="assertive"></div>
+    <#
+    /*
+     * Render any custom HTML after our field.
+     */
+    #>
+    {{{ data.afterField }}}
+</script>
+<script id="tmpl-nf-field-wrap" type="text/template">
+	<div id="nf-field-{{{ data.id }}}-wrap" class="{{{ data.renderWrapClass() }}}" data-field-id="{{{ data.id }}}">
+		<#
+		/*
+		 * This is our main field template. It's called for every field type.
+		 * Note that must have ONE top-level, wrapping element. i.e. a div/span/etc that wraps all of the template.
+		 */
+        #>
+		<#
+		/*
+		 * Render our label.
+		 */
+        #>
+		{{{ data.renderLabel() }}}
+		<#
+		/*
+		 * Render our field element. Uses the template for the field being rendered.
+		 */
+        #>
+		<div class="nf-field-element">{{{ data.renderElement() }}}</div>
+		<#
+		/*
+		 * Render our Description Text.
+		 */
+        #>
+		{{{ data.renderDescText() }}}
+	</div>
+</script>
+<script id="tmpl-nf-field-wrap-no-label" type="text/template">
+    <div id="nf-field-{{{ data.id }}}-wrap" class="{{{ data.renderWrapClass() }}}" data-field-id="{{{ data.id }}}">
+        <div class="nf-field-label"></div>
+        <div class="nf-field-element">{{{ data.renderElement() }}}</div>
+        <div class="nf-error-wrap"></div>
+    </div>
+</script>
+<script id="tmpl-nf-field-wrap-no-container" type="text/template">
+
+        {{{ data.renderElement() }}}
+
+        <div class="nf-error-wrap"></div>
+</script>
+<script id="tmpl-nf-field-label" type="text/template">
+	<div class="nf-field-label">
+		<# if ( data.type === "listcheckbox" || data.type === "listradio" || data.type === "listimage" || data.type === "date" || data.type === "starrating" ) { #>
+			<span id="nf-label-field-{{{ data.id }}}"
+				class="nf-label-span {{{ data.renderLabelClasses() }}}">
+					{{{ ( data.maybeFilterHTML() === 'true' ) ? _.escape( data.label ) : data.label }}} {{{ ( 'undefined' != typeof data.required && 1 == data.required ) ? '<span class="ninja-forms-req-symbol">*</span>' : '' }}} 
+					{{{ data.maybeRenderHelp() }}}
+			</span>
+		<# } else { #>
+			<label for="nf-field-{{{ data.id }}}"
+					id="nf-label-field-{{{ data.id }}}"
+					class="{{{ data.renderLabelClasses() }}}">
+						{{{ ( data.maybeFilterHTML() === 'true' ) ? _.escape( data.label ) : data.label }}} {{{ ( 'undefined' != typeof data.required && 1 == data.required ) ? '<span class="ninja-forms-req-symbol">*</span>' : '' }}} 
+						{{{ data.maybeRenderHelp() }}}
+			</label>
+		<# } #>
+	</div>
+</script><script id="tmpl-nf-field-error" type="text/template">
+	<div class="nf-error-msg nf-error-{{{ data.id }}}" aria-live="assertive">{{{ data.msg }}}</div>
+</script><script id="tmpl-nf-form-error" type="text/template">
+	<div class="nf-error-msg nf-error-{{{ data.id }}}">{{{ data.msg }}}</div>
+</script><script id="tmpl-nf-field-input-limit" type="text/template">
+    {{{ data.currentCount() }}} {{{ nfi18n.of }}} {{{ data.input_limit }}} {{{ data.input_limit_msg }}}
+</script><script id="tmpl-nf-field-null" type="text/template">
+</script><script id="tmpl-nf-field-email" type="text/template">
+	<input
+		type="email"
+		value="{{{ _.escape( data.value ) }}}"
+		class="{{{ data.renderClasses() }}} nf-element"
+		id="nf-field-{{{ data.id }}}"
+		name="{{ data.custom_name_attribute || 'nf-field-' + data.id + '-' + data.type }}"
+		{{{data.maybeDisableAutocomplete()}}}
+		{{{ data.renderPlaceholder() }}}
+		{{{ data.maybeDisabled() }}}
+		aria-invalid="false"
+		aria-describedby="<# if( data.desc_text ) { #>nf-description-{{{ data.id }}} <# } #>nf-error-{{{ data.id }}}"
+		aria-labelledby="nf-label-field-{{{ data.id }}}"
+		{{{ data.maybeRequired() }}}
+	>
+</script>
+<script id='tmpl-nf-field-input' type='text/template'>
+    <input id="nf-field-{{{ data.id }}}" name="nf-field-{{{ data.id }}}" aria-invalid="false" aria-describedby="<# if( data.desc_text ) { #>nf-description-{{{ data.id }}} <# } #>nf-error-{{{ data.id }}}" class="{{{ data.renderClasses() }}} nf-element" type="text" value="{{{ _.escape( data.value ) }}}" {{{ data.renderPlaceholder() }}} {{{ data.maybeDisabled() }}}
+           aria-labelledby="nf-label-field-{{{ data.id }}}"
+
+            {{{ data.maybeRequired() }}}
+    >
+</script>
+<script id="tmpl-nf-field-submit" type="text/template">
+
+<# 
+let myType = data.type
+if('save'== data.type){
+	myType = 'button'
+}
+#>
+<input id="nf-field-{{{ data.id }}}" class="{{{ data.renderClasses() }}} nf-element " type="{{{myType}}}" value="{{{ ( data.maybeFilterHTML() === 'true' ) ? _.escape( data.label ) : data.label }}}" {{{ ( data.disabled ) ? 'aria-disabled="true" disabled="true"' : '' }}}>
+
+</script><script id='tmpl-nf-field-button' type='text/template'>
+    <button id="nf-field-{{{ data.id }}}" name="nf-field-{{{ data.id }}}" class="{{{ data.classes }}} nf-element">
+        {{{ ( data.maybeFilterHTML() === 'true' ) ? _.escape( data.label ) : data.label }}}
+    </button>
+</script><script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://kayagnhlondon.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script><script>function lazyLoadThumb(e,alt,l){var t='<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="Play Youtube video"></button>';if(l){t=t.replace('data-lazy-','');t=t.replace('loading="lazy"','');t=t.replace(/<noscript>.*?<\/noscript>/g,'');}t=t.replace('alt=""','alt="'+alt+'"');return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?"":"&"+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var exclusions=[];var e,t,p,u,l,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)(e=document.createElement("div")),(u='https://i.ytimg.com/vi/ID/hqdefault.jpg'),(u=u.replace('ID',a[t].dataset.id)),(l=exclusions.some(exclusion=>u.includes(exclusion))),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query",a[t].dataset.query),e.setAttribute("data-src",a[t].dataset.src),(e.innerHTML=lazyLoadThumb(a[t].dataset.id,a[t].dataset.alt,l)),a[t].appendChild(e),(p=e.querySelector(".play")),(p.onclick=lazyLoadYoutubeIframe)});</script>
+	<!--// CLOSE BODY //-->
+	</body>
+
+
+<!--// CLOSE HTML //-->
+</html>
