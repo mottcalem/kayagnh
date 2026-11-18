@@ -2,44 +2,103 @@
 
 import { useCallback, useEffect, useRef, useState } from 'react';
 
+const EXPEDIA_REVIEWS_URL =
+  'https://www.expedia.com/London-Hotels-Kaya-Great-Northern-Hotel.h5921175.Hotel-Information?pwaDialog=summary-reviews-5921175';
+
 const TESTIMONIALS = [
   {
-    text: '"A fine place to pitch in London. The perfect blend of Victorian charm and modern comfort. The location is unbeatable — steps from King\'s Cross and St Pancras."',
-    author: 'James G.',
+    text: '"Excellent location. Very clean. Dressing gown, slippers, and shower gel etc. Less to carry on my trip to London."',
+    author: 'Katherine',
+    initial: 'K',
+    date: 'November 2026',
+    stars: 5,
+  },
+  {
+    text: '"Small but clean room, helpful and personable staff, breakfast very good, bar staff professional."',
+    author: 'Pauline',
+    initial: 'P',
+    date: 'September 2026',
+    stars: 5,
+  },
+  {
+    text: '"Lovely hotel, decor is top quality and has a very premium feel. Also location is great."',
+    author: 'James',
     initial: 'J',
-    date: 'September 2024',
+    date: 'September 2026',
+    stars: 5,
   },
   {
-    text: '"The RAILS restaurant is exceptional. The beef wellington is a must-try, and the wine list is impressive. A true gem in King\'s Cross."',
-    author: 'Sarah M.',
+    text: '"Great location, very clean."',
+    author: 'Subodh',
     initial: 'S',
-    date: 'August 2024',
+    date: 'September 2026',
+    stars: 5,
   },
   {
-    text: '"We had our wedding reception in the Mezzanine — a stunning semi-private space. The team made our day truly magical."',
-    author: 'Emma & Tom',
-    initial: 'E',
-    date: 'July 2024',
+    text: '"Perfect, great location, lovely hotel."',
+    author: 'William',
+    initial: 'W',
+    date: 'August 2026',
+    stars: 5,
   },
 ];
 
+function ReviewQuote({ text, open, onToggle }) {
+  const quoteRef = useRef(null);
+  const [overflows, setOverflows] = useState(false);
+
+  useEffect(() => {
+    const quote = quoteRef.current;
+    if (!quote || open) return undefined;
+
+    const measure = () => {
+      setOverflows(quote.scrollHeight > quote.clientHeight + 1);
+    };
+
+    measure();
+    window.addEventListener('resize', measure);
+    return () => window.removeEventListener('resize', measure);
+  }, [text, open]);
+
+  return (
+    <>
+      <blockquote ref={quoteRef} className={`testimonial-text${open ? '' : ' is-clamped'}`}>
+        {text}
+      </blockquote>
+      {overflows ? (
+        <button type="button" className="testimonial-more" aria-expanded={open} onClick={onToggle}>
+          {open ? 'Less' : 'More'}
+        </button>
+      ) : null}
+    </>
+  );
+}
+
 export default function HomeTestimonials() {
   const [current, setCurrent] = useState(0);
+  const [expanded, setExpanded] = useState(false);
   const sectionRef = useRef(null);
   const intervalRef = useRef(null);
 
   const updateTestimonial = useCallback((index) => {
+    setExpanded(false);
     setCurrent((index + TESTIMONIALS.length) % TESTIMONIALS.length);
   }, []);
 
   const startAutoPlay = useCallback(() => {
     if (intervalRef.current) clearInterval(intervalRef.current);
     intervalRef.current = setInterval(() => {
+      setExpanded(false);
       setCurrent((prev) => (prev + 1) % TESTIMONIALS.length);
     }, 5000);
   }, []);
 
   useEffect(() => {
+    if (expanded) {
+      if (intervalRef.current) clearInterval(intervalRef.current);
+      return undefined;
+    }
+
     startAutoPlay();
     const section = sectionRef.current;
     if (!section) return undefined;
@@ -57,7 +116,7 @@ export default function HomeTestimonials() {
       section.removeEventListener('mouseenter', onEnter);
       section.removeEventListener('mouseleave', onLeave);
     };
-  }, [startAutoPlay]);
+  }, [expanded, startAutoPlay]);
 
   return (
     <section className="section testimonials" id="testimonials" aria-label="Kaya Hotels and guest testimonials" ref={sectionRef}>
@@ -91,10 +150,20 @@ export default function HomeTestimonials() {
                 id="testimonialTrack"
                 style={{ transform: `translateX(-${current * 100}%)` }}
               >
-                {TESTIMONIALS.map((t) => (
+                {TESTIMONIALS.map((t, index) => {
+                  const isOpen = expanded && current === index;
+
+                  return (
                   <article className="testimonial-card" key={t.author}>
-                    <div className="testimonial-stars">★★★★★</div>
-                    <blockquote className="testimonial-text">{t.text}</blockquote>
+                    <div className="testimonial-stars" aria-label={`${t.stars} out of 5`}>
+                      {'★'.repeat(t.stars)}
+                      <span className="testimonial-stars-empty">{'★'.repeat(5 - t.stars)}</span>
+                    </div>
+                    <ReviewQuote
+                      text={t.text}
+                      open={isOpen}
+                      onToggle={() => setExpanded((open) => (current === index ? !open : true))}
+                    />
                     <div className="testimonial-author">
                       <div className="author-avatar">{t.initial}</div>
                       <div>
@@ -103,7 +172,8 @@ export default function HomeTestimonials() {
                       </div>
                     </div>
                   </article>
-                ))}
+                  );
+                })}
               </div>
               <div className="testimonial-controls">
                 <button
@@ -146,6 +216,14 @@ export default function HomeTestimonials() {
                 </button>
               </div>
             </div>
+            <a
+              className="testimonial-see-more"
+              href={EXPEDIA_REVIEWS_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              See More
+            </a>
             <div className="review-platforms" aria-label="Review Kaya Great Northern Hotel">
               <span>Share your stay</span>
               <a

@@ -62,6 +62,9 @@ export default function Footer() {
               <div className="footer-partner-item">
                 <img src="/img/basic/greenkey.webp" alt="Green Key" width={120} height={50} loading="lazy" />
               </div>
+              <div className="footer-partner-item">
+                <img src="/img/basic/michelin.webp" alt="Michelin Guide Hotel Selection 2026" width={120} height={120} loading="lazy" />
+              </div>
             </div>
           </div>
         </div>

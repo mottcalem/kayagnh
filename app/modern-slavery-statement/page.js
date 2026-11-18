@@ -1,9 +1,7 @@
-import PageHero from '@/components/PageHero';
-
 export const metadata = {
   title: 'Modern Slavery and Human Trafficking Statement',
   description:
-    'Modern Slavery and Human Trafficking Statement for Kaya Great Northern Hotel (Aries GNH (Operations) Ltd) for the financial year ended 31 December 2024.',
+    'Modern Slavery and Human Trafficking Statement for Kaya Great Northern Hotel (Aries GNH (Operations) Ltd) for the financial year ended 31 December 2025.',
 };
 
 const sections = [
@@ -20,7 +18,7 @@ const sections = [
       },
       {
         label: 'Turnover',
-        text: 'Around £11 million in 2024.',
+        text: 'Around £11 million in 2025.',
       },
       {
         label: 'Supply Chain',
@@ -81,19 +79,12 @@ const sections = [
 export default function ModernSlaveryPage() {
   return (
     <>
-      <PageHero
-        image="/img/basic/IC-SAYFA-BEYAZ-SAYFA.webp"
-        tag="Legal"
-        title="Modern Slavery Statement"
-        description="For the financial year ended 31 December 2024"
-      />
-
-      <section className="section legal-section" aria-label="Modern Slavery Statement">
+      <section className="section legal-section legal-section--top" aria-label="Modern Slavery Statement">
         <div className="container">
           <article className="legal-article reveal">
             <header className="legal-header">
-              <h2 className="legal-title">Modern Slavery and Human Trafficking Statement</h2>
-              <p className="legal-subtitle">(for the financial year ended 31 December 2024)</p>
+              <h1 className="legal-title">Modern Slavery and Human Trafficking Statement</h1>
+              <p className="legal-subtitle">(for the financial year ended 31 December 2025)</p>
               <p className="legal-lead">
                 This statement is made pursuant to Section 54(1) of the Modern Slavery Act 2015. It is made on behalf of
                 Kaya Great Northern Hotel (Aries GNH (Operations) Ltd), a fully serviced luxury hotel in King&apos;s

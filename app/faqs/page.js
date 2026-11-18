@@ -128,14 +128,14 @@ export default function FaqsPage() {
         </div>
       </section>
 
-      <section className="contact-small-cta">
+      <section className="contact-small-cta faqs-contact-cta">
         <div className="container">
           <p>
             If you can&apos;t find the answer to your question here, please contact us on{' '}
             <a href={SITE.phoneHref}>{SITE.phone}</a> or email{' '}
             <a href="mailto:INFO@GNHLONDON.COM">INFO@GNHLONDON.COM</a>.
           </p>
-          <Link href="/contact" className="editorial-link">
+          <Link href="/contact" className="btn btn-primary faqs-contact-btn">
             Contact Us ↗
           </Link>
         </div>

@@ -140,7 +140,7 @@ export default function GnhBarPage() {
       <section className="section editorial-discover editorial-discover--dark" id="venue-whatson">
         <div className="container">
           <span className="editorial-eyebrow">Live at GNH Bar</span>
-          <h2 className="editorial-section-title">A soundtrack for King&apos;s Cross.</h2>
+          <h2 className="editorial-section-title">A soundtrack for King&apos;s Cross</h2>
           <EditorialCarousel label="live events">
             <article className="editorial-carousel-card">
               <img src="/img/basic/jazz-wednesdays.webp" alt="Jodie Shankland singing live at GNH Bar" />
@@ -156,7 +156,7 @@ export default function GnhBarPage() {
 
       <section className="section bar-card-section" aria-label="Other Spaces">
         <div className="container">
-          <span className="editorial-eyebrow bar-card-section-eyebrow">Other Spaces</span>
+          <span className="editorial-eyebrow bar-card-section-eyebrow bar-card-section-eyebrow--large">Other Spaces</span>
           <div className="bar-card-grid reveal">
             {spaces.map((space) => (
               <article className="bar-card" key={space.badge}>
@@ -174,7 +174,7 @@ export default function GnhBarPage() {
         </div>
       </section>
 
-      <SplitFaq compact tag="FAQs" title="Frequently asked questions." items={faqs} />
+      <SplitFaq compact tag="FAQs" title="Frequently asked questions" items={faqs} />
     </>
   );
 }

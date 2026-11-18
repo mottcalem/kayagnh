@@ -42,12 +42,19 @@ export default function BlogIndexPage() {
             {posts.map((post) => (
               <li key={post.slug} className="blog-index-item reveal">
                 <Link href={blogPath(post.slug)} className="blog-index-card">
-                  <time className="blog-index-date" dateTime={post.date}>
-                    {formatPostDate(post.date)}
-                  </time>
-                  <h2 className="blog-index-title">{post.title}</h2>
-                  <p className="blog-index-excerpt">{excerptFromHtml(post.contentHtml)}</p>
-                  <span className="blog-index-cta">Read More &rarr;</span>
+                  {post.featuredImage ? (
+                    <span className="blog-index-media">
+                      <img src={post.featuredImage} alt="" />
+                    </span>
+                  ) : null}
+                  <span className="blog-index-body">
+                    <time className="blog-index-date" dateTime={post.date}>
+                      {formatPostDate(post.date)}
+                    </time>
+                    <h2 className="blog-index-title">{post.title}</h2>
+                    <p className="blog-index-excerpt">{excerptFromHtml(post.contentHtml)}</p>
+                    <span className="blog-index-cta">Read More &rarr;</span>
+                  </span>
                 </Link>
               </li>
             ))}

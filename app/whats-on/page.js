@@ -50,7 +50,7 @@ export default function WhatsOnPage() {
     <>
       <PageHero
         overlayDark
-        image="/img/basic/whats-on-hero.webp"
+        image="/img/basic/whats-on-hero.jpg"
         tag="What's On"
         title="Discover More"
         description="Connect with the heart of the area"

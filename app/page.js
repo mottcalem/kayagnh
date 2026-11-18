@@ -3,6 +3,7 @@ import HomeHero from '@/components/HomeHero';
 import HomeRoomsGrid from '@/components/HomeRoomsGrid';
 import HomeTestimonials from '@/components/HomeTestimonials';
 import KayaClubRibbon from '@/components/KayaClubRibbon';
+import BlackFridayPopup from '@/components/BlackFridayPopup';
 
 export const metadata = {
   title: "Kaya Great Northern Hotel | Since 1854 — King's Cross, London",
@@ -28,6 +29,7 @@ export default function HomePage() {
   return (
     <>
       <HomeHero />
+      <BlackFridayPopup />
 
       {/* Story */}
       <section className="section story" id="story" aria-label="Our Story">
@@ -199,6 +201,54 @@ export default function HomePage() {
             <div className="title-ornament" />
           </div>
 
+          <div className="offers-lead">
+            <article className="offer-card reveal">
+              <div className="offer-image">
+                <img
+                  src="/img/basic/festive-home-card.jpg"
+                  alt="Festive table setting at Kaya Great Northern Hotel"
+                  loading="lazy"
+                  width={1024}
+                  height={1024}
+                />
+              </div>
+              <div className="offer-content">
+                <span className="offer-category">Your festive plans start here</span>
+                <h3 className="offer-title">Festive Season 2026</h3>
+                <p className="offer-desc">
+                  Celebrate the season in the heart of King’s Cross — festive menus at RAILS Restaurant &amp; Little Bar,
+                  or a private celebration in our event spaces.
+                </p>
+                <Link href="/festive-season-2026" className="offer-link">
+                  Discover More &rarr;
+                </Link>
+              </div>
+            </article>
+
+            <article className="offer-card reveal">
+              <div className="offer-image">
+                <img
+                  src="/img/basic/black-friday-offer.webp"
+                  alt="Black Friday 25% off at Kaya Great Northern Hotel"
+                  loading="lazy"
+                  width={1254}
+                  height={1254}
+                />
+              </div>
+              <div className="offer-content">
+                <span className="offer-category">Black Friday</span>
+                <h3 className="offer-title">Black Friday Offer: Enjoy 25% Off</h3>
+                <p className="offer-desc">
+                  An exclusive offer for Kaya Club members — 25% off our Best Available Rate, bookable 19–30 November
+                  2026.
+                </p>
+                <Link href="/offers/kaya-club-rewards-black-friday" className="offer-link">
+                  Read More &rarr;
+                </Link>
+              </div>
+            </article>
+          </div>
+
           <div className="offers-grid">
             <article className="offer-card featured reveal">
               <div className="offer-image">
@@ -287,7 +337,7 @@ export default function HomePage() {
               <article className="offer-card bottom-card reveal">
                 <div className="offer-image">
                   <img
-                    src="/img/basic/Heritage-Room-3.webp"
+                    src="/img/basic/Heritage-Room-3.jpg"
                     alt="Heritage Room Experience"
                     loading="lazy"
                     width={480}

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import NewsletterSignupButton from '@/components/NewsletterSignupButton';
 
 function EventDetailBody({ event }) {
   const { detail } = event;
@@ -31,7 +32,7 @@ function EventDetailBody({ event }) {
   if (event.id === 'day-use') {
     return (
       <div className="whats-on-event-detail-body">
-        <p className="whats-on-event-detail-lede">Available from 9am until 5pm. Rates from £165</p>
+        <p className="whats-on-event-detail-lede">Available from 9am until 5pm. Rates from £189</p>
         <p className="whats-on-event-detail-enquire">
           <a href="mailto:reservations@kayagnhlondon.com">
             <strong>Enquire now</strong>
@@ -68,6 +69,10 @@ function EventDetailBody({ event }) {
 
 function EventDetailCta({ cta, wide = false }) {
   const className = `btn btn-whats-on-detail${wide ? ' btn-whats-on-detail--wide' : ''}`;
+
+  if (cta.href === '#newsletter') {
+    return <NewsletterSignupButton label={cta.label} className={className} />;
+  }
 
   if (cta.href.startsWith('#')) {
     return (

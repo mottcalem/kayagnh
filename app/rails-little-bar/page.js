@@ -126,7 +126,7 @@ export default function RailsLittleBarPage() {
         </div>
       </section>
 
-      <SplitFaq compact tag="FAQs" title="Frequently asked questions." items={faqs} />
+      <SplitFaq compact tag="FAQs" title="Frequently asked questions" items={faqs} />
     </>
   );
 }

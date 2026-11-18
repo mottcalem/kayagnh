@@ -13,7 +13,7 @@ export default function MeetingsEnquiryPage() {
     <EnquirySection
       className="enquiry-section--page"
       tag="Meetings & Events"
-      title="Make an enquiry."
+      title="Make an enquiry"
     >
       <p>
         Tell us about your event — the date, guest numbers and the kind of occasion — and our events team will come back to you with

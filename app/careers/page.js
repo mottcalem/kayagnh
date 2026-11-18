@@ -10,6 +10,7 @@ export const metadata = {
 
 export default function CareersPage() {
   const [vacancy] = VACANCIES;
+  const hasVacancy = Boolean(vacancy);
 
   return (
     <>
@@ -37,56 +38,64 @@ export default function CareersPage() {
             <div className="title-ornament" />
           </div>
 
-          <article className="job-lead reveal">
-            <span className="editorial-eyebrow">{vacancy.location}</span>
-            <h3 className="job-title">{vacancy.title}</h3>
-            <p className="job-tagline">{vacancy.tagline}</p>
+          {hasVacancy ? (
+            <>
+              <article className="job-lead reveal">
+                <span className="editorial-eyebrow">{vacancy.location}</span>
+                <h3 className="job-title">{vacancy.title}</h3>
+                <p className="job-tagline">{vacancy.tagline}</p>
 
-            <div className="job-meta">
-              {vacancy.meta.map((item) => (
-                <div key={item.label}>
-                  <span className="job-meta-label">{item.label}</span>
-                  <span className="job-meta-value">{item.value}</span>
+                <div className="job-meta">
+                  {vacancy.meta.map((item) => (
+                    <div key={item.label}>
+                      <span className="job-meta-label">{item.label}</span>
+                      <span className="job-meta-value">{item.value}</span>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="job-intro">
+                  {vacancy.intro.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+                </div>
+
+                <a className="btn btn-primary" href={vacancy.applyUrl} target="_blank" rel="noopener noreferrer">
+                  Apply via Caterer
+                </a>
+              </article>
+
+              {vacancy.blocks.map((block, index) => (
+                <div className="job-block reveal" key={block.title}>
+                  <div className="job-block-label">
+                    <span className="editorial-eyebrow">{String(index + 1).padStart(2, '0')}</span>
+                    <h3>{block.title}</h3>
+                  </div>
+                  <div className="job-block-body">
+                    {block.text?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+                    {block.items ? (
+                      <ul className={`job-list${block.twoColumns ? '' : ' job-list--single'}`}>
+                        {block.items.map((item) => <li key={item}>{item}</li>)}
+                      </ul>
+                    ) : null}
+                  </div>
                 </div>
               ))}
-            </div>
-
-            <div className="job-intro">
-              {vacancy.intro.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-            </div>
-
-            <a className="btn btn-primary" href={vacancy.applyUrl} target="_blank" rel="noopener noreferrer">
-              Apply via Caterer
-            </a>
-          </article>
-
-          {vacancy.blocks.map((block, index) => (
-            <div className="job-block reveal" key={block.title}>
-              <div className="job-block-label">
-                <span className="editorial-eyebrow">{String(index + 1).padStart(2, '0')}</span>
-                <h3>{block.title}</h3>
-              </div>
-              <div className="job-block-body">
-                {block.text?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-                {block.items ? (
-                  <ul className={`job-list${block.twoColumns ? '' : ' job-list--single'}`}>
-                    {block.items.map((item) => <li key={item}>{item}</li>)}
-                  </ul>
-                ) : null}
-              </div>
-            </div>
-          ))}
+            </>
+          ) : (
+            <p className="job-empty reveal">There are no open positions at the moment. Please check back soon.</p>
+          )}
         </div>
       </section>
 
-      <ImageCta
-        image="/img/basic/gnh-hero-exterior-1600_3.webp"
-        tag="Ready to join the team?"
-        title={`Apply for the ${vacancy.title} position.`}
-        description="Please note that applications will only be accepted via Caterer."
-        href={vacancy.applyUrl}
-        cta="Apply via Caterer"
-      />
+      {hasVacancy ? (
+        <ImageCta
+          image="/img/basic/gnh-hero-exterior-1600_3.webp"
+          tag="Ready to join the team?"
+          title={`Apply for the ${vacancy.title} position`}
+          description="Please note that applications will only be accepted via Caterer."
+          href={vacancy.applyUrl}
+          cta="Apply via Caterer"
+        />
+      ) : null}
     </>
   );
 }

@@ -6,12 +6,12 @@ export default function GnhBarOpener() {
 
         <h1 className="gnh-bar-opener-lead reveal">
           From morning coffee to late-night cocktails, GNH Bar reimagines the traditional railway bar at
-          King&apos;s Cross.
+          King&apos;s Cross
         </h1>
 
         <figure className="gnh-bar-opener-media reveal">
           <img
-            src="/img/basic/gnh-bar-terrace.webp"
+            src="/img/basic/gnh-bar-terrace.jpg"
             alt="GNH Bar terrace at King's Cross"
             width={1400}
             height={900}

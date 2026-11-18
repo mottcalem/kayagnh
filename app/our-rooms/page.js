@@ -63,15 +63,6 @@ const roomFaqs = [
     a: <p>Yes — rooms include <strong>Wi-Fi</strong> and <strong>air conditioning</strong>, plus key in-room essentials.</p>,
   },
   {
-    q: 'Does this London wedding venue have rooms, a bar and a restaurant — and is it by the King’s Cross station?',
-    a: (
-      <p>
-        Yes — if you’re searching for <strong>hotels near Eurostar London</strong>, our location by King’s Cross and St Pancras makes travel
-        simple. You can view <Link href="/">the hotel</Link> and plan your stay around your Eurostar arrival or departure.
-      </p>
-    ),
-  },
-  {
     q: 'Do you have a hotel bar near King’s Cross?',
     a: (
       <p>
@@ -182,7 +173,7 @@ export default function OurRoomsPage() {
       </section>
 
       <SplitFaq
-        title="Rooms, answered."
+        title="Rooms, answered"
         description="Everything you need to choose the room that feels right for your London stay."
         items={roomFaqs}
       />

@@ -51,7 +51,7 @@ const SLIDES = [
   },
   {
     type: 'image',
-    bg: '/img/basic/Heritage-Room-3.webp',
+    bg: '/img/basic/Heritage-Room-3.jpg',
     indicatorLabel: 'Heritage Rooms',
     title: (
       <>

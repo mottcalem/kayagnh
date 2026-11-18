@@ -111,7 +111,7 @@ export default function RailsPage() {
             priority: true,
           },
           {
-            src: '/img/basic/rails-interior-1.jpg',
+            src: '/img/basic/rails-interior-banquette.jpg',
             alt: 'RAILS dining room with curved banquette seating and pendant lights',
           },
           {
@@ -156,7 +156,7 @@ export default function RailsPage() {
         </div>
       </section>
 
-      <SplitFaq compact tag="FAQs" title="Frequently asked questions." items={faqs} />
+      <SplitFaq compact tag="FAQs" title="Frequently asked questions" items={faqs} />
     </>
   );
 }

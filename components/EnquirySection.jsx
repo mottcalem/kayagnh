@@ -1,6 +1,6 @@
 import EnquiryWidget from '@/components/EnquiryWidget';
 
-export default function EnquirySection({ className = '', tag = 'Enquire', title = 'Tell us about your event.', children }) {
+export default function EnquirySection({ className = '', tag = 'Enquire', title = 'Tell us about your event', children }) {
   return (
     <section className={`section enquiry-section ${className}`.trim()} id="enquiry" aria-label="Meetings and events enquiry">
       <div className="container enquiry-grid">

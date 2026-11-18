@@ -47,7 +47,7 @@ const spaces = [
         alt: 'RAILS restaurant interior with marble tables and evening atmosphere',
       },
     ],
-    text: 'RAILS Restaurant hosts up to 90 banquet guests, with a projector and screen available on request.',
+    text: 'RAILS Restaurant hosts up to 90 banquet guests, a calm setting where warm lighting, art-filled interiors and attentive service set the tone',
     meta: 'Up to 90 banquet',
   },
   {
@@ -110,7 +110,7 @@ export default function MeetingsPage() {
         imageAlt="The Carriage meeting room at Kaya Great Northern Hotel"
       >
         <p>
-          Kaya Great Northern Hotel offers meeting rooms King’s Cross, beside King’s Cross Station and St Pancras International — ideal for private events and private dining. Set within an original Victorian railway hotel built in 1854, our elegant interiors provide a distinctive backdrop for meetings, dinners and celebrations. Choose from four versatile spaces, adaptable from formal set-ups to private parties and dining rooms.
+          Kaya Great Northern Hotel offers meeting rooms beside King’s Cross Station and St Pancras International — ideal for private events and private dining. Set within an original Victorian railway hotel built in 1854, our elegant interiors provide a distinctive backdrop for meetings, dinners and celebrations. Choose from four versatile spaces, adaptable from formal set-ups to private parties and dining rooms.
         </p>
         <div className="editorial-intro-actions">
           <a className="btn intro-btn-solid" href={ENQUIRY_URL}>Make an Enquiry</a>
@@ -127,9 +127,9 @@ export default function MeetingsPage() {
         </div>
       </section>
 
-      <EnquirySection />
+      <EnquirySection title="Tell us about your event" />
 
-      <SplitFaq compact tag="FAQs" title="Planning your event." items={faqs} />
+      <SplitFaq compact tag="FAQs" title="Planning your event" items={faqs} />
     </>
   );
 }

@@ -19,9 +19,8 @@ export default function ContactPage() {
         image="/img/basic/GNH-AerialView-1.webp"
         tag="Get in Touch"
         title="Contact Kaya GNH"
-        description="The right team, without the runaround."
         primaryHref={SITE.phoneHref}
-        primaryLabel="Call Us"
+        primaryLabel={`Call ${SITE.phone}`}
         secondaryHref={`mailto:${CONTACT_DETAILS[0].email}`}
         secondaryLabel="Email Us"
       />
@@ -56,7 +55,7 @@ export default function ContactPage() {
       <section className="section contact-find-us">
         <div className="container">
           <span className="editorial-eyebrow">King&apos;s Cross, London</span>
-          <h2 className="editorial-section-title">Find us in King&apos;s Cross.</h2>
+          <h2 className="editorial-section-title">Find us in King&apos;s Cross</h2>
           <div className="contact-find-grid reveal">
             <div className="contact-map">
               <iframe
@@ -68,7 +67,7 @@ export default function ContactPage() {
               />
             </div>
             <div className="contact-find-copy">
-              <h3>Between King&apos;s Cross and St Pancras.</h3>
+              <h3>Between King&apos;s Cross and St Pancras</h3>
               <p>{SITE.address}</p>
               <p>Step from train to hotel in minutes, with Underground, national rail and Eurostar connections at the door.</p>
               <a href={SITE.mapLink} className="editorial-link" target="_blank" rel="noopener noreferrer">Open in Google Maps ↗</a>
@@ -77,7 +76,14 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section className="contact-small-cta"><div className="container"><p>Need something else?</p><a href={`mailto:${SITE.email}`} className="editorial-link">Contact us ↗</a></div></section>
+      <section className="contact-small-cta faqs-contact-cta">
+        <div className="container">
+          <p>Need something else?</p>
+          <a href={`mailto:${SITE.email}`} className="btn btn-primary faqs-contact-btn">
+            Contact us ↗
+          </a>
+        </div>
+      </section>
     </>
   );
 }

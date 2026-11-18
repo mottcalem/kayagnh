@@ -11,8 +11,12 @@ const META_LABELS = ['Bathroom', 'Occupancy', 'Bedding'];
 export default function RoomDetail({ room }) {
   const otherRooms = getOtherRooms(room.slug);
   const facts = [
-    ...room.sizes.map((size) => ({ label: size.label, value: size.value })),
-    ...room.listMeta.map((item, index) => ({ label: META_LABELS[index] || 'Detail', value: item.label })),
+    ...room.sizes.map((size) => ({ label: size.label, values: [size.value] })),
+    ...room.listMeta.map((item, index) => {
+      const label = META_LABELS[index] || 'Detail';
+      if (label === 'Bedding' && room.bedding) return { label, values: room.bedding };
+      return { label, values: [item.label] };
+    }),
   ];
 
   return (
@@ -28,9 +32,11 @@ export default function RoomDetail({ room }) {
             <p className="room-opener-lead">{room.heroDescription}</p>
             <div className="room-opener-facts">
               {facts.map((fact) => (
-                <div key={fact.value}>
+                <div key={fact.label}>
                   <span className="room-opener-fact-label">{fact.label}</span>
-                  <span className="room-opener-fact-value">{fact.value}</span>
+                  {fact.values.map((value) => (
+                    <span className="room-opener-fact-value" key={value}>{value}</span>
+                  ))}
                 </div>
               ))}
             </div>
@@ -49,9 +55,8 @@ export default function RoomDetail({ room }) {
         <div className="container room-story-grid">
           <div className="reveal">
             <span className="editorial-eyebrow">{room.overviewTitle}</span>
-            <h2>{room.title}, in detail.</h2>
+            <h2>{room.title}, in detail</h2>
             <p className="room-story-text">{room.overviewText}</p>
-            {room.fact ? <p className="room-story-fact">{room.fact}</p> : null}
           </div>
           <div className="room-story-features reveal">
             {room.features.map((feature) => (

@@ -1785,6 +1785,31 @@ p {
     opacity: 0.4;
 }
 
+.offers-lead {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+
+/* Lead cards: show the full image, not a cropped strip */
+.offers-lead .offer-card:not(.featured) .offer-image {
+    aspect-ratio: 1 / 1;
+    height: auto;
+    background: #f6f3ee;
+}
+
+.offers-lead .offer-card:not(.featured) .offer-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.offers-lead .offer-card:not(.featured):hover .offer-image img {
+    transform: none;
+}
+
 /* Horizontal decorative rule before grid */
 .offers-grid {
     display: grid;
@@ -2019,13 +2044,32 @@ p {
 
 .blog-index-card {
     display: block;
-    padding: clamp(22px, 3vw, 32px);
     background: var(--color-off-white);
     border: 1px solid rgba(10, 35, 64, 0.06);
     border-radius: 4px;
     text-decoration: none;
     color: inherit;
+    overflow: hidden;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-index-media {
+    display: block;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: rgba(10, 35, 64, 0.06);
+}
+
+.blog-index-media img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-index-body {
+    display: block;
+    padding: clamp(22px, 3vw, 32px);
 }
 
 .blog-index-card:hover {
@@ -3681,6 +3725,17 @@ p {
     font-size: clamp(1.35rem, 2.5vw, 2.2rem);
 }
 
+.faqs-contact-cta p {
+    font-size: clamp(0.95rem, 1.3vw, 1.15rem);
+    line-height: 1.5;
+}
+
+.faqs-contact-cta .faqs-contact-btn {
+    flex-shrink: 0;
+    white-space: nowrap;
+    padding: 14px 32px;
+}
+
 .faq-categories {
     padding-top: clamp(56px, 7vw, 92px);
     padding-bottom: clamp(56px, 7vw, 92px);
@@ -4529,6 +4584,12 @@ p {
 /* RESPONSIVE — Mobile           */
 /* ============================= */
 @media (max-width: 768px) {
+    .offers-lead {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+
     .offers-grid {
         grid-template-columns: 1fr;
         gap: 16px;
@@ -4869,14 +4930,59 @@ p {
     letter-spacing: 4px;
 }
 
+.testimonial-stars-empty {
+    opacity: 0.28;
+}
+
+.testimonial-see-more {
+    display: flex;
+    width: fit-content;
+    margin: 22px auto 0;
+    padding: 10px 18px;
+    color: var(--color-white);
+    border: 1px solid rgba(196, 163, 90, 0.45);
+    font-family: var(--font-accent);
+    font-size: 0.68rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.testimonial-see-more:hover {
+    color: var(--color-primary);
+    background: var(--color-gold);
+    border-color: var(--color-gold);
+}
+
 .testimonial-text {
     font-family: var(--font-serif);
     font-size: clamp(1rem, 1.6vw, 1.18rem);
     font-style: italic;
     color: rgba(255, 255, 255, 0.9);
     line-height: 1.7;
-    margin-bottom: 22px;
+    margin-bottom: 8px;
     font-weight: 300;
+}
+
+.testimonial-text.is-clamped {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.testimonial-more {
+    display: inline-flex;
+    margin: 0 0 16px;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--color-accent);
+    font-family: var(--font-accent);
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 .testimonial-author {
@@ -7297,7 +7403,8 @@ body:has(.enquiry-section--page) .navbar,
 body:has(.editorial-intro--top) .navbar,
 body:has(.whats-on-event-detail) .navbar,
 body:has(.blog-post-detail) .navbar,
-body:has(.local-guide-opener) .navbar {
+body:has(.local-guide-opener) .navbar,
+body:has(.legal-section--top) .navbar {
     height: var(--nav-height);
     background-color: var(--color-primary);
     box-shadow: 0 2px 30px rgba(10, 35, 64, .2);
@@ -7308,7 +7415,8 @@ body:has(.enquiry-section--page) .nav-logo-img,
 body:has(.editorial-intro--top) .nav-logo-img,
 body:has(.whats-on-event-detail) .nav-logo-img,
 body:has(.blog-post-detail) .nav-logo-img,
-body:has(.local-guide-opener) .nav-logo-img {
+body:has(.local-guide-opener) .nav-logo-img,
+body:has(.legal-section--top) .nav-logo-img {
     opacity: 0;
     pointer-events: none;
 }
@@ -7318,7 +7426,8 @@ body:has(.enquiry-section--page) .nav-logo-sticky,
 body:has(.editorial-intro--top) .nav-logo-sticky,
 body:has(.whats-on-event-detail) .nav-logo-sticky,
 body:has(.blog-post-detail) .nav-logo-sticky,
-body:has(.local-guide-opener) .nav-logo-sticky {
+body:has(.local-guide-opener) .nav-logo-sticky,
+body:has(.legal-section--top) .nav-logo-sticky {
     opacity: 1;
     pointer-events: auto;
 }
@@ -7681,6 +7790,11 @@ body:has(.local-guide-opener) .nav-logo-sticky {
     display: block;
     margin-bottom: clamp(26px, 3vw, 44px);
     text-align: center;
+}
+
+.bar-card-section-eyebrow--large {
+    font-size: clamp(1.4rem, 2.4vw, 2rem);
+    letter-spacing: .14em;
 }
 
 .bar-card-grid {
@@ -8159,6 +8273,7 @@ body:has(.local-guide-opener) .nav-logo-sticky {
 }
 
 .room-opener-fact-value {
+    display: block;
     color: var(--color-primary);
     font-family: var(--font-display);
     font-size: .95rem;
@@ -8258,16 +8373,6 @@ body:has(.local-guide-opener) .nav-logo-sticky {
     margin: 0;
     color: var(--color-text-light);
     line-height: 1.8;
-}
-
-.room-story-fact {
-    margin: 24px 0 0;
-    padding-left: 18px;
-    color: var(--color-primary);
-    font-family: var(--font-serif);
-    font-style: italic;
-    line-height: 1.7;
-    border-left: 2px solid var(--color-gold);
 }
 
 .room-essentials {
@@ -9097,6 +9202,112 @@ body:has(.local-guide-opener) .nav-logo-sticky {
     .other-room-card-image { height: 180px; }
 }
 
+.bf-popup {
+    position: fixed;
+    inset: 0;
+    z-index: 12000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.bf-popup-overlay {
+    position: absolute;
+    inset: 0;
+    border: 0;
+    background: rgba(8, 24, 42, 0.55);
+    cursor: pointer;
+}
+
+.bf-popup-content {
+    position: relative;
+    width: min(520px, 100%);
+    max-height: min(90vh, 760px);
+    overflow-y: auto;
+    background: #0c2340;
+    color: #fff;
+    padding: 42px 32px 32px;
+    text-align: center;
+    box-shadow: 0 30px 80px rgba(8, 24, 42, 0.45);
+}
+
+.bf-popup-close {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    border: 0;
+    background: transparent;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.bf-popup-title {
+    margin: 0 0 22px;
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: clamp(1.6rem, 3vw, 2rem);
+    line-height: 1.25;
+    color: #fff;
+}
+
+.bf-popup-image {
+    display: block;
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    object-position: center bottom;
+    margin-bottom: 22px;
+}
+
+.bf-popup-text {
+    margin: 0 auto 26px;
+    max-width: 38ch;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: #fff;
+}
+
+.bf-popup-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 180px;
+    padding: 12px 28px;
+    background: #fff;
+    color: #0c2340;
+    text-decoration: none;
+    letter-spacing: 0.16em;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.bf-popup-cta:hover {
+    background: var(--color-gold, #c4a35a);
+    color: #0c2340;
+}
+
+.newsletter-popup-content {
+    width: min(460px, 100%);
+    padding: 48px 36px 36px;
+}
+
+.newsletter-popup-form {
+    display: flex;
+    width: 100%;
+}
+
+.newsletter-popup-form .newsletter-input {
+    min-width: 0;
+}
+
+.newsletter-popup-form .newsletter-btn {
+    flex-shrink: 0;
+}
+
 /* ============================================ */
 .booking-popup {
     position: fixed;
@@ -9177,7 +9388,7 @@ body:has(.local-guide-opener) .nav-logo-sticky {
     flex: 0 0 36%;
     position: relative;
     background: var(--color-primary);
-    background-image: url('/img/basic/Heritage-Room-3.webp');
+    background-image: url('/img/basic/Heritage-Room-3.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 12px 0 0 12px;
@@ -10403,6 +10614,10 @@ body:has(.local-guide-opener) .nav-logo-sticky {
     background-color: var(--color-cream);
 }
 
+.legal-section--top {
+    padding-top: calc(var(--nav-height) + clamp(36px, 5vw, 72px));
+}
+
 .legal-article {
     max-width: 860px;
     margin: 0 auto;
@@ -10543,11 +10758,20 @@ body:has(.local-guide-opener) .nav-logo-sticky {
     margin: 0 0 clamp(20px, 4vw, 40px);
 }
 
+.job-empty {
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--color-text-light);
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
 .job-title {
     margin: 0 0 16px;
     color: var(--color-primary);
     font-family: var(--font-display);
-    font-size: clamp(2.6rem, 6vw, 5.2rem);
+    font-size: clamp(1.8rem, 3.2vw, 2.6rem);
     font-weight: 500;
     letter-spacing: -.03em;
     line-height: .98;

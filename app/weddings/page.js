@@ -66,7 +66,7 @@ const faqs = [
         <p>
           Yes. Packages include <strong>amuse bouche + 3/4/5 courses</strong>, <strong>a glass of prosecco for the toast</strong>,{' '}
           <strong>bottled water</strong>, and <strong>coffee/tea with petit fours</strong>, plus a <strong>complimentary menu tasting for the couple</strong>.
-          Prices are <strong>£110 / £130 / £145 per person</strong> depending on the courses chosen.
+          Prices from <strong>per person</strong> depending on the courses chosen.
         </p>
         <p>
           Dining: <Link href="/rails-restaurant">RAILS Restaurant</Link>
@@ -92,8 +92,8 @@ const faqs = [
     q: 'Can you help with decorations, cakes and flowers?',
     a: (
       <p>
-        Yes. Options include <strong>balloon decoration packages</strong> (£150 / £250 / £350), <strong>cakes</strong> (£60 for 6–8 guests or £85 for
-        10 guests, with personalised message available), and <strong>flowers</strong> via Roseur (Coal Drop’s Yard), including items such as vase
+        Yes. Options include <strong>balloon decoration packages</strong>, <strong>cakes</strong> (for 6–8 guests or 10 guests, with personalised
+        message available), and <strong>flowers</strong> via Roseur (Coal Drop’s Yard), including items such as vase
         arrangements, centrepieces, bouquets and installations.
       </p>
     ),
@@ -148,10 +148,10 @@ export default function WeddingsPage() {
           <strong>Welcome to Kaya Great Northern Hotel, a London hotel wedding venue in the heart of Kings Cross &amp; St Pancras.</strong>
         </p>
         <p>
-          Nestled beside King’s Cross and St Pancras, the hotel blends historic elegance with modern luxury for wedding ceremonies and receptions. It’s the ideal wedding venue in Kings Cross. Whether you’re planning an intimate gathering or a larger celebration, our beautifully restored spaces, exceptional cuisine and bespoke service create a day that feels personal from start to finish.
+          Nestled beside King’s Cross and St Pancras, the hotel blends historic elegance with modern luxury for wedding ceremonies and receptions. Whether you’re planning an intimate gathering or a larger celebration, our beautifully restored spaces, exceptional cuisine and bespoke service create a day that feels personal from start to finish.
         </p>
         <p>
-          Please contact <a href="mailto:events@gnhlondon.com">events@gnhlondon.com</a> to book your Kings Cross wedding venue.
+          Please contact <a href="mailto:events@gnhlondon.com">events@gnhlondon.com</a> to book your wedding venue.
         </p>
         <div className="editorial-intro-actions">
           <a className="btn intro-btn-solid" href={ENQUIRY_URL}>
@@ -168,19 +168,19 @@ export default function WeddingsPage() {
           text={feature.text}
           image={feature.image}
           imageAlt={feature.imageAlt}
-          href="mailto:weddings@kayagnhlondon.com"
-          cta="Talk to Our Wedding Team"
+          href="/meetings-and-events-enquiry"
+          cta="Make an Enquiry"
           className="editorial-feature--square"
         />
       ))}
 
       <EnquirySection
         tag="Enquire"
-        title="Plan your wedding with us."
+        title="Plan your wedding with us"
       >
         <p>
           Share your date, guest numbers and the kind of celebration you have in mind — our events team will reply with
-          availability, spaces and menu options for your King&apos;s Cross wedding.
+          availability, spaces and menu options for your wedding.
         </p>
       </EnquirySection>
 
