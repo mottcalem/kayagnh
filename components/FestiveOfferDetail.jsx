@@ -20,7 +20,12 @@ function FestiveOfferCta({ cta }) {
 
 export default function FestiveOfferDetail({ offer }) {
   return (
-    <section className="section whats-on-event-detail festive-offer-detail editorial-intro--top" aria-label={offer.title}>
+    <section
+      className={`section whats-on-event-detail festive-offer-detail editorial-intro--top${
+        offer.details ? ' festive-offer-detail--structured' : ''
+      }`}
+      aria-label={offer.title}
+    >
       <div className="container">
         <p className="festive-offer-back reveal">
           <Link href={offer.backHref} className="offer-link">
@@ -40,6 +45,16 @@ export default function FestiveOfferDetail({ offer }) {
                 {text}
               </p>
             ))}
+            {offer.details?.length ? (
+              <ul className="festive-offer-details">
+                {offer.details.map((detail) => (
+                  <li key={detail.label}>
+                    <strong>{detail.label}:</strong> {detail.value}
+                  </li>
+                ))}
+              </ul>
+            ) : null}
+            {offer.note ? <p className="festive-offer-note"><strong>{offer.note}</strong></p> : null}
           </div>
           {offer.ctas?.length ? (
             <div

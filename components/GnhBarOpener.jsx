@@ -2,19 +2,19 @@ export default function GnhBarOpener() {
   return (
     <section className="gnh-bar-opener editorial-intro--top" aria-label="GNH Bar & Terrace">
       <div className="container">
-        <span className="editorial-eyebrow reveal">GNH Bar &amp; Terrace</span>
+        <h1 className="editorial-eyebrow gnh-bar-opener-title reveal">GNH Bar &amp; Terrace</h1>
 
-        <h1 className="gnh-bar-opener-lead reveal">
+        <h2 className="gnh-bar-opener-lead reveal">
           From morning coffee to late-night cocktails, GNH Bar reimagines the traditional railway bar at
           King&apos;s Cross
-        </h1>
+        </h2>
 
         <figure className="gnh-bar-opener-media reveal">
           <img
-            src="/img/basic/gnh-bar-terrace.jpg"
+            src="/img/basic/gnh-bar-terrace-new.jpg"
             alt="GNH Bar terrace at King's Cross"
-            width={1400}
-            height={900}
+            width={1024}
+            height={682}
             loading="eager"
           />
         </figure>

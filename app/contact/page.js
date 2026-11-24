@@ -20,7 +20,7 @@ export default function ContactPage() {
         tag="Get in Touch"
         title="Contact Kaya GNH"
         primaryHref={SITE.phoneHref}
-        primaryLabel={`Call ${SITE.phone}`}
+        primaryLabel="Call Us"
         secondaryHref={`mailto:${CONTACT_DETAILS[0].email}`}
         secondaryLabel="Email Us"
       />

@@ -250,89 +250,58 @@ export default function HomePage() {
           </div>
 
           <div className="offers-grid">
-            <article className="offer-card featured reveal">
-              <div className="offer-image">
-                <img
-                  src="/img/basic/blooming-garden-afternoon-tea.jpg?v=2"
-                  alt="Blooming Garden Afternoon Tea at GNH Bar"
-                  loading="lazy"
-                  width={1024}
-                  height={749}
-                />
-              </div>
-              <div className="offer-content">
-                <span className="offer-category">Seasonal</span>
-                <h3 className="offer-title">A Blooming Garden Afternoon Tea</h3>
-                <p className="offer-desc">Celebrate spring with our floral-inspired afternoon tea in the GNH Bar.</p>
-              </div>
-            </article>
-
-            <article className="offer-card reveal">
-              <div className="offer-image">
-                <div className="offer-image-placeholder">
-                  <div className="placeholder-content">
-                    <img
-                      src="/img/basic/KAYA-CLUB-SAYFASI-LOGO-DEGISIMI.webp"
-                      alt="KAYA CLUB"
-                      className="placeholder-logo"
-                      width={150}
-                      height={45}
-                    />
-                    <span className="placeholder-text">Exclusive Benefits</span>
+            <div className="offers-bottom-row">
+              <article className="offer-card reveal">
+                <div className="offer-image">
+                  <div className="offer-image-placeholder">
+                    <div className="placeholder-content">
+                      <img
+                        src="/img/basic/KAYA-CLUB-SAYFASI-LOGO-DEGISIMI.webp"
+                        alt="KAYA CLUB"
+                        className="placeholder-logo"
+                        width={150}
+                        height={45}
+                      />
+                      <span className="placeholder-text">Exclusive Benefits</span>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="offer-content">
-                <span className="offer-category">Membership</span>
-                <h3 className="offer-title">KAYA CLUB Loyalty</h3>
-                <p className="offer-desc">
-                  Exclusive benefits: Welcome bonus, 5% discount, 3% MoneyPoints, and priority updates.
-                </p>
-                <a
-                  href="https://kayahotels.com/en/kaya-club/"
-                  className="offer-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Join Free &rarr;
-                </a>
-              </div>
-            </article>
+                <div className="offer-content">
+                  <span className="offer-category">Membership</span>
+                  <h3 className="offer-title">KAYA CLUB Loyalty</h3>
+                  <p className="offer-desc">
+                    Exclusive benefits: Welcome bonus, 5% discount, 3% MoneyPoints, and priority updates.
+                  </p>
+                  <a
+                    href="https://kayahotels.com/en/kaya-club/"
+                    className="offer-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Join Free &rarr;
+                  </a>
+                </div>
+              </article>
 
-            <article className="offer-card reveal">
-              <div className="offer-image">
-                <img
-                  src="/img/basic/ZDA_6276.webp"
-                  alt="GNH Bar & Terrace"
-                  loading="lazy"
-                  width={480}
-                  height={320}
-                />
-              </div>
-              <div className="offer-content">
-                <span className="offer-category">Experience</span>
-                <h3 className="offer-title">GNH Bar &amp; Terrace</h3>
-                <p className="offer-desc">Relax in our elegant surroundings with crafted cocktails and fine wines.</p>
-              </div>
-            </article>
-
-            <div className="offers-bottom-row">
-              <div className="offer-card-horizontal reveal">
+              <article className="offer-card reveal">
                 <div className="offer-image">
                   <img
-                    src="/img/basic/easter-at-kaya-gnh.jpg"
-                    alt="Easter afternoon tea at Kaya Great Northern Hotel"
+                    src="/img/basic/ZDA_6276.webp"
+                    alt="GNH Bar & Terrace"
                     loading="lazy"
-                    width={1024}
-                    height={816}
+                    width={480}
+                    height={320}
                   />
                 </div>
                 <div className="offer-content">
-                  <span className="offer-category">Event</span>
-                  <h3 className="offer-title">Easter at Kaya GNH</h3>
-                  <p className="offer-desc">Easter Sunday Roast, egg hunt for little ones, and special afternoon tea.</p>
+                  <span className="offer-category">Experience</span>
+                  <h3 className="offer-title">GNH Bar &amp; Terrace</h3>
+                  <p className="offer-desc">Relax in our elegant surroundings with crafted cocktails and fine wines.</p>
+                  <Link href="/gnh-bar" className="offer-link">
+                    Read More &rarr;
+                  </Link>
                 </div>
-              </div>
+              </article>
 
               <article className="offer-card bottom-card reveal">
                 <div className="offer-image">

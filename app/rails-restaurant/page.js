@@ -106,17 +106,33 @@ export default function RailsPage() {
         title="RAILS Restaurant & Little Bar"
         images={[
           {
-            src: '/img/basic/rails-exterior.webp',
-            alt: 'RAILS Restaurant entrance at King’s Cross',
+            src: '/img/basic/rails-gallery-1.jpg',
+            alt: 'RAILS dining table beneath pendant lights',
             priority: true,
           },
           {
-            src: '/img/basic/rails-interior-banquette.jpg',
-            alt: 'RAILS dining room with curved banquette seating and pendant lights',
+            src: '/img/basic/rails-gallery-2.jpg',
+            alt: 'Signature cocktail served at RAILS',
           },
           {
-            src: '/img/basic/rails-interior-2.jpg',
-            alt: 'RAILS restaurant interior with marble tables and Little Bar area',
+            src: '/img/basic/rails-gallery-3.jpg',
+            alt: 'Cocktail being prepared at the bar',
+          },
+          {
+            src: '/img/basic/rails-gallery-4.jpg',
+            alt: 'RAILS Restaurant dining room',
+          },
+          {
+            src: '/img/basic/rails-gallery-5.jpg',
+            alt: 'Table setting in RAILS Restaurant',
+          },
+          {
+            src: '/img/basic/rails-gallery-6.jpg',
+            alt: 'Guests enjoying afternoon tea at RAILS',
+          },
+          {
+            src: '/img/basic/rails-gallery-7.jpg',
+            alt: 'Steak served at RAILS Restaurant',
           },
         ]}
       >
